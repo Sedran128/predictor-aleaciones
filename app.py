@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# --- ESTILOS CSS ---
+# --- ESTILOS CSS RESPONSIVOS (SIN RECORTES DE NÚMEROS NI UNIDADES) ---
 st.markdown(
     """
 <style>
@@ -38,16 +38,72 @@ st.markdown(
     color: #9ca3af;
     margin-bottom: 0;
 }
-div[data-testid="stMetric"] {
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+.kpi-card {
     background-color: rgba(128, 128, 128, 0.08);
-    border: 1px solid rgba(128, 128, 128, 0.22);
+    border: 1px solid rgba(128, 128, 128, 0.24);
     border-radius: 10px;
-    padding: 10px 14px;
+    padding: 11px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.kpi-label {
+    font-size: 0.79rem;
+    opacity: 0.8;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 6px;
+}
+.kpi-value-row {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.kpi-num {
+    font-size: 1.48rem;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+}
+.kpi-unit {
+    font-size: 0.86rem;
+    font-weight: 600;
+    opacity: 0.78;
+    white-space: nowrap;
+}
+.kpi-hint {
+    font-size: 0.72rem;
+    opacity: 0.65;
+    margin-top: 5px;
+    line-height: 1.2;
 }
 </style>
 """,
     unsafe_allow_html=True,
 )
+
+
+def render_kpi_grid(items):
+    cards = []
+    for label, valor, unidad, hint in items:
+        hint_html = f'<div class="kpi-hint">{hint}</div>' if hint else ""
+        unit_html = f'<span class="kpi-unit">{unidad}</span>' if unidad else ""
+        cards.append(
+            f'<div class="kpi-card">'
+            f'<div class="kpi-label">{label}</div>'
+            f'<div class="kpi-value-row"><span class="kpi-num">{valor}</span>{unit_html}</div>'
+            f'{hint_html}'
+            f'</div>'
+        )
+    return f'<div class="kpi-grid">{"".join(cards)}</div>'
 
 
 # --- CARGA DE MODELO v2.0 Y REFERENCIA ASHBY ---
@@ -230,7 +286,7 @@ def predecir_todo(comp_dict, temp, proc_code):
 def svg_estructura_cristalina(fase):
     if fase == "FCC":
         svg = """
-<svg viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <radialGradient id="gCornerF" cx="35%" cy="35%" r="65%">
 <stop offset="0%" stop-color="#93c5fd"/><stop offset="100%" stop-color="#2563eb"/>
@@ -272,7 +328,7 @@ def svg_estructura_cristalina(fase):
         sub = "Cúbica Centrada en las Caras · Alta ductilidad y tenacidad"
     elif fase == "BCC":
         svg = """
-<svg viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <radialGradient id="gCornerB" cx="35%" cy="35%" r="65%">
 <stop offset="0%" stop-color="#fdba74"/><stop offset="100%" stop-color="#ea580c"/>
@@ -315,7 +371,7 @@ def svg_estructura_cristalina(fase):
         sub = "Cúbica Centrada en el Cuerpo · Alta resistencia y refractariedad"
     elif fase == "HCP":
         svg = """
-<svg viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <radialGradient id="gHcpOut" cx="35%" cy="35%" r="65%">
 <stop offset="0%" stop-color="#6ee7b7"/><stop offset="100%" stop-color="#059669"/>
@@ -361,7 +417,7 @@ def svg_estructura_cristalina(fase):
         sub = "Hexagonal Compacta · Típica de tierras raras, Ti, Zr y Hf"
     elif fase == "FCC + BCC":
         svg = """
-<svg viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="gSplitF" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.32"/><stop offset="100%" stop-color="#06b6d4" stop-opacity="0.14"/>
@@ -392,7 +448,7 @@ def svg_estructura_cristalina(fase):
         sub = "Balance sinérgico entre ductilidad (FCC) y resistencia (BCC)"
     elif fase == "Amorfa":
         svg = """
-<svg viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <radialGradient id="gAm1" cx="35%" cy="35%" r="65%">
 <stop offset="0%" stop-color="#f9a8d4"/><stop offset="100%" stop-color="#db2777"/>
@@ -430,7 +486,7 @@ def svg_estructura_cristalina(fase):
         sub = "Vidrio metálico sin orden periódico de largo alcance (alta δ)"
     else:
         svg = """
-<svg viewBox="0 0 200 200" width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 200" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="gDual1" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.32"/>
@@ -648,9 +704,10 @@ st.caption(
 
 res = predecir_todo(comp_final, temperatura, proc_code)
 hr = res["hr"]
+ratio_uts_ys = res["uts"] / res["ys"] if res["ys"] > 0 else 1.0
 
-# --- BLOQUE SUPERIOR: CELDA CRISTALINA SVG + FICHA TÉCNICA ---
-col_celda, col_ficha = st.columns([1.2, 2.4], gap="large")
+# --- BLOQUE SUPERIOR: CELDA CRISTALINA SVG + FICHA TÉCNICA RESPONSIVA ---
+col_celda, col_ficha = st.columns([1.05, 2.55], gap="large")
 
 with col_celda:
     st.markdown(svg_estructura_cristalina(res["fase"]), unsafe_allow_html=True)
@@ -667,40 +724,26 @@ with col_celda:
 
 with col_ficha:
     st.subheader("📋 Ficha Técnica Estimada")
-    r1c1, r1c2, r1c3 = st.columns(3)
-    r1c1.metric("Límite Elástico (YS)", f"{res['ys']:.1f} MPa")
-    r1c2.metric("Resistencia Máxima (UTS)", f"{res['uts']:.1f} MPa")
-    r1c3.metric("Elongación / Ductilidad", f"{res['elong']:.1f} %")
+    kpis_mecanicos = [
+        ("Límite Elástico (YS)", f"{res['ys']:.1f}", "MPa", f"A {temperatura} °C ({proc_code})"),
+        ("Resistencia Máxima (UTS)", f"{res['uts']:.1f}", "MPa", "Esfuerzo último de tracción"),
+        ("Elongación / Ductilidad", f"{res['elong']:.1f}", "%", "Deformación hasta fractura"),
+        ("Dureza Vickers (HV)", f"{res['hv']:.0f}", "HV", "Estimada a temp. ambiente"),
+        ("Densidad (ρ)", f"{res['dens']:.2f}", "g/cm³", "Basada en composición"),
+        ("Módulo de Young (E)", f"{res['young']:.1f}", "GPa", "Rigidez elástica"),
+        ("Resistencia Específica (YS/ρ)", f"{res['ys_esp']:.1f}", "kN·m/kg", "Relación resistencia–peso"),
+        ("Relación UTS / YS", f"{ratio_uts_ys:.2f}", "adim.", "Margen de endurecimiento"),
+    ]
+    st.markdown(render_kpi_grid(kpis_mecanicos), unsafe_allow_html=True)
 
-    r2c1, r2c2, r2c3 = st.columns(3)
-    r2c1.metric(
-        "Dureza Vickers (HV)",
-        f"{res['hv']:.0f} HV",
-        help="Estimada a temperatura ambiente según composición, Hume-Rothery y procesamiento.",
-    )
-    r2c2.metric("Densidad (ρ)", f"{res['dens']:.2f} g/cm³")
-    r2c3.metric("Módulo de Young (E)", f"{res['young']:.1f} GPa")
-
-    r3c1, r3c2 = st.columns(2)
-    r3c1.metric(
-        "Resistencia Específica (YS / ρ)",
-        f"{res['ys_esp']:.1f} kN·m/kg",
-        help="Relación resistencia-peso: clave para aplicaciones ligeras y aeroespaciales.",
-    )
-    ratio_uts_ys = res["uts"] / res["ys"] if res["ys"] > 0 else 1.0
-    r3c2.metric(
-        "Relación UTS / YS",
-        f"{ratio_uts_ys:.2f}",
-        help="Valores mayores a 1 indican mayor capacidad de endurecimiento por deformación.",
-    )
-
-    st.markdown("<div style='height: 6px'></div>", unsafe_allow_html=True)
     st.subheader("🔬 Descriptores Físicos (Hume-Rothery)")
-    h1, h2, h3, h4 = st.columns(4)
-    h1.metric("VEC", f"{hr['HR_VEC']:.2f}", help="Electron Valence Concentration: ≥8 favorece FCC, <6.87 favorece BCC.")
-    h2.metric("Distorsión (δ)", f"{hr['HR_delta']:.2f} %", help="Diferencia de radios atómicos: <6.6% favorece solución sólida simple.")
-    h3.metric("Tm estimada", f"{hr['HR_Tm'] - 273.15:.0f} °C", help=f"{hr['HR_Tm']:.0f} K (regla de mezclas). T homóloga actual: {res['t_hom']:.2f}")
-    h4.metric("ΔSmix", f"{hr['HR_dSmix']:.2f} J/mol·K", help="Entropía configuracional de mezcla (>12.5 J/mol·K suele considerarse alta entropía).")
+    kpis_hr = [
+        ("Electrones de Valencia (VEC)", f"{hr['HR_VEC']:.2f}", "e⁻/át.", "≥8 FCC · <6.87 BCC"),
+        ("Distorsión Atómica (δ)", f"{hr['HR_delta']:.2f}", "%", "<6.6% Solución sólida"),
+        ("Temp. de Fusión (Tm)", f"{hr['HR_Tm'] - 273.15:.0f}", "°C", f"{hr['HR_Tm']:.0f} K · T/Tm = {res['t_hom']:.2f}"),
+        ("Entropía de Mezcla (ΔSmix)", f"{hr['HR_dSmix']:.2f}", "J/(mol·K)", ">12.5 Alta entropía"),
+    ]
+    st.markdown(render_kpi_grid(kpis_hr), unsafe_allow_html=True)
 
 # --- GRÁFICAS INTERACTIVAS EN PESTAÑAS ---
 st.divider()
