@@ -6,7 +6,6 @@ import re
 # Configuración de la página
 st.set_page_config(page_title="Predictor de Aleaciones MPEA", page_icon="🧪", layout="centered")
 
-# Cargar modelos una sola vez
 @st.cache_resource
 def cargar_modelos():
     return joblib.load('modelos_mpea.joblib')
@@ -14,9 +13,8 @@ def cargar_modelos():
 datos = cargar_modelos()
 rf_cls = datos['rf_cls']
 rf_reg = datos['rf_reg']
-elementos_modelo = datos['elementos']
+elementos_modelo = sorted(datos['elementos'])
 
-# Función para leer la fórmula química
 def parse_formula(formula):
     matches = re.findall(r'([A-Z][a-z]?)([0-9]*\.?[0-9]*)', formula)
     comp = {}
@@ -28,28 +26,83 @@ def parse_formula(formula):
         comp = {k: v / total for k, v in comp.items()}
     return comp
 
-# Interfaz visual
+# Encabezado
 st.title("🧪 Predictor de Propiedades de Aleaciones (MPEA)")
-st.write("Ingresa la composición química y la temperatura de prueba para estimar la **estructura cristalina** y el **límite elástico (YS)**.")
+st.markdown("Diseña tu aleación seleccionando los elementos y la temperatura para estimar su **estructura cristalina** y **límite elástico (YS)**.")
 
-# Entradas del usuario
-col1, col2 = st.columns([2, 1])
-with col1:
-    formula = st.text_input("Fórmula química", value="Al0.5 Co1 Cr1 Fe1 Ni1", help="Ejemplo: Co1 Cr1 Fe1 Mn1 Ni1")
-with col2:
-    temperatura = st.slider("Temperatura (°C)", min_value=25, max_value=1200, value=25, step=25)
+# Pestañas para elegir el modo de entrada
+tab1, tab2 = st.tabs(["🎛️ Constructor Visual", "⌨️ Escribir Fórmula"])
 
-# Ejemplos rápidos
-st.caption("Ejemplos que puedes probar: `Co1 Cr1 Fe1 Mn1 Ni1` | `Nb1 Ta1 Ti1 V1 Zr1` | `Al1 Co1 Fe1 Ni1`")
+comp = {}
 
-if st.button("Predecir propiedades", type="primary"):
-    comp = parse_formula(formula)
+with tab1:
+    # Botones de aleaciones predefinidas para demostración rápida
+    preset = st.selectbox(
+        "Cargar una aleación de ejemplo (opcional):",
+        ["Personalizada (Al-Co-Cr-Fe-Ni)", "Aleación de Cantor (CoCrFeMnNi)", "Refractaria (NbTaTiVZr)", "Aluminio-Cobalto-Hierro-Níquel (AlCoFeNi)"]
+    )
     
-    if not comp:
-        st.error("⚠️ Fórmula no válida. Usa símbolos químicos como: Al0.5 Co1 Cr1 Fe1 Ni1")
+    if preset == "Aleación de Cantor (CoCrFeMnNi)":
+        default_els = [e for e in ['Co', 'Cr', 'Fe', 'Mn', 'Ni'] if e in elementos_modelo]
+    elif preset == "Refractaria (NbTaTiVZr)":
+        default_els = [e for e in ['Nb', 'Ta', 'Ti', 'V', 'Zr'] if e in elementos_modelo]
+    elif preset == "Aluminio-Cobalto-Hierro-Níquel (AlCoFeNi)":
+        default_els = [e for e in ['Al', 'Co', 'Fe', 'Ni'] if e in elementos_modelo]
     else:
-        # Alinear columnas con el entrenamiento
-        fila = {el: comp.get(el, 0.0) for el in elementos_modelo}
+        default_els = [e for e in ['Al', 'Co', 'Cr', 'Fe', 'Ni'] if e in elementos_modelo]
+
+    # Selector múltiple de elementos
+    seleccionados = st.multiselect(
+        "1. Selecciona los elementos químicos de tu aleación:",
+        options=elementos_modelo,
+        default=default_els
+    )
+
+    # Sliders dinámicos en columnas para cada elemento elegido
+    if seleccionados:
+        st.write("2. Ajusta la proporción molar de cada elemento:")
+        cols = st.columns(3)
+        valores_crudos = {}
+        for i, el in enumerate(seleccionados):
+            with cols[i % 3]:
+                valores_crudos[el] = st.slider(
+                    f"{el}", min_value=0.1, max_value=5.0, value=1.0, step=0.1, key=f"slider_{el}"
+                )
+        
+        # Normalizar automáticamente a fracciones atómicas
+        total = sum(valores_crudos.values())
+        comp_visual = {k: v / total for k, v in valores_crudos.items()}
+        
+        # Mostrar la fórmula resultante en tiempo real
+        formula_generada = " ".join([f"{k}{round(v, 2)}" for k, v in valores_crudos.items()])
+        st.info(f"**Fórmula generada:** `{formula_generada}`")
+        comp = comp_visual
+    else:
+        st.warning("Selecciona al menos un elemento para comenzar.")
+
+with tab2:
+    formula_texto = st.text_input(
+        "Escribe la fórmula química directamente:",
+        value="Al0.5 Co1 Cr1 Fe1 Ni1",
+        help="Ejemplo: Co1 Cr1 Fe1 Mn1 Ni1"
+    )
+    comp_texto = parse_formula(formula_texto)
+
+# Selector de temperatura (común para ambas pestañas)
+st.divider()
+temperatura = st.slider("🌡️ Temperatura de prueba (°C)", min_value=25, max_value=1200, value=25, step=25)
+
+# Selector de qué pestaña usar al predecir
+modo_texto = st.checkbox("Usar la fórmula escrita en la pestaña 'Escribir Fórmula' en lugar de los sliders", value=False)
+comp_final = comp_texto if modo_texto else comp
+
+# Botón de predicción
+if st.button("🚀 Predecir Propiedades", type="primary", use_container_width=True):
+    if not comp_final:
+        st.error("⚠️ Ingresa al menos un elemento válido.")
+    else:
+        # Alinear columnas con el modelo
+        fila = {el: comp_final.get(el, 0.0) for el in datos['elementos']}
         X_cls_in = pd.DataFrame([fila])
         
         # 1. Predicción de fase
@@ -62,10 +115,10 @@ if st.button("Predecir propiedades", type="primary"):
         X_reg_in['PROPERTY: Test temperature ($^\\circ$C)'] = temperatura
         ys_pred = rf_reg.predict(X_reg_in)[0]
         
-        # Mostrar resultados
+        # Mostrar resultados principales
         st.divider()
         res1, res2 = st.columns(2)
-        res1.metric("Estructura Cristalina", fase_pred)
+        res1.metric("Estructura Cristalina Predicha", fase_pred)
         res2.metric("Límite Elástico Estimado (YS)", f"{ys_pred:.1f} MPa")
         
         # Gráfica de probabilidades por fase
@@ -74,9 +127,9 @@ if st.button("Predecir propiedades", type="primary"):
         st.bar_chart(df_probs)
         
         # Desglose de composición normalizada
-        with st.expander("Ver fracciones atómicas calculadas"):
+        with st.expander("Ver fracciones atómicas normalizadas (%)"):
             df_comp = pd.DataFrame({
-                'Elemento': list(comp.keys()),
-                'Fracción Atómica (%)': [round(v * 100, 2) for v in comp.values()]
+                'Elemento': list(comp_final.keys()),
+                'Fracción Atómica (%)': [round(v * 100, 2) for v in comp_final.values()]
             })
             st.dataframe(df_comp, hide_index=True, use_container_width=True)
