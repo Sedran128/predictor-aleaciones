@@ -16,7 +16,6 @@ elementos_modelo = sorted(datos['elementos'])
 columnas_reg = datos['columnas_reg']
 col_temp = datos['col_temp']
 
-# Diccionario amigable para los métodos de procesamiento
 NOMBRES_PROC = {
     'CAST': 'Fundición (CAST)',
     'ANNEAL': 'Recocido (ANNEAL)',
@@ -52,11 +51,16 @@ def construir_fila_reg(comp_dict, temp, proc_code):
 st.title("🧪 Predictor de Propiedades de Aleaciones (MPEA)")
 st.markdown("Diseña tu aleación eligiendo composición, procesamiento y temperatura para estimar su **estructura cristalina** y **límite elástico (YS)**.")
 
-tab1, tab2 = st.tabs(["🎛️ Constructor Visual", "⌨️ Escribir Fórmula"])
+# Selector de modo (reemplaza a las pestañas y elimina la casilla)
+modo = st.radio(
+    "Modo de entrada:",
+    ["🎛️ Constructor Visual", "⌨️ Escribir Fórmula"],
+    horizontal=True
+)
 
-comp = {}
+comp_final = {}
 
-with tab1:
+if modo == "🎛️ Constructor Visual":
     preset = st.selectbox(
         "Cargar una aleación de ejemplo (opcional):",
         ["Personalizada (Al-Co-Cr-Fe-Ni)", "Aleación de Cantor (CoCrFeMnNi)", "Refractaria (NbTaTiVZr)", "Aluminio-Cobalto-Hierro-Níquel (AlCoFeNi)"]
@@ -88,20 +92,19 @@ with tab1:
                 )
         
         total = sum(valores_crudos.values())
-        comp_visual = {k: v / total for k, v in valores_crudos.items()}
+        comp_final = {k: v / total for k, v in valores_crudos.items()}
         formula_generada = " ".join([f"{k}{round(v, 2)}" for k, v in valores_crudos.items()])
         st.info(f"**Fórmula generada:** `{formula_generada}`")
-        comp = comp_visual
     else:
         st.warning("Selecciona al menos un elemento para comenzar.")
 
-with tab2:
+else:
     formula_texto = st.text_input(
         "Escribe la fórmula química directamente:",
         value="Al0.2 Co1 Cr1 Fe1 Mn1 Ni1",
         help="Ejemplo: Al1 Co1 Fe1 Ni1"
     )
-    comp_texto = parse_formula(formula_texto)
+    comp_final = parse_formula(formula_texto)
 
 # Condiciones de procesamiento y prueba
 st.divider()
@@ -112,9 +115,6 @@ with c1:
     proc_code = INV_PROC.get(proc_elegido_label, proc_elegido_label)
 with c2:
     temperatura = st.slider("🌡️ Temperatura de prueba (°C)", min_value=25, max_value=1200, value=25, step=25)
-
-modo_texto = st.checkbox("Usar la fórmula escrita en la pestaña 'Escribir Fórmula' en lugar de los sliders", value=False)
-comp_final = comp_texto if modo_texto else comp
 
 if st.button("🚀 Predecir Propiedades", type="primary", use_container_width=True):
     if not comp_final:
