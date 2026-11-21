@@ -9,7 +9,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Simulador MPEA v2.0 | Materiales 2",
-    page_icon="🧪",
+    page_icon="⚛️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -809,7 +809,7 @@ with st.sidebar:
 # --- PANEL PRINCIPAL ---
 if not comp_final:
     st.markdown(
-        '<div class="hero-banner"><div class="hero-title">🧪 Simulador Predictivo de Aleaciones MPEA v2.0</div>'
+        '<div class="hero-banner"><div class="hero-title"> Simulador Predictivo de Aleaciones MPEA v2.0</div>'
         '<div style="color:#bfdbfe;font-size:0.92rem;">Selecciona elementos en el panel izquierdo para calcular estructura y propiedades.</div></div>',
         unsafe_allow_html=True,
     )
@@ -818,7 +818,7 @@ if not comp_final:
 st.markdown(
     f"""
 <div class="hero-banner">
-<div class="hero-title">🧪 Simulador Predictivo de Aleaciones MPEA v2.0</div>
+<div class="hero-title"> Simulador Predictivo de Aleaciones MPEA v2.0</div>
 <div class="hero-meta">
 <span class="hero-pill"><strong>Composición (% at.):</strong> {formula_mostrar}</span>
 <span class="hero-pill"><strong>Procesamiento:</strong> {proc_elegido_label}</span>
