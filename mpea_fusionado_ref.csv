@@ -1,0 +1,1385 @@
+FORMULA,phase,ys,elong,dens,source
+Al0.25 Co1 Fe1 Ni1,FCC,158.0,,7.9,MPEA_Borg
+Al0.5 Co1 Fe1 Ni1,FCC + BCC,346.0,,7.4,MPEA_Borg
+Al0.75 Co1 Fe1 Ni1,FCC + BCC,794.0,,7.0,MPEA_Borg
+Al1 Co1 Fe1 Ni1,BCC,964.0,,6.6,MPEA_Borg
+Co1 Fe1 Ni1,FCC,204.0,,8.5,MPEA_Borg
+Co1 Fe1 Ni1,FCC,209.0,,8.5,MPEA_Borg
+Co1 Fe1 Ni1 Si0.25,FCC,196.0,,7.7,MPEA_Borg
+Co1 Fe1 Ni1 Si0.5,SS + Intermetálicos,476.0,,7.1,MPEA_Borg
+Co1 Fe1 Ni1 Si0.75,SS + Intermetálicos,1301.0,,6.6,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,274.0,39.0,8.2,MPEA_Borg
+Co1 Cr1 Mn1 Ni1,FCC,282.0,44.0,8.1,MPEA_Borg
+Co1 Cr1 Ni1,FCC,300.0,60.0,8.3,MPEA_Borg
+Co1 Fe1 Mn1 Ni1,FCC,170.0,41.0,8.2,MPEA_Borg
+Co1 Fe1 Ni1,FCC,211.0,31.0,8.5,MPEA_Borg
+Co1 Mn1 Ni1,FCC,231.0,38.0,8.4,MPEA_Borg
+Fe1 Mn1 Ni1,FCC,221.0,36.0,8.1,MPEA_Borg
+Co1 Cr1 Fe1 Nb0.103 Ni1,SS + Intermetálicos,318.0,19.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Nb0.155 Ni1,SS + Intermetálicos,322.0,23.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Nb0.206 Ni1,SS + Intermetálicos,403.0,9.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Nb0.309 Ni1,SS + Intermetálicos,479.0,4.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Nb0.412 Ni1,SS + Intermetálicos,638.0,1.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,148.0,48.0,8.2,MPEA_Borg
+Al0.7 Co0.3 Cr1 Fe1 Ni1,SS + Intermetálicos,2033.0,8.0,6.8,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,BCC,1251.0,,6.7,MPEA_Borg
+Al1 C0.1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,957.0,,6.7,MPEA_Borg
+Al1 C0.2 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,906.0,,6.6,MPEA_Borg
+Al1 C0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,867.0,,6.5,MPEA_Borg
+Al1 C0.4 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1056.0,,6.5,MPEA_Borg
+Al1 C0.5 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1060.0,,6.4,MPEA_Borg
+Al0.667 C1 Co0.667 Cr0.667 Fe0.667 Ni0.667,SS + Intermetálicos,1255.0,,5.9,MPEA_Borg
+Al1 C1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1251.0,,6.2,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,BCC,1138.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Mo0.1 Ni1,BCC,1804.0,,6.8,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Mo0.2 Ni1,SS + Intermetálicos,2456.0,,6.9,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Mo0.3 Ni1,SS + Intermetálicos,2649.0,,7.0,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Mo0.4 Ni1,SS + Intermetálicos,2670.0,,7.0,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Mo0.5 Ni1,SS + Intermetálicos,2757.0,,7.1,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,BCC,1051.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Nb0.1 Ni1,BCC,1641.0,,6.8,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Nb0.25 Ni1,SS + Intermetálicos,1959.0,,6.8,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Nb0.5 Ni1,SS + Intermetálicos,2473.0,,7.0,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,BCC,1373.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,BCC,1110.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Si1,SS + Intermetálicos,2411.0,,5.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Si0.2,BCC,1265.0,,6.5,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Si0.4,BCC,1481.0,,6.2,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Si0.6,BCC,1834.0,,6.0,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Si0.8,SS + Intermetálicos,2179.0,,5.8,MPEA_Borg
+Al0.25 Co1 Cr1 Cu0.75 Fe1 Ni1 Ti0.5,FCC,750.0,,7.5,MPEA_Borg
+Al0.5 Co1 Cr1 Cu0.5 Fe1 Ni1 Ti0.5,FCC + BCC,1580.0,,7.1,MPEA_Borg
+Al0.75 Co1 Cr1 Cu0.25 Fe1 Ni1 Ti0.5,FCC + BCC,1900.0,,6.8,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 Ti0.5,FCC,700.0,,7.8,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Ti1,SS + Intermetálicos,1860.0,10.7,6.2,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Ti0.5,SS + Intermetálicos,2260.0,24.4,6.4,MPEA_Borg
+Al0.667 Co0.667 Cr0.667 Fe0.667 Ni0.667 Ti1,SS + Intermetálicos,2220.0,6.6,6.1,MPEA_Borg
+Al0.2 Co1 Cr1 Fe1 Mn1 Ni1,FCC,220.0,56.0,7.7,MPEA_Borg
+Al0.38 Co1 Cr1 Fe1 Mn1 Ni1,FCC,244.0,45.0,7.5,MPEA_Borg
+Al0.43 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,285.0,35.0,7.4,MPEA_Borg
+Al0.49 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,331.0,29.0,7.4,MPEA_Borg
+Al0.56 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,526.0,16.0,7.3,MPEA_Borg
+Al0.62 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,833.0,5.0,7.2,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,208.0,62.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,230.0,,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V0.25,SS + Intermetálicos,200.0,,7.9,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V0.5,FCC,620.0,,7.8,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V0.75,SS + Intermetálicos,740.0,,7.7,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V1,SS + Intermetálicos,1660.0,,7.7,MPEA_Borg
+Al1 Cr1 Fe1 Ni1,SS + Intermetálicos,1406.0,,6.3,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.2 Ni1,SS + Intermetálicos,1487.0,,6.5,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.5 Ni1,SS + Intermetálicos,1749.0,,6.8,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.8 Ni1,SS + Intermetálicos,1513.0,,7.0,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 Ti1,FCC,1272.0,2.0,7.4,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 Ti0.5,FCC,700.0,22.0,7.8,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 Ti0.8,SS + Intermetálicos,1042.0,3.0,7.6,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,1005.0,15.0,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,FCC + BCC,1303.0,24.0,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1 Ti1,FCC + BCC,1234.0,9.0,6.6,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1 V1,FCC + BCC,1469.0,16.0,6.9,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1,FCC,230.0,51.0,8.3,MPEA_Borg
+Al1 Cu0.889 Fe0.667 Ni0.889 Ti1,FCC,980.0,,5.9,MPEA_Borg
+Al1 Cu0.889 Fe0.667 Ni0.889 Ti1,FCC,980.0,,5.9,MPEA_Borg
+Al1 Cu1 Fe1 Ni1 Ti1,FCC,1074.0,,6.1,MPEA_Borg
+Al1 Cu1 Ni1 Ti1,FCC,300.0,,5.7,MPEA_Borg
+Al1 Cu0.062 Li0.062 Mg0.062 Zn0.062,SS + Intermetálicos,488.0,17.0,2.9,MPEA_Borg
+Al1 Li0.062 Mg0.062 Sn0.062 Zn0.062,SS + Intermetálicos,415.0,16.0,3.0,MPEA_Borg
+Al1 Li0.5 Mg1 Sn0.2 Zn0.5,SS + Intermetálicos,546.0,,2.9,MPEA_Borg
+Al1 Li1 Mg1 Sn1 Zn1,SS + Intermetálicos,600.0,1.0,3.9,MPEA_Borg
+Al0.214 Nb0.714 Ta0.571 Ti1 V0.143 Zr0.929,BCC,1965.0,5.0,7.7,MPEA_Borg
+Al0.214 Nb0.714 Ta0.571 Ti1 V0.143 Zr0.929,BCC,678.0,50.0,7.7,MPEA_Borg
+Al0.214 Nb0.714 Ta0.571 Ti1 V0.143 Zr0.929,BCC,166.0,50.0,7.7,MPEA_Borg
+Al0.214 Nb0.714 Ta0.714 Ti1 Zr0.929,BCC,1965.0,5.0,8.1,MPEA_Borg
+Al0.214 Nb0.714 Ta0.714 Ti1 Zr0.929,BCC,362.0,50.0,8.1,MPEA_Borg
+Al0.214 Nb0.714 Ta0.714 Ti1 Zr0.929,BCC,236.0,50.0,8.1,MPEA_Borg
+Al0.4 Hf0.6 Nb1 Ta1 Ti1 Zr1,BCC,1841.0,10.0,9.1,MPEA_Borg
+Al0.4 Hf0.6 Nb1 Ta1 Ti1 Zr1,BCC,796.0,50.0,9.1,MPEA_Borg
+Al0.4 Hf0.6 Nb1 Ta1 Ti1 Zr1,BCC,298.0,50.0,9.1,MPEA_Borg
+Al0.333 Nb0.667 Ta0.533 Ti1 V0.133 Zr0.667,BCC,2035.0,5.0,7.6,MPEA_Borg
+Al0.333 Nb0.667 Ta0.533 Ti1 V0.133 Zr0.667,BCC,796.0,50.0,7.6,MPEA_Borg
+Al0.333 Nb0.667 Ta0.533 Ti1 V0.133 Zr0.667,BCC,220.0,50.0,7.6,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,2000.0,10.0,7.1,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,1597.0,11.0,7.1,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,745.0,50.0,7.1,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,250.0,50.0,7.1,MPEA_Borg
+Al0.667 Nb1 Ta0.333 Ti1 Zr0.333,BCC,1280.0,4.0,6.8,MPEA_Borg
+Al0.667 Nb1 Ta0.333 Ti1 Zr0.333,BCC,728.0,12.0,6.8,MPEA_Borg
+Al0.667 Nb1 Ta0.333 Ti1 Zr0.333,BCC,403.0,50.0,6.8,MPEA_Borg
+Al0.3 Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1188.0,50.0,9.5,MPEA_Borg
+Al0.5 Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1302.0,46.0,9.3,MPEA_Borg
+Al0.75 Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1415.0,30.0,9.1,MPEA_Borg
+Al1 Hf1 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,1489.0,21.0,8.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1073.0,50.0,9.9,MPEA_Borg
+Al0.25 Mo1 Nb1 Ti1 V1,BCC,1250.0,13.0,7.1,MPEA_Borg
+Al0.5 Mo1 Nb1 Ti1 V1,BCC,1625.0,11.0,6.8,MPEA_Borg
+Al0.75 Mo1 Nb1 Ti1 V1,BCC,1260.0,8.0,6.6,MPEA_Borg
+Al1 Mo1 Nb1 Ti1 V1,BCC,1375.0,3.0,6.4,MPEA_Borg
+Mo1 Nb1 Ti1 V1,BCC,1200.0,26.0,7.3,MPEA_Borg
+Al0.25 Nb1 Ta1 Ti1 V1,BCC,1330.0,,8.8,MPEA_Borg
+Al0.5 Nb1 Ta1 Ti1 V1,BCC,1014.0,,8.5,MPEA_Borg
+Al1 Nb1 Ta1 Ti1 V1,BCC,993.0,,7.9,MPEA_Borg
+Nb1 Ta1 Ti1 V1,BCC,1092.0,,9.2,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,1020.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,810.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,685.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,158.0,,5.5,MPEA_Borg
+Cr1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,1595.0,5.0,8.0,MPEA_Borg
+Cr1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,983.0,5.5,8.0,MPEA_Borg
+Cr1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,546.0,50.0,8.0,MPEA_Borg
+Cr1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,170.0,50.0,8.0,MPEA_Borg
+Cr1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1298.0,3.0,6.6,MPEA_Borg
+Cr1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1230.0,10.0,6.6,MPEA_Borg
+Cr1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,615.0,50.0,6.6,MPEA_Borg
+Cr1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,259.0,50.0,6.6,MPEA_Borg
+Cr1 Nb1 Ti1 Zr1,SS + Intermetálicos,1260.0,6.0,6.6,MPEA_Borg
+Cr1 Nb1 Ti1 Zr1,SS + Intermetálicos,1035.0,50.0,6.6,MPEA_Borg
+Cr1 Nb1 Ti1 Zr1,SS + Intermetálicos,300.0,50.0,6.6,MPEA_Borg
+Cr1 Nb1 Ti1 Zr1,SS + Intermetálicos,115.0,50.0,6.6,MPEA_Borg
+Nb0.5 Ti0.5 V1 Zr0.5,BCC,918.0,50.0,6.4,MPEA_Borg
+Nb0.5 Ti0.5 V1 Zr0.5,BCC,571.0,50.0,6.4,MPEA_Borg
+Nb0.5 Ti0.5 V1 Zr0.5,BCC,240.0,50.0,6.4,MPEA_Borg
+Nb0.5 Ti0.5 V1 Zr0.5,BCC,72.0,50.0,6.4,MPEA_Borg
+Nb1 Ti1 V1 Zr1,BCC,1105.0,50.0,6.5,MPEA_Borg
+Nb1 Ti1 V1 Zr1,BCC,834.0,50.0,6.5,MPEA_Borg
+Nb1 Ti1 V1 Zr1,BCC,187.0,50.0,6.5,MPEA_Borg
+Nb1 Ti1 V1 Zr1,BCC,58.0,50.0,6.5,MPEA_Borg
+Hf0.5 Mo0.5 Nb1 Ti1 Zr1,BCC,1176.0,,7.9,MPEA_Borg
+C0.1 Hf0.5 Mo0.5 Nb1 Ti1 Zr1,SS + Intermetálicos,1183.0,38.0,7.8,MPEA_Borg
+C0.3 Hf0.5 Mo0.5 Nb1 Ti1 Zr1,SS + Intermetálicos,1201.0,33.0,7.7,MPEA_Borg
+Hf1 Mo0.25 Nb1 Ta1 Ti1 Zr1,BCC,1112.0,50.0,9.9,MPEA_Borg
+Hf1 Mo0.5 Nb1 Ta1 Ti1 Zr1,BCC,1317.0,50.0,9.9,MPEA_Borg
+Hf1 Mo0.75 Nb1 Ta1 Ti1 Zr1,BCC,1373.0,50.0,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,1512.0,12.0,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1015.0,50.0,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,1512.0,12.0,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,1007.0,23.0,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,814.0,30.0,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,556.0,30.0,9.9,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,1600.0,4.0,10.2,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,1045.0,19.0,10.2,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,855.0,30.0,10.2,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,404.0,30.0,10.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,1575.0,9.0,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,825.0,50.0,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,635.0,50.0,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,187.0,50.0,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,1719.0,10.0,8.7,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1,SS + Intermetálicos,875.0,50.0,7.8,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1,SS + Intermetálicos,240.0,50.0,7.8,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1,SS + Intermetálicos,1399.0,11.0,7.8,MPEA_Borg
+Hf0.333 Nb0.333 Ta0.333 Ti1 Zr0.667,BCC,903.0,19.0,8.2,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,929.0,50.0,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,790.0,50.0,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,675.0,50.0,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,535.0,50.0,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,295.0,50.0,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,92.0,50.0,9.9,MPEA_Borg
+Hf1 Nb1 Ti1 Zr1,BCC,879.0,,8.4,MPEA_Borg
+Mo1 Nb1 Ta1 V1,BCC,1525.0,21.0,10.7,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,1246.0,2.0,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,862.0,13.0,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,846.0,17.0,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,842.0,19.0,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,735.0,7.5,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,656.0,40.0,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,477.0,40.0,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,1058.0,2.0,13.7,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,561.0,40.0,13.7,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,552.0,40.0,13.7,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,548.0,40.0,13.7,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,506.0,40.0,13.7,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,421.0,40.0,13.7,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,405.0,40.0,13.7,MPEA_Borg
+Mo0.3 Nb1 Ti1 V1 Zr1,BCC,1289.0,,6.7,MPEA_Borg
+Mo0.5 Nb1 Ti1 V1 Zr1,BCC,1473.0,,6.8,MPEA_Borg
+Mo0.7 Nb1 Ti1 V1 Zr1,BCC,1706.0,,6.9,MPEA_Borg
+Mo1 Nb0.769 Ti0.769 V0.769 Zr0.769,BCC,1496.0,,7.3,MPEA_Borg
+Mo1 Nb0.667 Ti0.667 V0.667 Zr0.667,BCC,1603.0,,7.4,MPEA_Borg
+Mo1 Nb0.588 Ti0.588 V0.588 Zr0.588,BCC,1645.0,,7.5,MPEA_Borg
+Mo1 Nb0.5 Ti0.5 V0.5 Zr0.5,BCC,1765.0,,7.6,MPEA_Borg
+Mo1 Nb1 Ti1 V1 Zr1,BCC,1779.0,,7.1,MPEA_Borg
+Mo1 Nb1 Ti1 V0.3 Zr1,BCC,1455.0,,7.2,MPEA_Borg
+Mo0.1 Nb1 Ti1 V0.3 Zr1,BCC,932.0,,6.6,MPEA_Borg
+Mo0.3 Nb1 Ti1 V0.3 Zr1,BCC,1312.0,,6.8,MPEA_Borg
+Mo0.5 Nb1 Ti1 V0.3 Zr1,BCC,1301.0,,6.9,MPEA_Borg
+Mo0.7 Nb1 Ti1 V0.3 Zr1,BCC,1436.0,,7.1,MPEA_Borg
+Mo1 Nb0.769 Ti0.769 V0.231 Zr0.769,BCC,1603.0,,7.4,MPEA_Borg
+Mo1 Nb0.667 Ti0.667 V0.2 Zr0.667,BCC,1576.0,,7.5,MPEA_Borg
+Nb1 Ti1 V0.3 Zr1,BCC,866.0,,6.5,MPEA_Borg
+Nb1 Ti1 V1 Zr1,BCC,1104.0,,6.5,MPEA_Borg
+Mo1 Nb1 Ti1 V0.25 Zr1,BCC,1776.0,30.0,7.3,MPEA_Borg
+Mo1 Nb1 Ti1 V0.5 Zr1,BCC,1647.0,28.0,7.2,MPEA_Borg
+Mo1 Nb1 Ti1 V0.75 Zr1,BCC,1708.0,29.0,7.2,MPEA_Borg
+Mo1 Nb1 Ti1 V1 Zr1,BCC,1786.0,26.0,7.1,MPEA_Borg
+Mo0.667 Nb0.667 Ti0.667 V1 Zr0.667,BCC,1735.0,20.0,7.1,MPEA_Borg
+Mo0.5 Nb0.5 Ti0.5 V1 Zr0.5,BCC,1538.0,23.0,7.0,MPEA_Borg
+Mo0.333 Nb0.333 Ti0.333 V1 Zr0.333,BCC,1418.0,24.0,6.9,MPEA_Borg
+Mo1 Nb1 Ti1 Zr1,BCC,1592.0,34.0,7.3,MPEA_Borg
+Al0.125 Co1 Cr1 Cu1 Fe1 Mn1 Ni1 Ti1 V1,FCC + BCC,1862.0,1.0,7.2,MPEA_Borg
+Al0.25 Co1 Cr1 Cu1 Fe1 Mn1 Ni1 Ti1 V1,BCC,1465.0,2.0,7.1,MPEA_Borg
+Al0.667 Co1 Cr1 Cu1 Fe1 Mn1 Ni1 Ti1 V1,SS + Intermetálicos,1461.0,1.0,6.8,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Mn1 Ni1 Ti1 V1,SS + Intermetálicos,1312.0,1.0,7.3,MPEA_Borg
+Cu1 Mn1 Ni1 Zn0.333,FCC,215.0,60.0,8.3,MPEA_Borg
+Cu1 Mn1 Ni1 Zn0.25,FCC,140.0,65.0,8.3,MPEA_Borg
+Al0.111 Cu1 Mn1 Ni1,SS + Intermetálicos,515.0,40.0,8.1,MPEA_Borg
+Cu1 Mn1 Ni1 Sn0.111,SS + Intermetálicos,630.0,20.0,8.3,MPEA_Borg
+Al0.053 Cu1 Mn1 Ni1,FCC,330.0,45.0,8.3,MPEA_Borg
+Cu1 Mn1 Ni1 Sn0.053,SS + Intermetálicos,380.0,63.0,8.4,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,150.0,,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,388.0,,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,411.0,,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,421.0,,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,426.0,,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,230.0,,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,80.0,,7.6,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,116.0,,6.3,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,79.0,,6.3,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,1620.0,,6.3,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,805.0,,6.3,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,1120.0,,6.3,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,567.0,,6.3,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,214.0,,6.3,MPEA_Borg
+Al1 Co0.5 Cr0.5 Cu0.5 Fe0.5 Ni0.5,BCC,302.0,,6.3,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,FCC + BCC,47.0,,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,FCC + BCC,948.0,,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,FCC + BCC,561.0,,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,FCC + BCC,307.0,,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,FCC + BCC,172.0,,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,FCC + BCC,98.0,,7.1,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,1080.0,2.0,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,1060.0,3.0,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,860.0,2.0,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,594.0,15.0,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,105.0,24.0,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,930.0,,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,875.0,,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,550.0,,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,BCC,150.0,,6.6,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,1070.0,,6.0,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,1020.0,,6.0,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,875.0,,6.0,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,375.0,,6.0,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,100.0,,6.0,MPEA_Borg
+Al1 Mo1 Nb1 Ti1,BCC,520.0,,6.5,MPEA_Borg
+Al1 Mo1 Nb1 Ti1,BCC,500.0,,6.5,MPEA_Borg
+Al1 Mo1 Nb1 Ti1,BCC,540.0,,6.5,MPEA_Borg
+Al1 Mo1 Nb1 Ti1,BCC,200.0,,6.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,SS + Intermetálicos,780.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,SS + Intermetálicos,560.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,SS + Intermetálicos,1000.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1155.0,,5.8,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,550.0,,5.8,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1500.0,,5.8,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.1,SS + Intermetálicos,975.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.1,SS + Intermetálicos,865.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.1,SS + Intermetálicos,1290.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.25,SS + Intermetálicos,1065.0,,5.6,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.25,SS + Intermetálicos,855.0,,5.6,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.25,SS + Intermetálicos,1360.0,,5.6,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.5,SS + Intermetálicos,1135.0,,5.6,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.5,SS + Intermetálicos,675.0,,5.6,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.5,SS + Intermetálicos,1485.0,,5.6,MPEA_Borg
+Al0.667 Nb0.667 Ti0.667 V0.667 Zr1,SS + Intermetálicos,1195.0,,5.8,MPEA_Borg
+Al0.667 Nb0.667 Ti0.667 V0.667 Zr1,SS + Intermetálicos,180.0,,5.8,MPEA_Borg
+Al0.667 Nb0.667 Ti0.667 V0.667 Zr1,SS + Intermetálicos,1535.0,,5.8,MPEA_Borg
+Cr1 Hf1 Nb1 Ti1 Zr1,SS + Intermetálicos,1457.0,,8.2,MPEA_Borg
+Cr1 Hf1 Nb1 Ti1 Zr1,SS + Intermetálicos,1420.0,4.2,8.2,MPEA_Borg
+Cr1 Hf1 Nb1 Ti1 Zr1,SS + Intermetálicos,1328.0,,8.2,MPEA_Borg
+Cr1 Hf1 Nb1 Ti1 Zr1,SS + Intermetálicos,1322.0,,8.2,MPEA_Borg
+Cr1 Hf1 Nb1 Ti1 Zr1,SS + Intermetálicos,1375.0,3.0,8.2,MPEA_Borg
+Hf1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1157.0,,8.1,MPEA_Borg
+Hf1 Nb1 Ti1 V1 Zr1,BCC,1253.0,,8.1,MPEA_Borg
+Hf1 Nb1 Ti1 V1 Zr1,BCC,1140.0,,8.1,MPEA_Borg
+Hf1 Nb1 Ti1 V1 Zr1,BCC,1120.0,30.0,8.1,MPEA_Borg
+Hf1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1170.0,29.6,8.1,MPEA_Borg
+Cr1 Ta1 Ti0.17 V1 W1,SS + Intermetálicos,2034.0,1.5,12.6,MPEA_Borg
+Cr1 Ta1 Ti0.17 V1 W1,SS + Intermetálicos,750.0,1.5,12.6,MPEA_Borg
+Cr1 Ta1 Ti0.3 V1 W1,SS + Intermetálicos,2050.0,1.5,12.3,MPEA_Borg
+Cr1 Ta1 Ti0.3 V1 W1,SS + Intermetálicos,586.0,1.5,12.3,MPEA_Borg
+Cr1 Ta1 V1 W1,SS + Intermetálicos,2327.0,1.5,13.0,MPEA_Borg
+Cr1 Ta1 V1 W1,SS + Intermetálicos,979.0,1.5,13.0,MPEA_Borg
+Hf0.26 Nb1 Ta1 Ti0.578 Zr0.416,BCC,795.0,,10.4,MPEA_Borg
+Hf0.26 Nb1 Ta1 Ti0.578 Zr0.416,BCC,765.0,,10.4,MPEA_Borg
+Hf0.26 Nb1 Ta1 Ti0.578 Zr0.416,BCC,650.0,,10.4,MPEA_Borg
+Hf0.26 Nb1 Ta1 Ti0.578 Zr0.416,BCC,590.0,,10.4,MPEA_Borg
+Hf0.26 Nb1 Ta1 Ti0.578 Zr0.416,BCC,845.0,,10.4,MPEA_Borg
+Hf0.5 Mo0.5 Nb1 Si0.1 Ti1 Zr1,SS + Intermetálicos,1350.0,,7.7,MPEA_Borg
+Hf0.5 Mo0.5 Nb1 Si0.3 Ti1 Zr1,SS + Intermetálicos,1370.0,,7.5,MPEA_Borg
+Hf0.5 Mo0.5 Nb1 Si0.5 Ti1 Zr1,SS + Intermetálicos,1600.0,,7.2,MPEA_Borg
+Hf0.5 Mo0.5 Nb1 Si0.7 Ti1 Zr1,SS + Intermetálicos,1550.0,,7.0,MPEA_Borg
+Hf0.5 Mo0.5 Nb1 Si0.9 Ti1 Zr1,SS + Intermetálicos,1650.0,,6.8,MPEA_Borg
+Hf0.5 Mo0.5 Nb1 Ti1 Zr1,SS + Intermetálicos,1150.0,,7.9,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,2250.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,2210.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1880.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1750.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1640.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1550.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1380.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1370.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1200.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1180.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1040.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1020.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1150.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1100.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,2390.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1920.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1370.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1250.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,1020.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,640.0,,8.4,MPEA_Borg
+Hf0.5 Nb0.667 Ta0.333 Ti1 Zr0.833,BCC,890.0,,8.4,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.3 Ti1 V0.5,SS + Intermetálicos,398.0,,8.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.3 Ti1 V0.5,SS + Intermetálicos,1617.0,,8.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.3 Ti1 V0.5,SS + Intermetálicos,166.0,,8.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.5 Ti1 V0.5,SS + Intermetálicos,614.0,,8.2,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.5 Ti1 V0.5,SS + Intermetálicos,1787.0,,8.2,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.5 Ti1 V0.5,SS + Intermetálicos,188.0,,8.2,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.7 Ti1 V0.5,SS + Intermetálicos,673.0,,7.9,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.7 Ti1 V0.5,SS + Intermetálicos,2134.0,,7.9,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.7 Ti1 V0.5,SS + Intermetálicos,235.0,,7.9,MPEA_Borg
+Hf1 Mo0.5 Nb1 Ti1 V0.5,BCC,368.0,,9.0,MPEA_Borg
+Hf1 Mo0.5 Nb1 Ti1 V0.5,BCC,60.0,,9.0,MPEA_Borg
+Hf1 Mo0.5 Nb1 Ti1 V0.5,BCC,1260.0,,9.0,MPEA_Borg
+Hf0.787 Nb0.142 Ta0.142 Ti1 Zr0.787,BCC,540.0,,8.5,MPEA_Borg
+Al0.25 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,366.0,,8.6,MPEA_Borg
+Al0.25 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,1745.0,,8.6,MPEA_Borg
+Al0.5 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,579.0,,7.6,MPEA_Borg
+Al0.5 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,2350.0,,7.6,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,2197.0,,7.1,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr0.5,SS + Intermetálicos,935.0,,7.2,MPEA_Borg
+Al1 Nb1 Ta0.5 Ti1 Zr0.5,SS + Intermetálicos,535.0,,6.9,MPEA_Borg
+Al1 Nb1 Ta0.5 Ti1 Zr0.5,SS + Intermetálicos,1352.0,,6.9,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1 Zr1,SS + Intermetálicos,1273.0,14.5,7.5,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1 Zr1,SS + Intermetálicos,597.0,50.0,7.5,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1 Zr1,SS + Intermetálicos,102.0,50.0,7.5,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1 Zr1,SS + Intermetálicos,1483.0,9.5,7.5,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1 Zr1,SS + Intermetálicos,920.0,50.0,7.5,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1 Zr1,SS + Intermetálicos,371.0,50.0,7.5,MPEA_Borg
+Hf1 Nb1 Si0.5 Ti1 V1 Zr1,SS + Intermetálicos,1540.0,16.8,7.5,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1900.0,7.9,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,1520.0,1.7,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,795.0,5.0,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,830.0,9.2,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1202.0,4.7,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,1303.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1145.0,9.7,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,958.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,944.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,940.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,940.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,905.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,890.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,828.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,827.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,820.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,803.0,,9.9,MPEA_Borg
+Al0.2 Mo1 Ta1 Ti1 V1,BCC,1021.0,,9.3,MPEA_Borg
+Al0.6 Mo1 Ta1 Ti1 V1,BCC,962.0,,8.7,MPEA_Borg
+Mo1 Ta1 Ti1 V1,BCC,1221.0,,9.6,MPEA_Borg
+Hf1 Nb1 Ta1 Zr1,SS + Intermetálicos,2310.0,0.3,11.1,MPEA_Borg
+Hf1 Nb1 Ta1 Zr1,SS + Intermetálicos,2100.0,3.5,11.1,MPEA_Borg
+Hf1 Nb1 Ta1 Zr1,SS + Intermetálicos,2020.0,1.7,11.1,MPEA_Borg
+Hf1 Nb1 Ta1 Zr1,SS + Intermetálicos,1950.0,2.2,11.1,MPEA_Borg
+Hf1 Nb1 Ta1 Zr1,BCC,1315.0,21.6,11.1,MPEA_Borg
+Hf1 Ta0.4 Ti1 Zr1,SS + Intermetálicos,400.0,,9.2,MPEA_Borg
+Hf1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,700.0,,9.4,MPEA_Borg
+Hf1 Ta0.6 Ti1 Zr1,SS + Intermetálicos,800.0,,9.6,MPEA_Borg
+Hf1 Ta1 Ti1 Zr1,BCC,1500.0,,10.2,MPEA_Borg
+Mo1 Nb1 Ta1 Ti0.25 W1,BCC,1109.0,,13.1,MPEA_Borg
+Mo1 Nb1 Ta1 Ti0.5 W1,BCC,1211.0,,12.6,MPEA_Borg
+Mo1 Nb1 Ta1 Ti0.75 W1,BCC,1304.0,,12.2,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,1455.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,996.0,,13.7,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1,BCC,1400.0,,9.4,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,973.0,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,791.3,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,752.8,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,659.0,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,1515.0,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,689.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,674.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,620.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,586.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,1343.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,1390.0,,9.1,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,1100.0,,9.1,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 Zr1,SS + Intermetálicos,1375.0,,9.1,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,2612.0,,12.4,MPEA_Borg
+Nb1 Ta1 Ti1 V1,BCC,965.0,,9.2,MPEA_Borg
+Nb1 Ta1 Ti1 V1 W1,BCC,1420.0,20.0,11.1,MPEA_Borg
+Nb1 Ta1 V1 W1,BCC,1530.0,12.0,12.9,MPEA_Borg
+Al0.25 Cr0.5 Nb0.5 Ti1 V0.25,SS + Intermetálicos,930.0,,5.8,MPEA_Borg
+Al0.25 Cr0.5 Nb0.5 Ti1 V0.25,SS + Intermetálicos,445.0,,5.8,MPEA_Borg
+Al0.25 Cr0.5 Nb0.5 Ti1 V0.25,SS + Intermetálicos,90.0,,5.8,MPEA_Borg
+Al0.25 Cr0.5 Nb0.5 Ti1 V0.25,SS + Intermetálicos,1340.0,,5.8,MPEA_Borg
+Al0.25 Cr0.5 Nb0.5 Ti1 V0.25,BCC,1240.0,,5.8,MPEA_Borg
+Al1 Cr0.5 Nb1 Ti1 V1,BCC,1005.0,,5.6,MPEA_Borg
+Al1 Cr0.5 Nb1 Ti1 V1,BCC,640.0,,5.6,MPEA_Borg
+Al1 Cr0.5 Nb1 Ti1 V1,BCC,40.0,,5.6,MPEA_Borg
+Al1 Cr0.5 Nb1 Ti1 V1,BCC,1300.0,,5.6,MPEA_Borg
+Al0.667 Cr1 Nb0.667 Ti0.667 V0.667,SS + Intermetálicos,1370.0,,5.9,MPEA_Borg
+Al0.667 Cr1 Nb0.667 Ti0.667 V0.667,SS + Intermetálicos,970.0,,5.9,MPEA_Borg
+Al0.667 Cr1 Nb0.667 Ti0.667 V0.667,SS + Intermetálicos,75.0,,5.9,MPEA_Borg
+Al0.667 Cr1 Nb0.667 Ti0.667 V0.667,SS + Intermetálicos,1700.0,,5.9,MPEA_Borg
+Al1 Cr1 Nb1 Ti1 V1,SS + Intermetálicos,1015.0,,5.8,MPEA_Borg
+Al1 Cr1 Nb1 Ti1 V1,SS + Intermetálicos,860.0,,5.8,MPEA_Borg
+Al1 Cr1 Nb1 Ti1 V1,SS + Intermetálicos,65.0,,5.8,MPEA_Borg
+Al1 Cr1 Nb1 Ti1 V1,SS + Intermetálicos,1550.0,,5.8,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,780.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,560.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,110.0,,5.5,MPEA_Borg
+Al1 Nb1 Ti1 V1,BCC,1000.0,,5.5,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,900.0,25.0,7.6,MPEA_Borg
+Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,219.0,,7.8,MPEA_Borg
+Al0.05 Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,354.0,,7.6,MPEA_Borg
+Al0.15 Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,550.0,,7.4,MPEA_Borg
+Al0.25 Cr0.5 Fe1 Mn0.625 Ni0.375,SS + Intermetálicos,994.0,,7.2,MPEA_Borg
+Al0.35 Cr0.5 Fe1 Mn0.625 Ni0.375,SS + Intermetálicos,942.0,,6.9,MPEA_Borg
+Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,132.0,,7.8,MPEA_Borg
+Al0.05 Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,260.0,,7.6,MPEA_Borg
+Al0.15 Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,469.0,,7.4,MPEA_Borg
+Al0.25 Cr0.5 Fe1 Mn0.625 Ni0.375,SS + Intermetálicos,943.0,,7.2,MPEA_Borg
+Al0.35 Cr0.5 Fe1 Mn0.625 Ni0.375,SS + Intermetálicos,833.0,,6.9,MPEA_Borg
+Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,115.0,,7.8,MPEA_Borg
+Al0.05 Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,155.0,,7.6,MPEA_Borg
+Al0.15 Cr0.5 Fe1 Mn0.625 Ni0.375,FCC + BCC,272.0,,7.4,MPEA_Borg
+Al0.25 Cr0.5 Fe1 Mn0.625 Ni0.375,SS + Intermetálicos,359.0,,7.2,MPEA_Borg
+Al0.35 Cr0.5 Fe1 Mn0.625 Ni0.375,SS + Intermetálicos,326.0,,6.9,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,370.0,56.0,8.0,MPEA_Borg
+Co0.2 Cr0.2 Fe1 Mn0.6,SS + Intermetálicos,250.0,50.0,7.8,MPEA_Borg
+Co0.2 Cr0.2 Fe1 Mn0.6,SS + Intermetálicos,330.0,75.0,7.8,MPEA_Borg
+Co0.2 Cr0.2 Fe1 Mn0.6,SS + Intermetálicos,280.0,65.0,7.8,MPEA_Borg
+Co0.2 Cr0.2 Fe1 Mn0.6,SS + Intermetálicos,350.0,63.0,7.8,MPEA_Borg
+Co0.2 Cr0.2 Fe1 Mn0.6,SS + Intermetálicos,298.0,45.0,7.8,MPEA_Borg
+Co0.2 Cr0.2 Fe1 Mn0.6,SS + Intermetálicos,400.0,42.0,7.8,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,860.0,48.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,690.0,51.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,550.0,64.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,FCC,260.0,87.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,FCC,159.0,65.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,215.0,43.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,285.0,55.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,FCC,263.0,60.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,490.0,45.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,175.0,58.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,305.0,44.0,7.6,MPEA_Borg
+Al0.304 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,280.0,44.0,7.6,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,395.0,1.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1380.0,10.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1430.0,1.6,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1690.0,2.7,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1220.0,13.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1450.0,20.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,FCC + BCC,900.0,0.8,6.7,MPEA_Borg
+Al0.515 Cr0.515 Fe1 Ni1,SS + Intermetálicos,796.0,15.7,6.9,MPEA_Borg
+Al0.511 Co0.511 Cr0.511 Fe0.511 Ni1,SS + Intermetálicos,545.0,16.5,7.0,MPEA_Borg
+Al0.465 Co0.465 Cr0.465 Fe0.465 Ni1,SS + Intermetálicos,545.0,16.5,7.1,MPEA_Borg
+Al0.451 Co0.451 Cr0.451 Fe0.451 Ni1,SS + Intermetálicos,545.0,20.0,7.1,MPEA_Borg
+Al0.511 Co0.511 Cr0.511 Fe0.511 Ni1,SS + Intermetálicos,580.0,10.5,7.0,MPEA_Borg
+Al0.465 Co0.465 Cr0.465 Fe0.465 Ni1,SS + Intermetálicos,595.0,15.8,7.1,MPEA_Borg
+Al0.451 Co0.451 Cr0.451 Fe0.451 Ni1,SS + Intermetálicos,570.0,18.0,7.1,MPEA_Borg
+Al0.511 Co0.511 Cr0.511 Fe0.511 Ni1,SS + Intermetálicos,700.0,4.0,7.0,MPEA_Borg
+Al0.465 Co0.465 Cr0.465 Fe0.465 Ni1,SS + Intermetálicos,700.0,7.0,7.1,MPEA_Borg
+Al0.451 Co0.451 Cr0.451 Fe0.451 Ni1,SS + Intermetálicos,700.0,9.0,7.1,MPEA_Borg
+Al0.343 Co0.514 Cr0.514 Fe1 Ni0.514,SS + Intermetálicos,866.0,7.9,7.2,MPEA_Borg
+Al0.343 Co0.514 Cr0.514 Fe1 Ni0.514,SS + Intermetálicos,400.0,6.3,7.2,MPEA_Borg
+Al0.343 Co0.514 Cr0.514 Fe1 Ni0.514,SS + Intermetálicos,220.0,5.4,7.2,MPEA_Borg
+Al0.343 Co0.514 Cr0.514 Fe1 Ni0.514,SS + Intermetálicos,1166.0,30.2,7.2,MPEA_Borg
+Co1 Cr0.429 Fe0.571 Mo0.286 Ni0.571,FCC,350.0,21.9,8.6,MPEA_Borg
+Co1 Cr0.429 Fe0.571 Mo0.286 Ni0.571,SS + Intermetálicos,1311.0,12.1,8.6,MPEA_Borg
+Co1 Cr0.429 Fe0.571 Mo0.286 Ni0.571,SS + Intermetálicos,1212.0,14.9,8.6,MPEA_Borg
+Co1 Cr0.429 Fe0.571 Mo0.286 Ni0.571,SS + Intermetálicos,1028.0,18.3,8.6,MPEA_Borg
+Co1 Cr0.429 Fe0.571 Mo0.286 Ni0.571,SS + Intermetálicos,879.0,25.4,8.6,MPEA_Borg
+Co1 Cr0.429 Fe0.571 Mo0.286 Ni0.571,SS + Intermetálicos,799.0,28.2,8.6,MPEA_Borg
+Co1 Cr0.429 Fe0.571 Mo0.286 Ni0.571,FCC,350.0,62.4,8.6,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,155.0,58.9,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.083 Ni1,SS + Intermetálicos,198.8,51.1,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.208 Ni1,SS + Intermetálicos,254.7,55.1,8.3,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.304 Ni1,SS + Intermetálicos,305.3,49.3,8.4,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.304 Ni1,SS + Intermetálicos,815.5,18.9,8.4,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.304 Ni1,SS + Intermetálicos,646.7,32.5,8.4,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.304 Ni1,SS + Intermetálicos,683.7,30.4,8.4,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,243.0,50.0,8.0,MPEA_Borg
+C0.02 Co1 Cr1 Fe1 Mn1 Ni1,SS + Intermetálicos,446.0,15.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,249.0,41.0,8.0,MPEA_Borg
+C0.02 Co1 Cr1 Fe1 Mn1 Ni1,SS + Intermetálicos,581.0,28.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,190.0,70.0,8.2,MPEA_Borg
+Al0.167 Co1 Cr1 Fe1 Ni1 Ti0.083,FCC,210.0,70.0,7.8,MPEA_Borg
+Al0.167 Co1 Cr1 Fe1 Ni1 Ti0.083,SS + Intermetálicos,645.0,39.0,7.8,MPEA_Borg
+Al0.167 Co1 Cr1 Fe1 Ni1 Ti0.083,SS + Intermetálicos,1005.0,17.0,7.8,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,SS + Intermetálicos,568.0,12.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,SS + Intermetálicos,596.0,20.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,SS + Intermetálicos,487.0,18.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,SS + Intermetálicos,486.0,11.0,7.4,MPEA_Borg
+Al0.885 Cr1 Fe1 Ni1,SS + Intermetálicos,770.0,37.1,6.4,MPEA_Borg
+Al1 Cr1 Fe1 Ni1,SS + Intermetálicos,843.2,34.6,6.3,MPEA_Borg
+Al1 Cr0.889 Fe0.889 Ni0.889,SS + Intermetálicos,1044.0,27.1,6.1,MPEA_Borg
+Al1 Cr0.828 Fe0.828 Ni0.828,SS + Intermetálicos,906.8,31.4,6.0,MPEA_Borg
+Al1 Cr0.767 Fe0.767 Ni0.767,SS + Intermetálicos,1122.8,24.7,5.9,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,230.0,75.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V0.263,SS + Intermetálicos,200.0,75.0,7.9,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V0.5,SS + Intermetálicos,620.0,75.0,7.8,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V0.765,SS + Intermetálicos,780.0,8.0,7.7,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1 V1,SS + Intermetálicos,1700.0,1.0,7.7,MPEA_Borg
+Al0.511 Co0.511 Cr0.511 Fe0.511 Ni1,SS + Intermetálicos,545.0,16.5,7.0,MPEA_Borg
+Al0.465 Co0.465 Cr0.465 Fe0.465 Ni1,SS + Intermetálicos,545.0,16.5,7.1,MPEA_Borg
+Al0.451 Co0.451 Cr0.451 Fe0.451 Ni1,SS + Intermetálicos,545.0,20.0,7.1,MPEA_Borg
+Al0.108 Co0.514 Cr0.514 Cu0.108 Fe0.514 Ni1,FCC,719.0,30.0,8.0,MPEA_Borg
+Al0.108 Co0.514 Cr0.514 Cu0.108 Fe0.514 Ni1,SS + Intermetálicos,460.0,32.0,8.0,MPEA_Borg
+Al0.242 Co0.515 Cr0.515 Cu0.242 Fe0.515 Ni1,SS + Intermetálicos,357.0,9.0,7.7,MPEA_Borg
+Al0.242 Co0.515 Cr0.515 Cu0.242 Fe0.515 Ni1,SS + Intermetálicos,365.0,0.1,7.7,MPEA_Borg
+Al0.242 Co0.515 Cr0.515 Cu0.242 Fe0.515 Ni1,SS + Intermetálicos,215.0,39.0,7.7,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,1284.0,7.6,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,1290.0,5.0,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,650.0,27.0,7.6,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,790.0,0.2,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,1040.0,1.0,7.1,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,395.0,1.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,295.0,12.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,350.0,5.0,7.1,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,63.0,63.0,7.1,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,FCC,180.0,5.0,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,160.0,12.0,7.6,MPEA_Borg
+Co1 Cr1 Fe1 Ni1 Ti0.2,FCC,700.0,36.0,7.9,MPEA_Borg
+Co1 Cr1 Fe1 Ni1 Ti0.2,FCC,860.0,46.0,7.9,MPEA_Borg
+Al0.1 Co1 Cr1 Fe1 Ni1,FCC,1198.0,1.5,8.0,MPEA_Borg
+Al0.1 Co1 Cr1 Fe1 Ni1,FCC,1403.0,1.2,8.0,MPEA_Borg
+Al0.1 Co1 Cr1 Fe1 Ni1,FCC,711.0,30.3,8.0,MPEA_Borg
+Al0.1 Co1 Cr1 Fe1 Ni1,FCC,356.0,42.4,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1120.0,1.1,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1692.0,10.3,8.0,MPEA_Borg
+Al0.5 Cr0.5 Fe0.5 Ni1,SS + Intermetálicos,774.0,6.4,6.7,MPEA_Borg
+Al0.429 Cr0.476 Fe0.476 Ni1,SS + Intermetálicos,610.0,9.1,6.9,MPEA_Borg
+Al0.364 Cr0.455 Fe0.455 Ni1,SS + Intermetálicos,479.0,12.7,7.0,MPEA_Borg
+Al0.304 Cr0.435 Fe0.435 Ni1,SS + Intermetálicos,461.0,30.0,7.2,MPEA_Borg
+Al0.25 Cr0.417 Fe0.417 Ni1,FCC,441.0,45.0,7.3,MPEA_Borg
+Co1 Cr1 Ni1,FCC,1100.0,23.0,8.3,MPEA_Borg
+Co1 Cr1 Ni1,FCC,597.0,53.0,8.3,MPEA_Borg
+Co1 Cr1 Ni1,FCC,346.0,76.0,8.3,MPEA_Borg
+Al0.476 Co0.476 Cr0.476 Fe0.476 Ni1,SS + Intermetálicos,1263.0,21.4,7.1,MPEA_Borg
+Al0.476 Co0.476 Cr0.476 Fe0.476 Ni1,SS + Intermetálicos,1154.0,25.0,7.1,MPEA_Borg
+Al0.476 Co0.476 Cr0.476 Fe0.476 Ni1,SS + Intermetálicos,1490.0,16.0,7.1,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,210.0,57.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1150.0,6.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1300.0,0.7,8.0,MPEA_Borg
+Nb1 Ta1 Ti1 V1,BCC,1108.0,28.3,9.2,MPEA_Borg
+Nb1 Ta1 Ti1 V1,BCC,1308.0,27.9,9.2,MPEA_Borg
+Nb1 Ta1 Ti1 V1,BCC,1373.0,29.5,9.2,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,300.0,52.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,800.0,39.5,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,1314.0,,8.0,MPEA_Borg
+Al0.1 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,1631.0,,7.9,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,1836.0,,7.6,MPEA_Borg
+Al0.5 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,1932.0,,7.4,MPEA_Borg
+Al0.7 Co1 Cr1 Fe1 Mn1 Ni1,FCC + BCC,2230.0,,7.1,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,446.0,63.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,488.0,72.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,590.0,78.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,680.0,61.6,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,216.0,,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Mo0.042 Ni1,FCC,225.0,,8.1,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Mo0.087 Ni1,SS + Intermetálicos,330.0,,8.1,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Mo0.136 Ni1,SS + Intermetálicos,560.0,,8.1,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Mo0.19 Ni1,SS + Intermetálicos,765.0,,8.1,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,143.0,65.0,7.6,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,471.0,45.0,7.6,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,841.0,35.0,7.6,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,161.0,7.0,7.6,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,187.0,5.0,7.6,MPEA_Borg
+Al1 Co1 Cr1 Ni1,SS + Intermetálicos,1750.0,16.7,6.4,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,378.7,54.0,8.0,MPEA_Borg
+C0.5 Co1 Cr1 Fe1 Mn1 Ni1,FCC,520.9,40.3,7.6,MPEA_Borg
+C1 Co1 Cr1 Fe1 Mn1 Ni1,FCC,643.8,31.9,7.3,MPEA_Borg
+Co1 Cr0.588 Fe0.176 Mo0.176 Ni1,FCC,1100.0,32.0,8.6,MPEA_Borg
+Co1 Cr0.588 Fe0.176 Mo0.176 Ni1,FCC,950.0,36.0,8.6,MPEA_Borg
+Co1 Cr0.588 Fe0.176 Mo0.176 Ni1,FCC,649.0,42.0,8.6,MPEA_Borg
+Co1 Cr0.588 Fe0.176 Mo0.176 Ni1,FCC,439.0,63.0,8.6,MPEA_Borg
+Co1 Cr0.588 Fe0.176 Mo0.176 Ni1,FCC,309.0,82.0,8.6,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,386.2,57.5,8.0,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,628.0,14.5,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,545.0,5.0,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,534.0,5.2,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,525.0,4.3,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,517.0,4.6,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,502.0,4.9,8.1,MPEA_Borg
+Cr1 Mo1 Nb1 Ta1 V1 W1,SS + Intermetálicos,3416.0,,11.7,MPEA_Borg
+Cr1 Mo1 Nb1 Ta1 V1 W1,SS + Intermetálicos,3410.0,,11.7,MPEA_Borg
+Cr1 Mo1 Nb1 Ta1 V1 W1,SS + Intermetálicos,3338.0,,11.7,MPEA_Borg
+Co1 Ni1 V1,SS + Intermetálicos,991.0,38.0,7.8,MPEA_Borg
+Co1 Ni1 V1,SS + Intermetálicos,767.0,46.0,7.8,MPEA_Borg
+Co1 Ni1 V1,SS + Intermetálicos,602.0,51.0,7.8,MPEA_Borg
+Co1 Ni1 V1,SS + Intermetálicos,517.0,55.0,7.8,MPEA_Borg
+Co1 Ni1 V1,SS + Intermetálicos,461.0,58.0,7.8,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,840.0,32.0,7.6,MPEA_Borg
+Al0.3 Co1 Cr1 Fe1 Ni1,FCC,159.0,65.0,7.6,MPEA_Borg
+Al0.544 C0.001 Co0.69 Fe1 Ni0.69,SS + Intermetálicos,1202.0,32.6,7.0,MPEA_Borg
+Co0.5 Cr0.5 Fe1 Ni1,FCC,214.0,77.3,8.2,MPEA_Borg
+Co0.875 Cr0.625 Fe1 Ni1,FCC,241.0,96.2,8.3,MPEA_Borg
+Co1 Cr0.556 Fe0.667 Ni0.667,FCC,299.0,76.1,8.3,MPEA_Borg
+Co1 Cr0.455 Fe0.364 Ni0.364,SS + Intermetálicos,392.0,20.3,8.3,MPEA_Borg
+Co1 Cr0.385 Fe0.154 Ni0.154,SS + Intermetálicos,482.0,13.3,8.4,MPEA_Borg
+Co0.986 Cr0.952 Fe0.933 Mn0.914 Ni1,BCC,1290.0,1.1,8.0,MPEA_Borg
+Co0.986 Cr0.952 Fe0.933 Mn0.914 Ni1,SS + Intermetálicos,1135.0,1.8,8.0,MPEA_Borg
+Co0.986 Cr0.952 Fe0.933 Mn0.914 Ni1,SS + Intermetálicos,585.0,31.7,8.0,MPEA_Borg
+Co0.986 Cr0.952 Fe0.933 Mn0.914 Ni1,SS + Intermetálicos,425.0,40.2,8.0,MPEA_Borg
+Co0.986 Cr0.952 Fe0.933 Mn0.914 Ni1,FCC,270.0,46.2,8.0,MPEA_Borg
+Co0.986 Cr0.952 Fe0.933 Mn0.914 Ni1,SS + Intermetálicos,1120.0,1.5,8.0,MPEA_Borg
+Al0.4 Hf0.6 Nb1 Ta1 Ti1 Zr1,BCC,1841.0,,9.1,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,1100.0,,6.0,MPEA_Borg
+Al1 Mo1 Nb1 Ti1,BCC,1100.0,,6.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Ti1 V0.5,BCC,1260.0,,9.0,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,1512.0,,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,1575.0,,8.7,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,1600.0,,10.2,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,929.0,,9.9,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,1515.0,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,1343.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,1246.0,,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,996.0,,13.7,MPEA_Borg
+Mo1 Nb1 Ti1,BCC,1100.0,,7.7,MPEA_Borg
+Nb1 Ta0.3 Ti1 Zr1,BCC,882.0,,7.4,MPEA_Borg
+Nb1 Ti1 Zr1,BCC,975.0,,6.5,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,SS + Intermetálicos,1010.0,,6.6,MPEA_Borg
+Al0.24 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1240.0,,6.3,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,2000.0,,7.1,MPEA_Borg
+Cr1 Nb0.333 Ti0.333 Zr0.333,SS + Intermetálicos,1576.0,,6.8,MPEA_Borg
+Cr1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,1595.0,,8.0,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.3 Ti1 V0.5,SS + Intermetálicos,1617.0,,8.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.5 Ti1 V0.5,SS + Intermetálicos,1787.0,,8.2,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.7 Ti1 V0.5,SS + Intermetálicos,2134.0,,7.9,MPEA_Borg
+Mo1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1706.0,,7.1,MPEA_Borg
+Nb1 Re0.3 Ti1 Zr1,SS + Intermetálicos,1244.0,,7.5,MPEA_Borg
+Nb1 Ta1 Ti1 V1 Zr1,SS + Intermetálicos,1395.0,,8.5,MPEA_Borg
+Al0.4 Hf0.6 Nb1 Ta1 Ti1 Zr1,BCC,298.0,,9.1,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,375.0,,6.0,MPEA_Borg
+Al1 Mo1 Nb1 Ti1,BCC,540.0,,6.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Ti1 V0.5,BCC,368.0,,9.0,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,814.0,,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,635.0,,8.7,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,855.0,,10.2,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,295.0,,9.9,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,753.0,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,620.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,842.0,,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,548.0,,13.7,MPEA_Borg
+Mo1 Nb1 Ti1,BCC,504.0,,7.7,MPEA_Borg
+Nb1 Ta0.3 Ti1 Zr1,BCC,274.0,,7.4,MPEA_Borg
+Nb1 Ti1 Zr1,BCC,141.0,,6.5,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,SS + Intermetálicos,550.0,,6.6,MPEA_Borg
+Al0.24 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,82.0,,6.3,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,745.0,,7.1,MPEA_Borg
+Cr1 Nb0.333 Ti0.333 Zr0.333,SS + Intermetálicos,139.0,,6.8,MPEA_Borg
+Cr1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,546.0,,8.0,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.3 Ti1 V0.5,SS + Intermetálicos,398.0,,8.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.5 Ti1 V0.5,SS + Intermetálicos,614.0,,8.2,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.7 Ti1 V0.5,SS + Intermetálicos,673.0,,7.9,MPEA_Borg
+Mo1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,467.0,,7.1,MPEA_Borg
+Nb1 Re0.3 Ti1 Zr1,SS + Intermetálicos,323.0,,7.5,MPEA_Borg
+Nb1 Ta1 Ti1 V1 Zr1,SS + Intermetálicos,190.0,,8.5,MPEA_Borg
+Al0.4 Hf0.6 Nb1 Ta1 Ti1 Zr1,BCC,89.0,,9.1,MPEA_Borg
+Al1 Cr1 Mo1 Ti1,BCC,100.0,,6.0,MPEA_Borg
+Al1 Mo1 Nb1 Ti1,BCC,200.0,,6.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Ti1 V0.5,BCC,60.0,,9.0,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,556.0,,9.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,187.0,,8.7,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,404.0,,10.2,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,92.0,,9.9,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 V1 W1,BCC,659.0,,11.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1 W1,BCC,586.0,,11.8,MPEA_Borg
+Mo1 Nb1 Ta1 V1 W1,BCC,735.0,,12.4,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,506.0,,13.7,MPEA_Borg
+Mo1 Nb1 Ti1,BCC,324.0,,7.7,MPEA_Borg
+Nb1 Ta0.3 Ti1 Zr1,BCC,102.0,,7.4,MPEA_Borg
+Nb1 Ti1 Zr1,BCC,61.0,,6.5,MPEA_Borg
+Al1 Cr1 Mo1 Nb1 Ti1,SS + Intermetálicos,105.0,,6.6,MPEA_Borg
+Al0.24 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,24.0,,6.3,MPEA_Borg
+Al1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,250.0,,7.1,MPEA_Borg
+Cr1 Nb0.333 Ti0.333 Zr0.333,SS + Intermetálicos,32.0,,6.8,MPEA_Borg
+Cr1 Mo0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,170.0,,8.0,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.3 Ti1 V0.5,SS + Intermetálicos,166.0,,8.5,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.5 Ti1 V0.5,SS + Intermetálicos,188.0,,8.2,MPEA_Borg
+Hf1 Mo0.5 Nb1 Si0.7 Ti1 V0.5,SS + Intermetálicos,235.0,,7.9,MPEA_Borg
+Mo1 Nb1 Ti1 V1 Zr1,SS + Intermetálicos,116.0,,7.1,MPEA_Borg
+Nb1 Re0.3 Ti1 Zr1,SS + Intermetálicos,89.0,,7.5,MPEA_Borg
+Nb1 Ta1 Ti1 V1 Zr1,SS + Intermetálicos,78.0,,8.5,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,293.1,63.0,8.0,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,985.0,15.7,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,972.0,12.6,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,967.0,10.8,9.9,MPEA_Borg
+Co1 Fe1 Ni1,FCC,276.0,51.0,8.5,MPEA_Borg
+Co1 Fe1 Ni1,FCC,217.0,47.0,8.5,MPEA_Borg
+Co1 Fe1 Ni1,FCC,201.0,44.5,8.5,MPEA_Borg
+Co1 Cr1 Ni1,SS + Intermetálicos,600.0,68.0,8.3,MPEA_Borg
+Co1 Cr1 Ni1,SS + Intermetálicos,400.0,60.0,8.3,MPEA_Borg
+Co1 Cr1 Ni1,SS + Intermetálicos,1215.0,48.0,8.3,MPEA_Borg
+Cr0.286 Mo0.476 Nb1 Ta0.024 Ti0.31 V0.286,SS + Intermetálicos,2680.0,,8.0,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,1719.0,,8.7,MPEA_Borg
+Fe1 Mn1 Ni1,FCC,529.0,25.0,8.1,MPEA_Borg
+Fe1 Mn1 Ni1,FCC,522.0,25.0,8.1,MPEA_Borg
+Fe1 Mn1 Ni1,FCC,460.0,27.0,8.1,MPEA_Borg
+Fe1 Mn1 Ni1,FCC,407.0,26.0,8.1,MPEA_Borg
+Fe1 Mn1 Ni1,FCC,372.0,31.0,8.1,MPEA_Borg
+Fe1 Mn1 Ni1,FCC,322.0,49.0,8.1,MPEA_Borg
+Co1 Mn1 Ni1,FCC,333.0,40.0,8.4,MPEA_Borg
+Co1 Mn1 Ni1,FCC,601.0,24.0,8.4,MPEA_Borg
+Co1 Mn1 Ni1,FCC,321.0,50.5,8.4,MPEA_Borg
+Co1 Mn1 Ni1,FCC,267.0,62.5,8.4,MPEA_Borg
+Co1 Cr0.25 Ni1,FCC,745.0,36.0,8.7,MPEA_Borg
+Co1 Cr0.25 Ni1,FCC,623.0,53.0,8.7,MPEA_Borg
+Co1 Cr0.25 Ni1,FCC,387.0,73.0,8.7,MPEA_Borg
+Co1 Cr0.25 Ni1,FCC,330.0,101.0,8.7,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,631.0,39.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,494.0,51.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,448.0,65.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,273.0,85.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,172.0,105.0,8.2,MPEA_Borg
+Co0.25 Cr1 Ni1,FCC,518.0,36.0,8.1,MPEA_Borg
+Co0.25 Cr1 Ni1,FCC,462.0,46.0,8.1,MPEA_Borg
+Co0.25 Cr1 Ni1,FCC,395.0,58.0,8.1,MPEA_Borg
+Co0.25 Cr1 Ni1,FCC,356.0,64.0,8.1,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,1511.0,5.0,6.8,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,1366.0,17.0,6.8,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,410.0,35.0,6.8,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,48.0,35.0,6.8,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,210.0,57.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1150.0,6.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1300.0,2.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1050.0,8.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,560.0,49.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,520.0,47.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,320.0,59.0,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,280.0,62.0,8.0,MPEA_Borg
+Co0.5 Fe0.5 Mo0.1 Ni1 V0.25,FCC,419.0,,8.4,MPEA_Borg
+Co0.5 Fe0.5 Mo0.1 Ni1 V0.25,FCC,350.0,,8.4,MPEA_Borg
+Co0.5 Fe0.5 Mo0.1 Ni1 V0.25,FCC,252.0,,8.4,MPEA_Borg
+Co0.5 Fe0.5 Mo0.1 Ni1 V0.25,FCC,214.0,,8.4,MPEA_Borg
+Co0.5 Fe0.5 Mo0.1 Ni1 V0.25,FCC,212.0,,8.4,MPEA_Borg
+Co0.5 Fe0.5 Mo0.1 Ni1 V0.25,FCC,187.0,,8.4,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1631.0,16.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1209.0,23.0,6.7,MPEA_Borg
+Co0.318 Cr0.227 Fe1 Mo0.091 Ni0.182,SS + Intermetálicos,443.0,61.6,8.2,MPEA_Borg
+Co0.327 Cr0.227 Fe1 Mo0.136 Ni0.127,SS + Intermetálicos,711.0,38.3,8.2,MPEA_Borg
+Co0.318 Cr0.227 Fe1 Mo0.091 Ni0.182,SS + Intermetálicos,301.0,77.5,8.2,MPEA_Borg
+Co0.327 Cr0.227 Fe1 Mo0.136 Ni0.127,SS + Intermetálicos,684.0,48.1,8.2,MPEA_Borg
+Co0.318 Cr0.227 Fe1 Mo0.091 Ni0.182,SS + Intermetálicos,261.0,86.6,8.2,MPEA_Borg
+Co0.327 Cr0.227 Fe1 Mo0.136 Ni0.127,SS + Intermetálicos,506.0,59.3,8.2,MPEA_Borg
+Co0.318 Cr0.227 Fe1 Mo0.091 Ni0.182,SS + Intermetálicos,231.0,87.2,8.2,MPEA_Borg
+Co0.327 Cr0.227 Fe1 Mo0.136 Ni0.127,SS + Intermetálicos,296.0,63.2,8.2,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,FCC + BCC,615.0,14.0,8.1,MPEA_Borg
+Mo1 Nb1 Re0.5 W1,BCC,896.0,10.4,13.7,MPEA_Borg
+C0.2 Mo1 Nb1 Re0.5 Ta0.2 W1,SS + Intermetálicos,1074.0,12.1,13.5,MPEA_Borg
+C0.4 Mo1 Nb1 Re0.5 Ta0.4 W1,SS + Intermetálicos,1144.0,12.7,13.4,MPEA_Borg
+C0.5 Mo1 Nb1 Re0.5 Ta0.5 W1,SS + Intermetálicos,1202.0,14.2,13.3,MPEA_Borg
+C0.6 Mo1 Nb1 Re0.5 Ta0.6 W1,SS + Intermetálicos,1241.0,13.8,13.3,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,520.0,49.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,470.0,11.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,461.0,9.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,445.0,6.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,219.0,8.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,627.0,27.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,594.0,12.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,547.0,17.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,399.0,20.0,7.4,MPEA_Borg
+Al0.278 Co0.694 Cr0.222 Fe0.417 Ni1 Ti0.167,FCC,243.0,34.0,7.4,MPEA_Borg
+Co0.286 Cr0.429 Fe1 Mn0.143 Ni0.714 V0.286,FCC,401.0,49.0,7.9,MPEA_Borg
+Co0.286 Cr0.429 Fe1 Mn0.143 Ni0.714 V0.286,FCC,350.0,50.0,7.9,MPEA_Borg
+Co0.286 Cr0.429 Fe1 Mn0.143 Ni0.714 V0.286,FCC,312.0,51.0,7.9,MPEA_Borg
+Co0.286 Cr0.429 Fe1 Mn0.143 Ni0.714 V0.286,FCC,240.0,53.0,7.9,MPEA_Borg
+Co0.286 Cr0.429 Fe1 Mn0.143 Ni0.714 V0.286,FCC,210.0,52.0,7.9,MPEA_Borg
+Al1 Co0.5 Cr0.5 Fe0.5 Ni0.5,SS + Intermetálicos,1241.0,9.98,5.9,MPEA_Borg
+Al1 Co0.556 Cr0.556 Fe0.556 Ni0.556 Ti0.111,SS + Intermetálicos,1324.0,10.02,5.9,MPEA_Borg
+Al1 Co0.667 Cr0.667 Fe0.667 Ni0.667 Ti0.333,SS + Intermetálicos,1566.0,11.85,6.1,MPEA_Borg
+Al1 Co0.833 Cr0.833 Fe0.833 Ni0.833 Ti0.667,SS + Intermetálicos,1503.0,7.73,6.2,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1 Ti1,SS + Intermetálicos,1448.0,6.18,6.2,MPEA_Borg
+Al0.667 Co0.833 Cr0.833 Fe0.833 Ni0.833 Ti1,SS + Intermetálicos,1272.0,3.15,6.3,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1300.0,24.2,6.7,MPEA_Borg
+Al0.8 Co1 Cr1 Fe1 Ni1 Ti0.2,SS + Intermetálicos,968.0,30.1,6.8,MPEA_Borg
+Al0.5 Co1 Cr1 Fe1 Ni1 Ti0.5,SS + Intermetálicos,1100.0,27.5,6.9,MPEA_Borg
+Al1 Co1 Cu1 Fe1 Ni1,SS + Intermetálicos,1060.0,19.1,7.0,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1,SS + Intermetálicos,1285.0,24.6,7.1,MPEA_Borg
+Al1 Co1 Cu1 Fe1 Ni1 Ti1,SS + Intermetálicos,1612.0,12.8,6.5,MPEA_Borg
+Al1 Co1 Cr1 Cu1 Fe1 Ni1 Ti1,SS + Intermetálicos,1523.0,8.1,6.6,MPEA_Borg
+Al1 Cr1 Fe1 Ni1,SS + Intermetálicos,1271.0,14.0,6.3,MPEA_Borg
+Al1 Co0.25 Cr1 Fe1 Ni1,SS + Intermetálicos,1363.0,19.0,6.4,MPEA_Borg
+Al1 Co0.5 Cr1 Fe1 Ni1,SS + Intermetálicos,1349.0,20.0,6.5,MPEA_Borg
+Al1 Co0.75 Cr1 Fe1 Ni1,SS + Intermetálicos,1331.0,20.0,6.6,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1313.0,19.0,6.7,MPEA_Borg
+Co1 Cr1 Fe1 Mn1,SS + Intermetálicos,338.0,4.3,7.8,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,1550.0,26.3,11.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,1637.0,15.5,11.1,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,577.0,35.0,11.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,1065.0,35.0,11.1,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,409.0,35.0,11.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,736.0,35.0,11.1,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,345.0,35.0,11.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 W1 Zr1,SS + Intermetálicos,703.0,35.0,11.1,MPEA_Borg
+Nb1 Ti1 Zr1,BCC,1223.0,48.0,6.5,MPEA_Borg
+Hf1 Nb1 Ti1 Zr1,BCC,1000.0,52.0,8.4,MPEA_Borg
+Nb1 Ti1 Zr1,BCC,462.0,51.0,6.5,MPEA_Borg
+Hf1 Nb1 Ti1 Zr1,BCC,303.0,51.0,8.4,MPEA_Borg
+Nb1 Ti1 Zr1,BCC,218.0,51.0,6.5,MPEA_Borg
+Hf1 Nb1 Ti1 Zr1,BCC,154.0,51.0,8.4,MPEA_Borg
+Co1 Cr1 Fe1 Ni1,FCC,163.0,80.0,8.2,MPEA_Borg
+Co1 Cr1 Fe1 Ni1 W0.2,FCC,335.0,52.0,8.9,MPEA_Borg
+Co1 Cr1 Fe1 Ni1 W0.5,SS + Intermetálicos,556.0,35.6,9.8,MPEA_Borg
+Cr1 Fe1 Mo1 Nb1 V1,SS + Intermetálicos,2663.0,2.7,8.1,MPEA_Borg
+Cr1 Fe1 Mo1 Nb1 Ti1,SS + Intermetálicos,1647.0,0.9,7.6,MPEA_Borg
+Fe1 Mo1 Nb1 Ti1 V1,SS + Intermetálicos,1707.0,1.7,7.4,MPEA_Borg
+Al0.15 Cr0.5 Cu0.25 Fe0.5 Ni1,FCC,62.0,98.0,7.8,MPEA_Borg
+Al0.15 Cr0.5 Cu0.25 Fe0.5 Ni1,SS + Intermetálicos,350.0,73.0,7.8,MPEA_Borg
+Al0.15 Cr0.5 Cu0.25 Fe0.5 Ni1,SS + Intermetálicos,535.0,39.0,7.8,MPEA_Borg
+Al0.15 Cr0.5 Cu0.25 Fe0.5 Ni1,SS + Intermetálicos,255.0,88.0,7.8,MPEA_Borg
+Co1 Cr1 Fe1 Ni1 Ti0.3,FCC,540.0,60.0,7.8,MPEA_Borg
+Co0.333 Cr0.667 Fe0.667 Ni1 Ti0.2,FCC,586.0,46.0,7.8,MPEA_Borg
+Cr0.5 Fe0.5 Ni1 Ti0.15,FCC,672.0,37.0,7.8,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,573.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,486.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,378.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,314.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,232.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,222.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,210.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,160.0,,10.0,MPEA_Borg
+Al1 Nb1 Ta1 Ti1,BCC,1152.0,,8.2,MPEA_Borg
+Al1 Nb1 Ta1 Ti1,BCC,740.0,,8.2,MPEA_Borg
+Al1 Nb1 Ta1 Ti1,BCC,740.0,,8.2,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,1210.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,1071.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,1029.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,868.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,732.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,685.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,593.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,564.0,,10.0,MPEA_Borg
+Mo1 Nb1 Ta1 Ti1,BCC,539.0,,10.0,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,1054.0,,12.1,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,968.0,,12.1,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,869.0,,12.1,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,754.0,,12.1,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,627.0,,12.1,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,596.0,,12.1,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,564.0,,12.1,MPEA_Borg
+Nb1 Ta1 Ti1 W1,BCC,459.0,,12.1,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1,BCC,860.0,,10.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1,BCC,834.0,,10.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1,BCC,610.0,,10.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1,BCC,473.0,,10.9,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1,BCC,1630.0,,7.6,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1,BCC,1268.0,,7.6,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1,BCC,1115.0,,7.6,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1,BCC,1062.0,,7.6,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1,BCC,1058.0,,7.6,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1795.0,,9.9,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1506.0,,9.9,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1266.0,,9.9,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1183.0,,9.9,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1175.0,,9.9,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1162.0,,9.9,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1162.0,,9.9,MPEA_Borg
+Cr1 Mo1 Ta1 Ti1,SS + Intermetálicos,1159.0,,9.9,MPEA_Borg
+Hf0.25 Ti1 V0.5 Zr0.5,BCC,1160.0,50.0,6.5,MPEA_Borg
+Hf0.25 Ti1 V0.5 Zr0.5,BCC,405.0,50.0,6.5,MPEA_Borg
+Hf0.25 Ti1 V0.5 Zr0.5,BCC,85.0,50.0,6.5,MPEA_Borg
+Hf0.25 Nb0.125 Ti1 V0.5 Zr0.5,BCC,1115.0,50.0,6.6,MPEA_Borg
+Hf0.25 Nb0.25 Ti1 V0.5 Zr0.5,BCC,1065.0,50.0,6.7,MPEA_Borg
+Hf0.25 Nb0.25 Ti1 V0.5 Zr0.5,BCC,718.0,50.0,6.7,MPEA_Borg
+Hf0.25 Nb0.25 Ti1 V0.5 Zr0.5,BCC,135.0,50.0,6.7,MPEA_Borg
+Hf0.25 Nb0.375 Ti1 V0.5 Zr0.5,BCC,1025.0,50.0,6.8,MPEA_Borg
+Hf0.25 Nb0.5 Ti1 V0.5 Zr0.5,BCC,980.0,50.0,6.9,MPEA_Borg
+Hf0.25 Nb0.5 Ti1 V0.5 Zr0.5,BCC,859.0,50.0,6.9,MPEA_Borg
+Hf0.25 Nb0.5 Ti1 V0.5 Zr0.5,BCC,195.0,50.0,6.9,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,1190.0,4.3,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,1170.0,10.7,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,1030.0,11.4,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,970.0,12.1,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,850.0,14.3,8.1,MPEA_Borg
+Cr1 Cu1 Fe1 Mn1 Ni1,SS + Intermetálicos,470.0,34.8,8.1,MPEA_Borg
+Co0.476 Cr0.476 Fe0.476 Nb0.095 Ni1,SS + Intermetálicos,170.0,32.0,8.3,MPEA_Borg
+Co0.476 Cr0.476 Fe0.476 Nb0.19 Ni1,SS + Intermetálicos,640.0,7.0,8.4,MPEA_Borg
+Co0.476 Cr0.476 Fe0.476 Nb0.095 Ni1,SS + Intermetálicos,560.0,19.0,8.3,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,FCC + BCC,1221.1,30.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,FCC + BCC,1186.7,33.0,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,FCC + BCC,1112.9,30.0,6.7,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1 W1,SS + Intermetálicos,2500.0,10.0,9.9,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1 W1,SS + Intermetálicos,1260.0,4.8,9.9,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1 W1,SS + Intermetálicos,1630.0,4.85,9.9,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1 W1,SS + Intermetálicos,2030.0,4.3,9.9,MPEA_Borg
+Cr1 Mo1 Nb1 Ti1 W1,SS + Intermetálicos,1920.0,5.0,9.9,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,520.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1150.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1287.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1286.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1390.0,,6.7,MPEA_Borg
+Al1 Co1 Cr1 Fe1 Ni1,SS + Intermetálicos,1626.0,,6.7,MPEA_Borg
+Co0.25 Cr0.25 Fe1 Mn1,FCC,213.0,55.7,7.7,MPEA_Borg
+Co0.25 Cr0.25 Fe1 Mn1,FCC,393.0,26.5,7.7,MPEA_Borg
+Co0.25 Cr0.25 Fe1 Mn1,FCC,792.0,22.6,7.7,MPEA_Borg
+Co0.25 Cr0.25 Fe1 Mn1,FCC,559.0,33.9,7.7,MPEA_Borg
+Co0.25 Cr0.25 Fe1 Mn1,FCC,512.0,55.3,7.7,MPEA_Borg
+Co0.25 Cr0.25 Fe1 Mn1,FCC,476.0,69.4,7.7,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,353.0,,8.0,MPEA_Borg
+C0.041 Co1 Cr1 Fe1 Mn1 Nb0.041 Ni1,SS + Intermetálicos,732.0,,8.0,MPEA_Borg
+Al0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,1500.0,6.0,7.3,MPEA_Borg
+Al0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,1200.0,8.0,7.3,MPEA_Borg
+Al0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,2100.0,12.0,7.3,MPEA_Borg
+Al0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,1740.0,20.0,7.3,MPEA_Borg
+Al0.5 Nb1 Ta0.5 Ti1 Zr1,SS + Intermetálicos,1630.0,12.0,7.3,MPEA_Borg
+Mo1 Nb1 Ta1 W1,BCC,1217.0,7.5,13.7,MPEA_Borg
+Mo1 Nb1 Si0.25 Ta1 W1,SS + Intermetálicos,1826.0,16.5,12.9,MPEA_Borg
+Mo1 Nb1 Si0.5 Ta1 W1,SS + Intermetálicos,1883.0,11.0,12.2,MPEA_Borg
+Mo1 Nb1 Si0.75 Ta1 W1,SS + Intermetálicos,2483.0,6.2,11.6,MPEA_Borg
+Mo1 Nb1 Si0.75 Ta1 W1,SS + Intermetálicos,960.0,22.7,11.6,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1199.26,4.37,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1269.23,1.16,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1371.21,1.58,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1362.74,3.15,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1241.81,4.31,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,930.3,19.01,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,729.21,26.3,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,494.82,38.7,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,366.88,42.55,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,290.65,43.15,8.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,258.76,45.05,8.0,MPEA_Borg
+C0.1 Co1 Cr1 Fe1 Mn1 Ni1 Ti0.1,SS + Intermetálicos,1616.0,,7.8,MPEA_Borg
+C0.1 Co1 Cr1 Fe1 Mn1 Ni1 Ti0.1,SS + Intermetálicos,1652.0,,7.8,MPEA_Borg
+C0.1 Co1 Cr1 Fe1 Mn1 Ni1 Ti0.1,SS + Intermetálicos,1490.0,,7.8,MPEA_Borg
+C0.1 Co1 Cr1 Fe1 Mn1 Ni1 Ti0.1,SS + Intermetálicos,1194.0,,7.8,MPEA_Borg
+Al0.143 Cr0.343 Fe1 Mn0.8 Ni0.571,FCC,280.0,48.0,7.5,MPEA_Borg
+Al0.286 Cr0.343 Fe1 Mn0.657 Ni0.571,FCC,320.0,42.2,7.2,MPEA_Borg
+Al0.143 Cr0.343 Fe1 Mn0.8 Ni0.571,FCC,1253.0,6.78,7.5,MPEA_Borg
+Al0.286 Cr0.343 Fe1 Mn0.657 Ni0.571,FCC,1400.0,5.83,7.2,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.15 Ni1,FCC,489.0,,8.3,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.15 Ni1,SS + Intermetálicos,873.0,,8.3,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.15 Ni1,SS + Intermetálicos,952.0,,8.3,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.15 Ni1,FCC,1136.0,,8.3,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.15 Ni1,FCC,1301.0,,8.3,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.15 Ni1,SS + Intermetálicos,1311.0,,8.3,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.15 Ni1,SS + Intermetálicos,1273.0,,8.3,MPEA_Borg
+Co0.139 Cr0.446 Cu0.99 Ni1 Si0.277,SS + Intermetálicos,777.0,3.4,7.6,MPEA_Borg
+Al1 Co1 Cu1 Fe1 Ni0.5,SS + Intermetálicos,929.0,13.7,6.9,MPEA_Borg
+Al1 Co1 Cu1 Fe1 Ni0.8,SS + Intermetálicos,1021.0,12.3,7.0,MPEA_Borg
+Al1 Co1 Cu1 Fe1 Ni1,SS + Intermetálicos,994.0,24.5,7.0,MPEA_Borg
+Al0.667 Co0.667 Cu0.667 Fe0.667 Ni1,SS + Intermetálicos,680.0,35.9,7.2,MPEA_Borg
+Al0.5 Co0.5 Cu0.5 Fe0.5 Ni1,SS + Intermetálicos,544.0,,7.3,MPEA_Borg
+Al0.333 Co0.333 Cu0.333 Fe0.333 Ni1,FCC,268.0,,7.5,MPEA_Borg
+Al0.5 Cr1 Fe1 Mn1 Ni1,SS + Intermetálicos,1091.0,50.0,7.1,MPEA_Borg
+Al0.6 Cr1 Fe1 Mn1 Ni1,SS + Intermetálicos,1130.0,53.0,6.9,MPEA_Borg
+Al0.7 Cr1 Fe1 Mn1 Ni1,SS + Intermetálicos,1170.0,55.0,6.8,MPEA_Borg
+Al0.8 Cr1 Fe1 Mn1 Ni1,SS + Intermetálicos,1200.0,55.0,6.7,MPEA_Borg
+Co1 Cr0.2 Fe1 Ni1 Si0.2,FCC,225.0,61.0,7.8,MPEA_Borg
+Co1 Cr0.2 Fe1 Ni1 Si0.2,FCC,705.0,10.0,7.8,MPEA_Borg
+Co1 Cr0.2 Fe1 Ni1 Si0.2,FCC,320.0,60.0,7.8,MPEA_Borg
+Al1 Cu0.077 Fe0.077 Mg0.077 Si0.231 Zn0.077,FCC,422.0,1.0,3.2,MPEA_Borg
+Al1 Cu0.077 Mg0.077 Ni0.077 Si0.231 Zn0.077,FCC,534.0,1.0,3.2,MPEA_Borg
+Al1 Cr0.077 Cu0.077 Mg0.077 Si0.231 Zn0.077,FCC,490.0,6.0,3.1,MPEA_Borg
+Al1 Cu0.077 Mg0.077 Mn0.077 Si0.231 Zn0.077,FCC,622.0,2.0,3.2,MPEA_Borg
+Al1 Cu0.077 Mg0.077 Si0.231 Zn0.077 Zr0.077,SS + Intermetálicos,565.0,4.0,3.2,MPEA_Borg
+Co1 Cr1 Fe1 Mo0.2 Ni1,FCC,400.0,53.0,8.3,MPEA_Borg
+Al0.569 Ca0.143 Li0.857 Mg1 Si0.286 Y0.003,SS + Intermetálicos,556.0,3.0,1.6,MPEA_Borg
+Al0.429 Ca0.286 Li1 Mg1 Si0.143,SS + Intermetálicos,418.0,13.0,1.4,MPEA_Borg
+Al0.312 Ca0.021 Li0.792 Mg1 Si0.021,SS + Intermetálicos,360.0,9.0,1.4,MPEA_Borg
+Al0.333 Ca0.011 Li0.844 Mg1 Si0.033,SS + Intermetálicos,342.0,44.0,1.4,MPEA_Borg
+Al0.333 Ca0.011 Li0.867 Mg1 Si0.011,SS + Intermetálicos,300.0,63.0,1.4,MPEA_Borg
+Co1 Cr1 Fe1 Mn0.2 Ni1 Pd1,SS + Intermetálicos,650.0,50.0,9.1,MPEA_Borg
+Co1 Cr1 Fe1 Mn0.4 Ni1 Pd1,SS + Intermetálicos,650.0,46.0,9.1,MPEA_Borg
+Co1 Cr1 Fe1 Mn0.6 Ni1 Pd1,SS + Intermetálicos,650.0,42.0,9.0,MPEA_Borg
+Co1 Cr1 Fe1 Mn0.8 Ni1 Pd1,SS + Intermetálicos,650.0,35.0,8.9,MPEA_Borg
+Cr1 Fe1 Ni1 Ti0.2,FCC + BCC,2297.94,5.8,7.6,MPEA_Borg
+Cr1 Fe1 Ni1 Ti0.3,FCC + BCC,2364.63,,7.5,MPEA_Borg
+Cr1 Fe1 Ni1 Ti0.4,BCC,2475.41,6.5,7.4,MPEA_Borg
+Cr1 Fe1 Ni1 Ti0.5,BCC,2380.79,,7.3,MPEA_Borg
+Cr1 Fe1 Ni1 Ti0.6,BCC,1923.15,,7.2,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Mn1,SS + Intermetálicos,1010.0,,6.5,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Mn1 W0.05,SS + Intermetálicos,1120.0,,6.7,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Mn1 W0.1,SS + Intermetálicos,1250.0,,6.8,MPEA_Borg
+Al1 Cr1 Cu1 Fe1 Mn1 W0.5,SS + Intermetálicos,1510.0,,7.9,MPEA_Borg
+Co0.2 Cu0.2 Fe0.2 Nb1 Ni0.2,SS + Intermetálicos,1498.0,37.6,8.6,MPEA_Borg
+Co0.133 Cu0.133 Fe0.133 Nb1 Ni0.133,SS + Intermetálicos,1635.0,31.7,8.6,MPEA_Borg
+Co0.086 Cu0.086 Fe0.086 Nb1 Ni0.086,SS + Intermetálicos,1703.0,18.3,8.6,MPEA_Borg
+Co0.067 Cu0.067 Fe0.067 Nb1 Ni0.067,SS + Intermetálicos,1415.0,12.6,8.6,MPEA_Borg
+Al0.186 Cr0.149 Fe1 Mn0.861 Ni0.28,SS + Intermetálicos,159.0,,7.3,MPEA_Borg
+Al0.186 Cr0.149 Fe1 Mn0.861 Ni0.28,SS + Intermetálicos,409.0,,7.3,MPEA_Borg
+Al0.186 Cr0.149 Fe1 Mn0.861 Ni0.28,SS + Intermetálicos,355.0,,7.3,MPEA_Borg
+Al0.186 Cr0.149 Fe1 Mn0.861 Ni0.28,SS + Intermetálicos,954.0,,7.3,MPEA_Borg
+Hf1 Ti1 Zr1,SS + Intermetálicos,773.0,17.0,8.3,MPEA_Borg
+Hf1 Sc1 Ti1 Zr1,SS + Intermetálicos,1001.0,21.9,6.8,MPEA_Borg
+Hf1 Ti1 Y1 Zr1,SS + Intermetálicos,554.0,17.7,7.0,MPEA_Borg
+Hf1 Sc1 Ti1 Y1 Zr1,SS + Intermetálicos,793.0,15.7,6.2,MPEA_Borg
+Al0.562 Co0.938 Cr0.312 Fe0.312 Ni1,FCC + BCC,1129.4,16.7,7.1,MPEA_Borg
+Al0.581 Co0.968 Cr0.323 Fe0.323 Mo0.032 Ni1,FCC + BCC,1159.7,18.2,7.1,MPEA_Borg
+Al0.6 Co1 Cr0.333 Fe0.333 Mo0.067 Ni1,FCC + BCC,1250.8,14.7,7.1,MPEA_Borg
+Al0.6 Co1 Cr0.333 Fe0.333 Mo0.1 Ni0.967,FCC + BCC,1198.3,14.5,7.2,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1,FCC,300.0,50.2,8.3,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 V0.042,SS + Intermetálicos,303.0,50.2,8.3,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 V0.087,SS + Intermetálicos,307.0,50.2,8.3,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 V0.136,SS + Intermetálicos,330.0,50.2,8.3,MPEA_Borg
+Co1 Cr1 Cu1 Fe1 Ni1 V0.19,SS + Intermetálicos,616.0,28.0,8.2,MPEA_Borg
+Co1 Cr1 Cu1 Ni1 Zn1,SS + Intermetálicos,2121.0,,8.1,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1155.0,12.3,9.9,MPEA_Borg
+Nb1 Ta1 Ti1 Zr1,BCC,1144.0,6.4,8.9,MPEA_Borg
+Nb1 Ta1 Ti1,BCC,620.0,18.5,10.0,MPEA_Borg
+Nb1 Ti1 Zr1,BCC,956.0,14.2,6.5,MPEA_Borg
+Nb1 Ta0.667 Ti0.667 Zr0.333,SS + Intermetálicos,822.0,0.33,9.2,MPEA_Borg
+Co1 Cr1 Fe1 Mn1 Ni1,FCC,1100.0,47.0,8.0,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,1512.0,12.0,9.9,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,1600.0,4.0,10.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,1351.0,20.0,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Zr1,BCC,1524.0,16.0,10.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1,BCC,1369.0,27.0,10.8,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,1007.0,,9.9,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,1045.0,,10.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,829.0,,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Zr1,BCC,1005.0,,10.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1,BCC,822.0,,10.8,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,814.0,,9.9,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,855.0,,10.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,721.0,,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Zr1,BCC,927.0,,10.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1,BCC,778.0,,10.8,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1 Zr1,BCC,556.0,,9.9,MPEA_Borg
+Hf1 Mo1 Ta1 Ti1 Zr1,BCC,404.0,,10.2,MPEA_Borg
+Hf1 Mo1 Nb1 Ti1 Zr1,BCC,301.0,,8.7,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Zr1,BCC,694.0,,10.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1,BCC,699.0,,10.8,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Zr1,BCC,278.0,,10.9,MPEA_Borg
+Hf1 Mo1 Nb1 Ta1 Ti1,BCC,367.0,,10.8,MPEA_Borg
+Al0.267 Co1 Cr0.667 Fe0.667 Ni0.667 Ti0.2,FCC + BCC,2012.0,,7.3,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1438.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1159.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1134.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1094.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1071.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1107.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1115.0,,9.9,MPEA_Borg
+Hf1 Nb1 Ta1 Ti1 Zr1,BCC,1114.0,,9.9,MPEA_Borg
+Al1 Nb1 Ti1 Zr1,SS + Intermetálicos,1509.0,8.6,5.7,MPEA_Borg
+Al1 Nb1 Ti1 Zr1,SS + Intermetálicos,1579.0,17.8,5.7,MPEA_Borg
+Al1 Nb1 Ti1 V1 Zr0.5,SS + Intermetálicos,1480.0,50.0,5.6,MPEA_Borg
+Al1 Nb1 Ti1 Zr1,SS + Intermetálicos,1080.0,5.9,5.7,MPEA_Borg
+Nb1 Ti1 V1 Zr1,SS + Intermetálicos,1105.0,50.0,6.5,MPEA_Borg
+Cr1 Nb1 Ti1 Zr1,SS + Intermetálicos,1260.0,6.0,6.6,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.5 Ni1,SS + Intermetálicos,1914.1,,6.8,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.5 Ni1 Ti0.25,SS + Intermetálicos,2161.7,,6.6,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.5 Ni1 Ti0.4,SS + Intermetálicos,2185.1,,6.5,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.5 Ni1 Ti0.5,SS + Intermetálicos,2228.7,,6.5,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.5 Ni1 Ti0.6,SS + Intermetálicos,1314.5,,6.4,MPEA_Borg
+Al1 Cr1 Fe1 Mo0.5 Ni1 Ti0.75,SS + Intermetálicos,618.8,,6.4,MPEA_Borg
+Nb6.7 Ta6.7 Ti40.0 V6.7 Zr40.0,BCC,850.0,8.0,7.16,Zenodo_2026
+Nb6.7 Ta6.7 Ti40.0 V6.7 Zr40.0,BCC,920.0,10.0,7.16,Zenodo_2026
+Nb22.1 Ta21.2 Ti33.4 V23.2,BCC,691.0,18.2,8.62,Zenodo_2026
+Nb24.1 Ta25.7 Ti25.2 V25.0,BCC,727.0,26.9,9.12,Zenodo_2026
+Nb25.0 Ti25.0 V25.0 Zr25.0,BCC,1055.0,5.0,6.5,Zenodo_2026
+Nb25.0 Ti35.0 V5.0 Zr35.0,BCC,1152.0,9.76,6.87,Zenodo_2026
+Nb25.0 Ta10.0 Ti40.0 Zr25.0,BCC,875.0,18.0,7.36,Zenodo_2026
+Nb25.0 Ta25.0 Ti25.0 V25.0,BCC,804.0,12.8,9.12,Zenodo_2026
+Nb26.7 Ti26.7 V20.0 Zr26.7,BCC,975.0,8.0,6.6,Zenodo_2026
+Nb27.8 Ta30.3 Ti14.2 V27.7,BCC,874.0,17.5,10.55,Zenodo_2026
+Nb28.6 Ti28.6 V14.3 Zr28.6,BCC,899.0,15.0,6.65,Zenodo_2026
+Nb30.8 Ti30.8 V7.7 Zr30.8,BCC,796.0,22.0,6.77,Zenodo_2026
+Nb33.3 Ti33.3 Zr33.3,BCC,893.0,13.6,7.51,Zenodo_2026
+Nb33.3 Ti33.3 Zr33.3,BCC,630.0,21.0,7.51,Zenodo_2026
+Nb33.3 Ti33.3 Zr33.3,BCC,985.0,12.5,7.51,Zenodo_2026
+Nb35.1 Ta27.9 V37.0,BCC,1033.0,19.5,10.67,Zenodo_2026
+Mo8.9 Nb25.3 Ti40.5 Zr25.3,BCC,930.0,15.4,7.29,Zenodo_2026
+Hf20.0 Nb20.0 Ta20.0 Ti20.0 Zr20.0,BCC,987.5,9.9,9.58,Zenodo_2026
+Hf20.0 Nb20.0 Ta20.0 Ti20.0 Zr20.0,BCC,1438.0,5.0,9.58,Zenodo_2026
+Hf20.0 Nb20.0 Ta20.0 Ti20.0 Zr20.0,BCC,830.0,9.2,9.58,Zenodo_2026
+Hf20.0 Nb20.0 Ta20.0 Ti20.0 V20.0,BCC,1340.0,5.78,9.51,Zenodo_2026
+Hf25.0 Nb25.0 Ti25.0 Zr25.0,BCC,1116.0,6.0,8.27,Zenodo_2026
+Hf25.0 Nb25.0 Ti25.0 Zr25.0,BCC,676.59,33.21,8.27,Zenodo_2026
+Hf25.0 Nb25.0 Ti25.0 Zr25.0,BCC,879.0,14.9,8.27,Zenodo_2026
+Hf26.3 Nb21.1 Ti26.3 Zr26.3,BCC,686.87,32.33,8.29,Zenodo_2026
+Hf27.8 Nb16.7 Ti27.8 Zr27.8,BCC,724.49,21.87,8.29,Zenodo_2026
+Hf29.4 Nb11.8 Ti29.4 Zr29.4,BCC,726.47,8.76,8.29,Zenodo_2026
+Fe50.0 Ni50.0,FCC,180.0,36.0,8.53,Zenodo_2026
+Cu25.0 Fe25.0 Mn25.0 Ni25.0,FCC,400.0,38.0,8.24,Zenodo_2026
+Cu33.3 Fe33.3 Mn33.3,FCC,470.0,25.0,8.17,Zenodo_2026
+Cr1.7 Mo1.8 Nb11.3 Ti74.2 V11.0,BCC,1022.0,3.81,7.65,Zenodo_2026
+Cr2.1 Mo2.4 Nb12.3 Ti70.1 V13.1,BCC,1180.0,4.69,7.59,Zenodo_2026
+Cr3.1 Mo2.9 Nb14.2 Ti66.1 V13.7,BCC,1138.0,6.12,7.47,Zenodo_2026
+Cr3.5 Mo3.6 Nb14.6 Ti62.9 V15.4,BCC,1122.0,7.93,7.43,Zenodo_2026
+Cr4.0 Fe40.0 Mn28.0 Ni28.0,FCC,210.0,71.0,8.05,Zenodo_2026
+Cr4.4 Mo4.3 Nb15.7 Ti59.3 V16.3,BCC,975.0,10.97,7.33,Zenodo_2026
+Cr5.1 Mo5.1 Nb16.3 Ti56.4 V17.1,BCC,1213.0,13.82,7.29,Zenodo_2026
+Cr6.1 Mo6.0 Nb17.7 Ti52.5 V17.7,BCC,1111.0,15.42,7.29,Zenodo_2026
+Cr9.9 Cu23.8 Fe9.9 Mn32.7 Ni23.8,FCC,386.0,7.3,8.28,Zenodo_2026
+Cr10.0 Cu25.0 Fe10.0 Mn30.0 Ni25.0,FCC,385.0,19.3,8.27,Zenodo_2026
+Cr11.0 Cu26.0 Fe11.0 Mn26.0 Ni26.0,FCC,439.0,23.4,8.26,Zenodo_2026
+Cr11.0 Cu28.0 Fe11.0 Mn22.0 Ni28.0,FCC,427.0,20.5,8.26,Zenodo_2026
+Cr12.0 Fe40.0 Mn28.0 Ni20.0,FCC,245.0,66.0,7.94,Zenodo_2026
+Cr12.0 Cu29.0 Fe12.0 Mn18.0 Ni29.0,FCC,407.0,20.5,8.27,Zenodo_2026
+Cr12.2 Cu31.6 Fe12.2 Mn12.2 Ni31.6,FCC,401.0,21.2,8.27,Zenodo_2026
+Cr13.1 Cu33.3 Fe13.1 Mn7.1 Ni33.3,FCC,353.0,22.0,8.27,Zenodo_2026
+Cr14.0 Cu36.0 Fe14.0 Ni36.0,FCC,332.0,19.2,8.26,Zenodo_2026
+Cr15.0 Fe20.0 Ni45.0 V20.0,FCC,715.0,19.6,7.91,Zenodo_2026
+Cr18.0 Fe40.0 Mn28.0 Ni14.0,FCC,310.0,54.0,7.78,Zenodo_2026
+Cr18.2 Fe27.3 Mn27.3 Ni27.3,FCC,262.0,36.4,7.94,Zenodo_2026
+Cr20.0 Fe40.0 Mn20.0 Ni20.0,FCC,350.0,61.0,7.82,Zenodo_2026
+Cr20.0 Fe40.0 Mn20.0 Ni20.0,FCC,740.0,16.0,7.82,Zenodo_2026
+Cr20.0 Cu20.0 Fe20.0 Mn20.0 Ni20.0,SS + Intermetálicos,342.0,10.9,8.12,Zenodo_2026
+Cr20.0 Cu20.0 Fe20.0 Mn20.0 Ni20.0,SS + Intermetálicos,634.0,7.6,8.12,Zenodo_2026
+Cr20.0 Cu20.0 Fe20.0 Mn20.0 Ni20.0,SS + Intermetálicos,1184.0,4.15,8.12,Zenodo_2026
+Cr25.0 Fe25.0 Mn25.0 Ni25.0,FCC,269.0,36.1,7.82,Zenodo_2026
+Cr25.0 Fe25.0 Mn25.0 Ni25.0,FCC,365.0,49.6,7.82,Zenodo_2026
+Cr25.0 Cu12.5 Fe25.0 Mn12.5 Ni25.0,SS + Intermetálicos,587.5,28.7,8.03,Zenodo_2026
+Co5.0 Cr2.0 Fe40.0 Mn27.0 Ni26.0,FCC,107.5,58.5,8.03,Zenodo_2026
+Co5.0 Cr2.0 Fe40.0 Mn27.0 Ni26.0,FCC,720.0,17.0,8.03,Zenodo_2026
+Co6.0 Cr2.0 Fe26.0 Mn38.0 Ni28.0,FCC,132.0,57.4,8.04,Zenodo_2026
+Co6.0 Cr2.0 Fe41.0 Mn24.0 Ni27.0,FCC,118.0,57.5,8.04,Zenodo_2026
+Co6.0 Cr2.0 Fe42.0 Mn21.0 Ni29.0,FCC,113.0,57.4,8.08,Zenodo_2026
+Co6.1 Cr2.0 Fe29.3 Mn34.3 Ni28.3,FCC,138.0,57.9,8.02,Zenodo_2026
+Co9.0 Cr7.0 Cu36.0 Mn25.0 Ni23.0,FCC,401.0,36.0,8.28,Zenodo_2026
+Co10.0 Cu20.0 Mn30.0 Ni40.0,FCC,457.0,35.2,8.3,Zenodo_2026
+Co10.0 Cr10.0 Fe10.0 Mn10.0 Ni60.0,FCC,308.0,35.0,8.28,Zenodo_2026
+Co10.0 Cr10.0 Fe20.0 Mn50.0 Ni10.0,SS + Intermetálicos,248.0,43.0,7.76,Zenodo_2026
+Co10.0 Cr10.0 Fe20.0 Mn50.0 Ni10.0,SS + Intermetálicos,341.0,55.0,7.76,Zenodo_2026
+Co10.0 Cr10.0 Fe40.0 Mn40.0,FCC,213.0,57.7,7.71,Zenodo_2026
+Co10.0 Cr10.0 Fe40.0 Mn40.0,FCC,177.0,50.4,7.71,Zenodo_2026
+Co10.0 Cr10.0 Fe40.0 Mn40.0,FCC,272.0,47.0,7.71,Zenodo_2026
+Co10.0 Cr10.0 Fe45.0 Ni25.0 V10.0,FCC,339.0,47.0,7.99,Zenodo_2026
+Co10.0 Cr10.0 Fe50.0 Mn30.0,SS + Intermetálicos,256.0,28.46666666666667,7.77,Zenodo_2026
+Co10.0 Cr10.0 Fe50.0 Mn30.0,SS + Intermetálicos,1214.0,13.0,7.77,Zenodo_2026
+Co10.0 Cr10.0 Fe50.0 Mn30.0,SS + Intermetálicos,250.0,50.0,7.77,Zenodo_2026
+Co10.0 Cr10.0 Fe50.0 Mn30.0,SS + Intermetálicos,288.0,68.0,7.77,Zenodo_2026
+Co10.0 Cr15.0 Fe30.0 Mn10.0 Ni25.0 V10.0,SS + Intermetálicos,544.0,46.2,7.88,Zenodo_2026
+Co10.0 Cr15.0 Fe35.0 Mn5.0 Ni25.0 V10.0,FCC,761.0,28.3,7.9,Zenodo_2026
+Co10.0 Cr15.0 Fe35.0 Mn5.0 Ni25.0 V10.0,FCC,470.0,52.75,7.9,Zenodo_2026
+Co10.0 Cr15.0 Fe40.0 Ni25.0 V10.0,FCC,397.0,58.0,7.93,Zenodo_2026
+Co10.0 Cr25.0 Fe20.0 Mn5.0 Ni40.0,FCC,367.0,44.2,8.15,Zenodo_2026
+Co12.2 Cr12.2 Fe51.0 Mn12.2 Ni12.2,FCC,1330.0,9.0,7.98,Zenodo_2026
+Co15.2 Fe21.2 Ni46.5 Ti5.1 V12.1,FCC,560.0,9.6,8.05,Zenodo_2026
+Co16.7 Cr16.7 Cu33.3 Fe16.7 Ni16.7,FCC,142.9,54.54,8.29,Zenodo_2026
+Co17.2 Cr12.1 Fe55.6 Mo5.1 Ni10.1,SS + Intermetálicos,1424.0,10.7,8.16,Zenodo_2026
+Co17.6 Cr17.6 Cu29.4 Fe17.6 Ni17.6,FCC,970.0,6.1,8.3,Zenodo_2026
+Co18.2 Cr12.1 Fe55.6 Mo7.1 Ni7.1,SS + Intermetálicos,1502.0,11.4,8.17,Zenodo_2026
+Co18.2 Cr18.2 Cu27.3 Fe18.2 Ni18.2,FCC,148.33,41.67,8.31,Zenodo_2026
+Co19.6 Cr19.6 Fe19.6 Ni41.2,FCC,130.0,72.0,8.31,Zenodo_2026
+Co20.0 Cu20.0 Fe20.0 Mn20.0 Ni20.0,FCC,361.0,32.1,8.38,Zenodo_2026
+Co20.0 Cr10.0 Fe45.0 Ni15.0 V10.0,FCC,345.0,52.6,7.94,Zenodo_2026
+Co20.0 Cr10.0 Fe45.0 Ni15.0 V10.0,FCC,294.0,36.0,7.94,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Ni40.0,FCC,358.5,56.6,8.31,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,231.66666666666663,59.333333333333336,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,162.0,68.0,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,387.0,57.0,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,371.0,54.0,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,243.0,54.85,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,249.0,45.0,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,1120.0,14.0,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,685.0,21.0,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,225.0,60.0,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,196.7,65.5,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe20.0 Mn20.0 Ni20.0,FCC,378.7,48.75,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe21.0 Mn18.0 Ni21.0,FCC,189.0,52.3,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe21.0 Mn18.0 Ni21.0,FCC,856.0,11.5,8.02,Zenodo_2026
+Co20.0 Cr20.0 Fe30.0 Mn24.0 Ni6.0,FCC,192.0,52.2,7.81,Zenodo_2026
+Co20.0 Cr20.0 Fe30.0 Mn24.0 Ni6.0,FCC,523.0,28.4,7.81,Zenodo_2026
+Co20.0 Cr20.0 Fe34.0 Mn15.0 Ni11.0,FCC,160.0,64.9,7.91,Zenodo_2026
+Co20.0 Cr20.0 Fe34.0 Mn15.0 Ni11.0,FCC,470.0,68.5,7.91,Zenodo_2026
+Co20.0 Cr20.0 Fe40.0 Ni20.0,FCC,150.0,37.0,8.13,Zenodo_2026
+Co20.0 Cr20.0 Fe40.0 Ni20.0,FCC,392.6,62.4,8.13,Zenodo_2026
+Co20.0 Cr20.0 Fe40.0 Mn10.0 Ni10.0,FCC,1060.0,27.5,7.95,Zenodo_2026
+Co20.0 Cr20.0 Cu20.0 Mn20.0 Ni20.0,FCC,458.0,40.0,8.23,Zenodo_2026
+Co20.0 Cr20.0 Cu20.0 Fe20.0 Ni20.0,FCC,386.53,35.62,8.31,Zenodo_2026
+Co20.0 Cr20.0 Cu20.0 Fe20.0 Ni20.0,FCC,1021.0,7.1,8.31,Zenodo_2026
+Co20.0 Cr25.0 Fe10.0 Mn5.0 Ni40.0,FCC,476.0,46.0,8.25,Zenodo_2026
+Co20.0 Cr26.0 Fe20.0 Mn20.0 Ni14.0,FCC,190.0,52.8,7.86,Zenodo_2026
+Co20.0 Cr26.0 Fe20.0 Mn20.0 Ni14.0,FCC,1420.0,5.4,7.86,Zenodo_2026
+Co21.0 Fe21.0 Mo4.0 Ni43.0 V11.0,FCC,252.0,82.1,8.36,Zenodo_2026
+Co21.0 Fe21.0 Mo4.0 Ni43.0 V11.0,FCC,1330.0,5.8,8.36,Zenodo_2026
+Co21.0 Cr18.0 Fe35.0 Mn20.0 Ni6.0,SS + Intermetálicos,256.0,51.0,7.88,Zenodo_2026
+Co21.0 Cr18.0 Fe35.0 Mn20.0 Ni6.0,SS + Intermetálicos,383.0,53.0,7.88,Zenodo_2026
+Co21.3 Fe21.3 Mo4.3 Ni42.6 V10.6,FCC,252.0,82.1,8.37,Zenodo_2026
+Co22.2 Cr22.2 Cu11.1 Fe22.2 Ni22.2,FCC,353.99,29.48,8.31,Zenodo_2026
+Co23.0 Cr20.0 Fe20.0 Mn20.0 Ni17.0,FCC,320.0,56.4,8.05,Zenodo_2026
+Co23.0 Cr23.0 Mn31.0 Ni23.0,FCC,400.0,64.4,8.09,Zenodo_2026
+Co23.0 Cr23.0 Mn31.0 Ni23.0,FCC,740.0,43.9,8.09,Zenodo_2026
+Co23.2 Cr23.2 Fe23.2 Mo7.1 Ni23.2,SS + Intermetálicos,305.0,49.3,8.4,Zenodo_2026
+Co23.2 Cr23.2 Fe23.2 Mo7.1 Ni23.2,SS + Intermetálicos,816.0,18.9,8.4,Zenodo_2026
+Co23.3 Fe23.3 Ni46.5 Ti7.0,FCC,672.0,37.0,8.16,Zenodo_2026
+Co23.8 Cr23.8 Fe23.8 Mo2.5 Ni23.8 W2.5,FCC,379.0,40.2,8.48,Zenodo_2026
+Co23.8 Cr23.8 Fe23.8 Mo2.5 Ni23.8 W2.5,FCC,1337.0,9.4,8.48,Zenodo_2026
+Co23.8 Cr23.8 Fe23.8 Mo5.0 Ni23.8,FCC,255.0,55.1,8.3,Zenodo_2026
+Co23.8 Cr23.8 Fe23.8 Ni23.8 W4.8,FCC,362.0,34.0,8.63,Zenodo_2026
+Co23.8 Cr23.8 Fe23.8 Ni23.8 Ti4.8,SS + Intermetálicos,280.0,47.0,7.92,Zenodo_2026
+Co24.0 Cr24.0 Fe24.0 Mo4.0 Ni24.0,FCC,418.0,50.9,8.28,Zenodo_2026
+Co24.1 Cr24.1 Fe24.1 Mo3.6 Ni24.1,SS + Intermetálicos,489.0,53.6,8.28,Zenodo_2026
+Co24.2 Cr24.2 Fe24.2 Mo1.5 Ni24.2 W1.5,FCC,268.0,51.8,8.28,Zenodo_2026
+Co24.2 Cr24.2 Fe24.2 Mo1.5 Ni24.2 W1.5,FCC,1169.0,9.8,8.28,Zenodo_2026
+Co24.4 Cr24.4 Cu2.4 Fe24.4 Ni24.4,FCC,190.88,23.55,8.22,Zenodo_2026
+Co24.5 Cr24.5 Fe24.5 Mo2.0 Ni24.5,SS + Intermetálicos,199.0,51.1,8.2,Zenodo_2026
+Co24.8 Cr24.8 Fe24.8 Mo0.5 Ni24.8 W0.5,FCC,216.0,52.4,8.2,Zenodo_2026
+Co24.8 Cr24.8 Fe24.8 Mo0.5 Ni24.8 W0.5,FCC,1124.0,10.1,8.2,Zenodo_2026
+Co25.0 Fe25.0 Ni25.0 V25.0,FCC,398.0,20.0,7.82,Zenodo_2026
+Co25.0 Cu25.0 Mn25.0 Ni25.0,FCC,257.0,47.2,8.36,Zenodo_2026
+Co25.0 Cu25.0 Fe25.0 Ni25.0,FCC,325.0,30.1,8.54,Zenodo_2026
+Co25.0 Cu25.0 Fe25.0 Mn25.0,FCC,323.0,34.0,8.3,Zenodo_2026
+Co25.0 Cr25.0 Fe25.0 Ni25.0,FCC,147.33333333333334,63.3,8.18,Zenodo_2026
+Co25.0 Cr25.0 Fe25.0 Ni25.0,FCC,130.0,87.0,8.18,Zenodo_2026
+Co25.0 Cr25.0 Fe25.0 Ni25.0,FCC,188.0,68.4,8.18,Zenodo_2026
+Co25.0 Cr25.0 Fe25.0 Ni25.0,FCC,214.0,77.4,8.18,Zenodo_2026
+Co25.0 Cr25.0 Fe25.0 Ni25.0,FCC,212.7,77.3,8.18,Zenodo_2026
+Co25.0 Cr25.0 Fe25.0 Ni25.0,FCC,356.2,66.3,8.18,Zenodo_2026
+Co27.0 Cr20.0 Fe20.0 Mn20.0 Ni13.0,FCC,340.0,60.1,8.03,Zenodo_2026
+Co28.0 Fe9.0 Ni40.0 V23.0,FCC,364.0,78.6,8.24,Zenodo_2026
+Co29.7 Cr9.9 Fe44.6 Mn3.0 Ni3.0 V9.9,FCC + BCC,345.0,57.2,7.89,Zenodo_2026
+Co30.0 Cr10.0 Fe40.0 Ni10.0 V10.0,FCC,470.0,44.0,7.94,Zenodo_2026
+Co30.0 Cr10.0 Fe45.0 Ni5.0 V10.0,FCC + BCC,348.0,62.0,7.9,Zenodo_2026
+Co30.0 Cr10.0 Fe45.0 Ni5.0 V10.0,FCC + BCC,359.0,55.8,7.9,Zenodo_2026
+Co30.0 Cr10.0 Fe45.0 Ni5.0 V10.0,FCC + BCC,451.0,49.4,7.9,Zenodo_2026
+Co30.0 Cr10.0 Fe45.0 Ni5.0 V10.0,FCC + BCC,397.0,40.0,7.9,Zenodo_2026
+Co30.0 Cr10.0 Fe45.0 Mn5.0 V10.0,SS + Intermetálicos,374.0,66.5,7.81,Zenodo_2026
+Co30.0 Cr10.0 Fe50.0 V10.0,SS + Intermetálicos,409.0,29.3,7.85,Zenodo_2026
+Co30.0 Cr20.0 Fe20.0 Mn20.0 Ni10.0,FCC,382.0,69.0,7.96,Zenodo_2026
+Co30.0 Cr25.0 Fe20.0 Mo5.0 Ni20.0,FCC,403.0,87.8,8.26,Zenodo_2026
+Co30.3 Cr39.4 Ni30.3,FCC,984.0,14.3,8.23,Zenodo_2026
+Co31.0 Cr31.0 Mo7.0 Ni31.0,SS + Intermetálicos,652.0,44.0,8.57,Zenodo_2026
+Co31.3 Fe31.3 Ni31.4 Ti6.0,FCC,290.0,54.0,8.05,Zenodo_2026
+Co31.3 Cr31.3 Mo6.1 Ni31.3,FCC,644.0,29.5,8.56,Zenodo_2026
+Co31.7 Cr31.7 Mo5.0 Ni31.7,FCC,528.0,47.0,8.51,Zenodo_2026
+Co32.0 Cr32.0 Mo4.0 Ni32.0,FCC,775.0,35.0,8.35,Zenodo_2026
+Co32.3 Cr32.3 Mo3.0 Ni32.3,FCC,733.0,49.0,8.33,Zenodo_2026
+Co33.0 Cr33.0 Mo1.0 Ni33.0,FCC,412.0,63.0,8.31,Zenodo_2026
+Co33.3 Ni33.3 V33.3,SS + Intermetálicos,383.0,46.8,7.86,Zenodo_2026
+Co33.3 Ni33.3 V33.3,SS + Intermetálicos,787.0,43.4,7.86,Zenodo_2026
+Co33.3 Fe33.3 Ni33.3,FCC,199.0,55.0,8.45,Zenodo_2026
+Co33.3 Fe33.3 Ni33.3,FCC,220.0,78.0,8.45,Zenodo_2026
+Co33.3 Fe33.3 Ni33.3,FCC,103.0,49.0,8.45,Zenodo_2026
+Co33.3 Cr33.3 Ni33.3,FCC,1417.0,9.0,8.3,Zenodo_2026
+Co33.3 Cr33.3 Ni33.3,FCC,523.0,65.0,8.3,Zenodo_2026
+Co33.3 Cr33.3 Ni33.3,FCC,389.0,68.0,8.3,Zenodo_2026
+Co34.7 Cr24.8 Fe37.6 Ni3.0,FCC,854.0,14.0,8.08,Zenodo_2026
+Co34.9 Fe23.3 Ni34.9 Ti7.0,FCC,586.0,46.0,8.2,Zenodo_2026
+Co35.0 Cr10.0 Fe45.0 V10.0,FCC + BCC,427.0,70.1,7.88,Zenodo_2026
+Co35.0 Cr15.0 Fe20.0 Mo10.0 Ni20.0,SS + Intermetálicos,350.0,21.9,8.61,Zenodo_2026
+Co35.0 Cr15.0 Fe20.0 Mo10.0 Ni20.0,SS + Intermetálicos,1212.0,14.9,8.61,Zenodo_2026
+Co35.0 Cr20.0 Fe15.0 Mn15.0 Ni15.0,FCC,231.0,96.0,8.12,Zenodo_2026
+Co35.0 Cr25.0 Fe10.0 Mn15.0 Ni15.0,SS + Intermetálicos,305.0,76.0,8.08,Zenodo_2026
+Co35.0 Cr25.0 Fe20.0 Ni20.0,FCC,242.2,96.3,8.27,Zenodo_2026
+Co35.0 Cr25.0 Fe26.0 Ni14.0,FCC,296.0,55.0,8.15,Zenodo_2026
+Co35.0 Cr25.0 Fe35.0 Ni5.0,FCC,382.0,15.0,8.13,Zenodo_2026
+Co40.0 Cr20.0 Fe20.0 Ni20.0,FCC,454.3,67.4,8.36,Zenodo_2026
+Co40.0 Cr25.0 Fe15.0 Mo5.0 Ni15.0,FCC,461.0,91.4,8.34,Zenodo_2026
+Co42.0 Cr7.0 Ni32.0 Ti7.0 V12.0,SS + Intermetálicos,707.0,7.6,8.08,Zenodo_2026
+Co42.0 Cr16.0 Fe42.0,FCC,1050.0,25.0,8.3,Zenodo_2026
+Co43.0 Ni34.0 Ti5.0 V18.0,FCC,635.0,5.9,8.18,Zenodo_2026
+Co45.0 Cr25.0 Fe15.0 Ni15.0,FCC,299.3,76.4,8.33,Zenodo_2026
+Co46.5 Fe23.3 Ni23.3 Ti7.0,FCC,540.0,60.0,8.22,Zenodo_2026
+Co50.0 Ni50.0,FCC,100.0,42.0,8.82,Zenodo_2026
+Co50.0 Cr25.0 Fe10.0 Mo5.0 Ni10.0,FCC,576.0,60.6,8.48,Zenodo_2026
+Co55.0 Cr25.0 Fe10.0 Ni10.0,FCC,391.3,20.2,8.43,Zenodo_2026
+Co65.0 Cr25.0 Fe5.0 Ni5.0,FCC,479.7,13.2,8.64,Zenodo_2026
+Al2.0 Co6.4 Cr6.4 Fe32.0 Mn19.2 Ni32.0 Ti2.0,FCC,269.0,45.0,7.82,Zenodo_2026
+Al2.0 Co7.6 Cr7.6 Fe38.0 Mn22.8 Ni20.0 Ti2.0,SS + Intermetálicos,276.0,46.0,7.77,Zenodo_2026
+Al2.0 Co8.4 Cr8.4 Fe42.0 Mn25.2 Ni12.0 Ti2.0,FCC + BCC,294.0,48.0,7.64,Zenodo_2026
+Al2.0 Co24.5 Cr24.5 Fe24.5 Ni24.5,FCC,199.0,60.0,8.04,Zenodo_2026
+Al2.0 Co24.5 Cr24.5 Fe24.5 Ni24.5,FCC,366.0,46.0,8.04,Zenodo_2026
+Al2.4 Co24.4 Cr24.4 Fe24.4 Ni24.4,FCC,1177.5,3.85,7.99,Zenodo_2026
+Al2.4 Co24.4 Cr24.4 Fe24.4 Ni24.4,FCC,701.5,34.4,7.99,Zenodo_2026
+Al3.0 Co22.0 Cr17.0 Fe19.0 Ni39.0,FCC,322.0,45.8,8.1,Zenodo_2026
+Al3.0 Co22.2 Cr22.2 Fe22.2 Mo2.5 Ni22.2 Ti3.0 W2.5,FCC,450.0,10.6,7.89,Zenodo_2026
+Al3.0 Co22.2 Cr22.2 Fe22.2 Mo2.5 Ni22.2 Ti3.0 W2.5,FCC,1327.0,4.0,7.89,Zenodo_2026
+Al3.0 Co22.8 Cr22.8 Fe22.8 Mo1.5 Ni22.8 Ti3.0 W1.5,FCC,402.0,23.1,7.78,Zenodo_2026
+Al3.0 Co22.8 Cr22.8 Fe22.8 Mo1.5 Ni22.8 Ti3.0 W1.5,FCC,1198.0,4.7,7.78,Zenodo_2026
+Al3.0 Co23.2 Cr23.2 Fe23.2 Mo0.5 Ni23.2 Ti3.0 W0.5,FCC,257.0,38.9,7.82,Zenodo_2026
+Al3.0 Co23.2 Cr23.2 Fe23.2 Mo0.5 Ni23.2 Ti3.0 W0.5,FCC,1156.0,5.5,7.82,Zenodo_2026
+Al3.0 Co23.8 Cr23.8 Fe23.8 Nb1.0 Ni23.8 Ti1.0,FCC,1156.0,4.7,7.88,Zenodo_2026
+Al3.0 Co31.3 Cr31.3 Mo3.0 Ni31.3,SS + Intermetálicos,1367.0,9.1,8.0,Zenodo_2026
+Al3.0 Co32.3 Ni32.3 V32.3,FCC,491.0,46.1,7.81,Zenodo_2026
+Al3.0 Co32.3 Ni32.3 V32.3,FCC,1426.0,1.4,7.81,Zenodo_2026
+Al3.0 Co32.3 Cr32.3 Ni32.3,FCC,539.0,62.0,7.99,Zenodo_2026
+Al3.7 Co18.4 Cr18.4 Fe18.4 Ni36.8 Ti4.4,FCC,1312.0,20.5,7.74,Zenodo_2026
+Al3.7 Co18.5 Cr18.5 Cu3.7 Fe18.5 Ni37.0,FCC,179.0,30.4,8.02,Zenodo_2026
+Al3.9 Co18.6 Cr18.6 Cu3.9 Fe18.6 Ni36.3,FCC,460.0,31.7,7.97,Zenodo_2026
+Al4.0 Nb26.7 Ti42.7 Zr26.7,BCC,764.0,25.0,7.13,Zenodo_2026
+Al4.0 Co19.2 Cr19.2 Fe19.2 Mn19.2 Ni19.2,FCC,240.0,50.0,7.69,Zenodo_2026
+Al4.0 Co23.5 Cr23.5 Fe23.5 Ni23.5 Ti2.0,SS + Intermetálicos,220.0,61.0,7.77,Zenodo_2026
+Al5.0 Co23.8 Cr23.8 Fe23.8 Ni23.8,FCC,1094.0,9.6,7.76,Zenodo_2026
+Al5.0 Nb25.0 Ta5.0 Ti40.0 Zr25.0,BCC,960.0,17.0,7.12,Zenodo_2026
+Al5.0 Cr12.0 Fe35.0 Mn28.0 Ni20.0,FCC,280.0,48.2,7.49,Zenodo_2026
+Al5.0 Cr12.0 Fe35.0 Mn28.0 Ni20.0,FCC,1253.0,8.2,7.49,Zenodo_2026
+Al5.0 Co33.3 Cr23.4 Ni33.3 Ti5.0,SS + Intermetálicos,1306.0,14.2,7.57,Zenodo_2026
+Al5.1 Co19.2 Cr18.2 Fe19.2 Mn20.2 Ni18.2,FCC,1459.0,5.7,7.59,Zenodo_2026
+Al5.7 Co18.9 Cr18.9 Fe18.9 Mn18.9 Ni18.9,FCC + BCC,245.0,45.3,7.57,Zenodo_2026
+Al5.7 Co18.9 Cr37.7 Fe18.9 Ni18.9,FCC + BCC,546.0,11.0,7.65,Zenodo_2026
+Al5.9 Co23.5 Cr23.5 Fe23.5 Ni23.5,FCC,162.0,46.0,7.73,Zenodo_2026
+Al5.9 Co23.5 Cr23.5 Fe23.5 Ni23.5,FCC,368.0,26.0,7.73,Zenodo_2026
+Al5.9 Co29.4 Fe29.4 Mn5.9 Ni29.4,FCC,300.0,70.0,7.91,Zenodo_2026
+Al5.9 Co14.9 Cr19.8 Fe19.8 Mn19.8 Ni19.8,FCC + BCC,425.0,23.1,7.49,Zenodo_2026
+Al6.0 Co20.0 Cr34.0 Fe20.0 Ni20.0,FCC + BCC,338.0,28.0,7.66,Zenodo_2026
+Al6.3 Cr20.8 Cu10.4 Fe20.8 Ni41.7,FCC,62.0,98.0,7.81,Zenodo_2026
+Al6.3 Co10.4 Cr20.8 Fe20.8 Mn20.8 Ni20.8,FCC + BCC,471.0,13.9,7.46,Zenodo_2026
+Al6.3 Co20.8 Cr31.3 Fe20.8 Ni20.8,SS + Intermetálicos,294.0,44.0,7.68,Zenodo_2026
+Al6.6 Co5.5 Cr22.0 Fe22.0 Mn22.0 Ni22.0,FCC + BCC,486.0,22.8,7.38,Zenodo_2026
+Al6.9 Co21.6 Cr21.6 Cu6.9 Fe21.6 Ni21.6,FCC,217.0,77.0,7.72,Zenodo_2026
+Al6.9 Co21.6 Cr21.6 Cu6.9 Fe21.6 Ni21.6,FCC,500.0,29.0,7.72,Zenodo_2026
+Al6.9 Co28.7 Fe28.7 Mn6.9 Ni28.7,SS + Intermetálicos,331.0,45.0,7.7,Zenodo_2026
+Al7.0 Cr23.3 Fe23.3 Mn23.3 Ni23.3,FCC + BCC,565.0,2.6,7.32,Zenodo_2026
+Al7.0 Co23.3 Cr23.3 Fe23.3 Ni23.3,SS + Intermetálicos,214.5,53.0,7.64,Zenodo_2026
+Al7.0 Co23.3 Cr23.3 Fe23.3 Ni23.3,SS + Intermetálicos,297.0,60.2,7.64,Zenodo_2026
+Al7.0 Co17.7 Cr17.7 Fe17.7 Ni35.0 Ti5.0,SS + Intermetálicos,571.41,37.75,7.48,Zenodo_2026
+Al7.0 Cu31.0 Fe31.0 Mn31.0,FCC,539.0,29.0,7.45,Zenodo_2026
+Al7.0 Co18.0 Cr16.0 Fe17.0 Ni42.0,FCC,842.0,13.8,7.8,Zenodo_2026
+Al7.0 Co18.6 Cr18.6 Fe18.6 Mn18.6 Ni18.6,FCC + BCC,250.0,47.0,7.49,Zenodo_2026
+Al7.0 Co31.0 Ni31.0 V31.0,FCC + BCC,629.0,28.0,7.47,Zenodo_2026
+Al7.0 Co31.0 Ni31.0 V31.0,FCC + BCC,1634.0,3.5,7.47,Zenodo_2026
+Al7.1 Co23.2 Cr23.2 Fe23.2 Ni23.2,SS + Intermetálicos,243.0,60.0,7.63,Zenodo_2026
+Al7.1 Co23.2 Cr23.2 Fe23.2 Ni23.2,SS + Intermetálicos,330.0,64.0,7.63,Zenodo_2026
+Al7.1 Co23.2 Cr23.2 Fe23.2 Ni23.2,SS + Intermetálicos,207.0,40.0,7.63,Zenodo_2026
+Al7.1 Co23.2 Cr23.2 Fe23.2 Ni23.2,SS + Intermetálicos,743.0,49.0,7.63,Zenodo_2026
+Al7.9 Co26.3 Cr13.2 Fe26.3 Ni26.3,FCC,233.0,45.0,7.71,Zenodo_2026
+Al8.0 Cr6.0 Fe40.0 Mn35.0 Ni11.0,SS + Intermetálicos,159.0,40.8,7.27,Zenodo_2026
+Al8.0 Cr6.0 Fe40.0 Mn35.0 Ni11.0,SS + Intermetálicos,179.0,22.1,7.27,Zenodo_2026
+Al8.0 Co17.0 Cr17.0 Cu8.0 Fe17.0 Ni33.0,SS + Intermetálicos,357.0,9.0,7.68,Zenodo_2026
+Al8.0 Co17.0 Cr17.0 Cu8.0 Fe17.0 Ni33.0,SS + Intermetálicos,215.0,39.0,7.68,Zenodo_2026
+Al8.0 Co18.4 Cr18.4 Fe18.4 Mn18.4 Ni18.4,FCC + BCC,270.0,42.0,7.42,Zenodo_2026
+Al9.0 Co18.2 Cr18.2 Fe18.2 Mn18.2 Ni18.2,FCC + BCC,310.0,35.0,7.4,Zenodo_2026
+Al9.0 Co30.0 Fe32.0 Ni29.0,FCC,893.0,26.0,7.69,Zenodo_2026
+Al9.1 Co18.2 Cr18.2 Fe18.2 Mn18.2 Ni18.2,FCC + BCC,730.0,29.1,7.47,Zenodo_2026
+Al9.1 Co18.2 Cr18.2 Fe18.2 Mn18.2 Ni18.2,FCC + BCC,537.0,31.6,7.47,Zenodo_2026
+Al9.1 Co18.2 Cr18.2 Cu18.2 Fe18.2 Ni18.2,FCC,1237.5,7.15,7.6,Zenodo_2026
+Al9.1 Co18.2 Cr18.2 Cu18.2 Fe18.2 Ni18.2,FCC,1019.0,15.7,7.6,Zenodo_2026
+Al9.1 Co30.3 Fe30.3 Ni30.3,FCC,221.0,41.0,7.69,Zenodo_2026
+Al9.1 Co30.3 Fe30.3 Ni30.3,FCC,893.0,26.0,7.69,Zenodo_2026
+Al9.1 Co30.3 Cr30.3 Ni30.3,FCC,945.0,37.5,7.58,Zenodo_2026
+Al10.0 Hf15.0 Nb5.0 Ti50.0 Zr20.0,BCC,350.0,13.0,7.74,Zenodo_2026
+Al10.0 Hf15.0 Nb6.0 Ti49.0 Zr20.0,BCC,480.0,19.0,7.74,Zenodo_2026
+Al10.0 Hf15.0 Nb7.0 Ti48.0 Zr20.0,BCC,505.0,35.0,7.74,Zenodo_2026
+Al10.0 Hf22.5 Nb22.5 Ti22.5 V22.5,BCC,1390.0,20.0,7.3,Zenodo_2026
+Al10.0 Cr9.0 Fe36.0 Mn36.0 Ni9.0,SS + Intermetálicos,705.0,25.0,7.1,Zenodo_2026
+Al10.0 Cr12.0 Fe35.0 Mn23.0 Ni20.0,FCC,320.0,42.5,7.22,Zenodo_2026
+Al10.0 Cr12.0 Fe35.0 Mn23.0 Ni20.0,FCC,1400.0,7.9,7.22,Zenodo_2026
+Al10.0 Co15.0 Cr14.0 Fe14.0 Ni47.0,SS + Intermetálicos,910.0,14.0,7.51,Zenodo_2026
+Al10.0 Co17.0 Fe34.0 Mo5.0 Ni34.0,SS + Intermetálicos,215.0,47.0,7.43,Zenodo_2026
+Al10.0 Co18.0 Cr18.0 Fe18.0 Mn18.0 Ni18.0,FCC + BCC,400.0,25.0,7.33,Zenodo_2026
+Al10.2 Co22.4 Cr22.4 Fe22.4 Ni22.4,FCC + BCC,264.0,30.4,7.43,Zenodo_2026
+Al10.2 Co22.4 Cr22.4 Fe22.4 Ni22.4,FCC + BCC,1250.0,2.5,7.43,Zenodo_2026
+Al10.5 Co26.3 Fe26.3 Mn10.5 Ni26.3,FCC + BCC,750.0,30.0,7.44,Zenodo_2026
+Al11.0 Co13.0 Cr11.0 Fe12.0 Ni53.0,SS + Intermetálicos,1000.0,6.0,7.49,Zenodo_2026
+Al11.1 Co22.2 Cr22.2 Fe22.2 Ni22.2,FCC + BCC,402.0,33.69,7.35,Zenodo_2026
+Al11.1 Co22.2 Cr22.2 Fe22.2 Ni22.2,FCC + BCC,755.0,6.2,7.35,Zenodo_2026
+Al11.1 Co22.2 Cr22.2 Fe22.2 Ni22.2,FCC + BCC,1396.0,5.37,7.35,Zenodo_2026
+Al11.9 Co17.8 Cr17.8 Fe34.7 Ni17.8,SS + Intermetálicos,866.0,7.9,7.25,Zenodo_2026
+Al12.1 Co25.3 Fe25.3 Mn12.1 Ni25.3,FCC + BCC,810.0,27.0,7.39,Zenodo_2026
+Al12.9 Co21.8 Cr21.8 Fe21.8 Ni21.8,FCC + BCC,786.0,28.0,7.23,Zenodo_2026
+Al12.9 Co21.8 Cr21.8 Fe21.8 Ni21.8,FCC + BCC,360.0,37.0,7.23,Zenodo_2026
+Al14.0 Cr6.0 Fe28.0 Mn33.0 Ni19.0,SS + Intermetálicos,679.0,17.8,6.91,Zenodo_2026
+Al14.0 Cr6.0 Fe28.0 Mn33.0 Ni19.0,SS + Intermetálicos,1442.0,2.3,6.91,Zenodo_2026
+Al14.0 Co28.0 Cr28.0 Ni30.0,FCC + BCC,510.0,21.5,7.26,Zenodo_2026
+Al14.3 Co14.3 Cr14.3 Fe14.3 Ni42.9,SS + Intermetálicos,447.77,31.6,7.23,Zenodo_2026
+Al15.2 Cu28.3 Fe28.3 Mn28.3,SS + Intermetálicos,632.0,15.0,7.0,Zenodo_2026
+Al15.2 Cu28.3 Fe28.3 Mn28.3,SS + Intermetálicos,642.0,29.0,7.0,Zenodo_2026
+Al15.2 Co21.2 Cr21.2 Fe21.2 Ni21.2,FCC + BCC,770.0,17.0,7.06,Zenodo_2026
+Al15.5 Co14.1 Cr14.1 Fe14.1 Ni42.3,FCC + BCC,473.03,28.2,7.16,Zenodo_2026
+Al16.1 Co14.0 Cr14.0 Fe14.0 Ni42.0,FCC + BCC,487.61,21.7,7.12,Zenodo_2026
+Al16.2 Co16.2 Cr16.2 Fe16.2 Ni35.4,FCC + BCC,545.0,20.3,7.1,Zenodo_2026
+Al16.3 Co16.3 Cr16.3 Fe16.3 Ni34.7,SS + Intermetálicos,582.5,17.3,7.09,Zenodo_2026
+Al16.3 Co16.3 Cr16.3 Fe16.3 Ni34.7,SS + Intermetálicos,1625.0,6.0,7.09,Zenodo_2026
+Al16.4 Co16.4 Cr16.4 Fe16.4 Ni34.4,SS + Intermetálicos,516.0,17.8,7.08,Zenodo_2026
+Al16.4 Co16.4 Cr16.4 Fe16.4 Ni34.4,SS + Intermetálicos,1625.0,6.0,7.08,Zenodo_2026
+Al16.7 Co13.9 Cr13.9 Fe13.9 Ni41.7,FCC + BCC,512.34,15.01,7.1,Zenodo_2026
+Al16.8 Co16.8 Cr16.8 Fe16.8 Ni32.7,SS + Intermetálicos,545.0,16.7,7.02,Zenodo_2026
+Al17.0 Cr17.0 Fe33.0 Ni33.0,SS + Intermetálicos,780.0,17.0,6.91,Zenodo_2026
+Al17.2 Co13.8 Cr13.8 Fe13.8 Ni41.4,FCC + BCC,535.32,17.21,7.08,Zenodo_2026
+Al17.8 Co13.7 Cr13.7 Fe13.7 Ni41.1,FCC + BCC,507.0,13.46,7.08,Zenodo_2026
