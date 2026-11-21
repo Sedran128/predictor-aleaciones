@@ -14,50 +14,124 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# --- ESTILOS CSS RESPONSIVOS (SIN RECORTES DE NÚMEROS NI UNIDADES) ---
+# --- ESTILOS CSS: TEMA AZUL INGENIERÍA PROFESIONAL ---
 st.markdown(
     """
 <style>
+/* Fondo general y barra lateral en paleta azul profundo */
+.stApp {
+    background: radial-gradient(circle at top right, #0f2547 0%, #081224 55%, #050c18 100%);
+    color: #f0f6ff;
+}
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0b1930 0%, #081326 100%);
+    border-right: 1px solid #1e3a5f;
+}
+header[data-testid="stHeader"] {
+    background: rgba(8, 18, 36, 0.85);
+    backdrop-filter: blur(8px);
+}
+
+/* Encabezado principal estilo banner técnico */
+.hero-banner {
+    background: linear-gradient(135deg, #0f274c 0%, #163b72 52%, #0d2242 100%);
+    border: 1px solid #29528a;
+    border-radius: 16px;
+    padding: 18px 24px;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 24px rgba(3, 10, 24, 0.45);
+}
+.hero-title {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.02em;
+}
+.hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+.hero-pill {
+    background: rgba(56, 189, 248, 0.14);
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    color: #dbeafe;
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 0.82rem;
+    font-weight: 500;
+}
+.hero-pill strong {
+    color: #7dd3fc;
+}
+
+/* Tarjeta de estructura cristalina SVG */
 .crystal-card {
-    background: linear-gradient(145deg, #111827 0%, #1f2937 100%);
-    border: 1px solid #374151;
-    border-radius: 14px;
-    padding: 16px;
+    background: linear-gradient(155deg, #0d2140 0%, #14325e 55%, #0a1830 100%);
+    border: 1px solid #2b548c;
+    border-radius: 16px;
+    padding: 18px 14px;
     text-align: center;
-    color: #f9fafb;
+    color: #f0f6ff;
+    box-shadow: 0 8px 22px rgba(4, 12, 28, 0.45);
 }
 .crystal-title {
-    font-size: 1.08rem;
+    font-size: 1.12rem;
     font-weight: 700;
     margin-top: 8px;
-    margin-bottom: 3px;
-    color: #f9fafb;
+    margin-bottom: 4px;
+    color: #e0f2fe;
 }
 .crystal-sub {
     font-size: 0.82rem;
-    color: #9ca3af;
+    color: #93c5fd;
     margin-bottom: 0;
 }
+
+/* Títulos de sección */
+.sec-heading {
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: #bae6fd;
+    letter-spacing: 0.01em;
+    margin: 4px 0 8px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+/* Cuadrícula responsiva de KPIs (sin recortes de números ni unidades) */
 .kpi-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(162px, 1fr));
     gap: 10px;
     margin-top: 6px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 .kpi-card {
-    background-color: rgba(128, 128, 128, 0.08);
-    border: 1px solid rgba(128, 128, 128, 0.24);
-    border-radius: 10px;
+    background: linear-gradient(160deg, rgba(18, 41, 78, 0.92) 0%, rgba(11, 26, 51, 0.95) 100%);
+    border: 1px solid #1e3f6e;
+    border-top: 2px solid #2563eb;
+    border-radius: 12px;
     padding: 11px 13px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: border-color 0.2s ease, transform 0.15s ease;
+}
+.kpi-card:hover {
+    border-color: #38bdf8;
+    transform: translateY(-1px);
+}
+.kpi-card.hr-accent {
+    border-top-color: #0ea5e9;
+    background: linear-gradient(160deg, rgba(14, 39, 71, 0.92) 0%, rgba(9, 24, 46, 0.95) 100%);
 }
 .kpi-label {
-    font-size: 0.79rem;
-    opacity: 0.8;
-    font-weight: 500;
+    font-size: 0.78rem;
+    color: #93b4d8;
+    font-weight: 600;
     line-height: 1.25;
     margin-bottom: 6px;
 }
@@ -69,21 +143,48 @@ st.markdown(
 }
 .kpi-num {
     font-size: 1.48rem;
-    font-weight: 700;
+    font-weight: 800;
+    color: #ffffff;
     line-height: 1.15;
     letter-spacing: -0.01em;
 }
 .kpi-unit {
-    font-size: 0.86rem;
-    font-weight: 600;
-    opacity: 0.78;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #38bdf8;
     white-space: nowrap;
 }
 .kpi-hint {
     font-size: 0.72rem;
-    opacity: 0.65;
+    color: #7da2cc;
     margin-top: 5px;
     line-height: 1.2;
+}
+
+/* Barras de probabilidad, botones y pestañas en azul cobalto */
+div[data-testid="stProgress"] > div > div > div > div {
+    background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
+}
+button[data-baseweb="tab"] {
+    color: #93b4d8;
+    font-weight: 600;
+}
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #38bdf8 !important;
+    border-bottom-color: #38bdf8 !important;
+}
+div[data-testid="stSidebar"] button[kind="secondary"] {
+    background-color: #132d54;
+    border: 1px solid #29528a;
+    color: #e0f2fe;
+}
+div[data-testid="stSidebar"] button[kind="secondary"]:hover {
+    background-color: #1d4ed8;
+    border-color: #60a5fa;
+    color: #ffffff;
+}
+hr {
+    border-color: rgba(56, 189, 248, 0.2) !important;
 }
 </style>
 """,
@@ -91,19 +192,35 @@ st.markdown(
 )
 
 
-def render_kpi_grid(items):
+def render_kpi_grid(items, extra_class=""):
     cards = []
+    cls = f"kpi-card {extra_class}".strip()
     for label, valor, unidad, hint in items:
         hint_html = f'<div class="kpi-hint">{hint}</div>' if hint else ""
         unit_html = f'<span class="kpi-unit">{unidad}</span>' if unidad else ""
         cards.append(
-            f'<div class="kpi-card">'
+            f'<div class="{cls}">'
             f'<div class="kpi-label">{label}</div>'
             f'<div class="kpi-value-row"><span class="kpi-num">{valor}</span>{unit_html}</div>'
             f'{hint_html}'
             f'</div>'
         )
     return f'<div class="kpi-grid">{"".join(cards)}</div>'
+
+
+def estilizar_plotly(fig, height=450):
+    fig.update_layout(
+        height=height,
+        paper_bgcolor="rgba(11, 26, 51, 0.55)",
+        plot_bgcolor="rgba(8, 18, 36, 0.72)",
+        font=dict(color="#e2e8f0", family="Inter, Segoe UI, sans-serif"),
+        title_font=dict(color="#bae6fd", size=15),
+        legend=dict(bgcolor="rgba(11, 26, 51, 0.7)", bordercolor="#1e3a5f", borderwidth=1),
+        margin=dict(l=45, r=25, t=55, b=45),
+    )
+    fig.update_xaxes(gridcolor="rgba(56, 189, 248, 0.12)", zerolinecolor="rgba(56, 189, 248, 0.25)")
+    fig.update_yaxes(gridcolor="rgba(56, 189, 248, 0.12)", zerolinecolor="rgba(56, 189, 248, 0.25)")
+    return fig
 
 
 # --- CARGA DE MODELO v2.0 Y REFERENCIA ASHBY ---
@@ -176,9 +293,9 @@ COLORES_FASE = {
     "FCC": "#3b82f6",
     "BCC": "#f97316",
     "HCP": "#10b981",
-    "FCC + BCC": "#06b6d4",
+    "FCC + BCC": "#38bdf8",
     "SS + Intermetálicos": "#a855f7",
-    "Amorfa": "#ec4899",
+    "Amorfa": "#f472b6",
 }
 
 PRESETS = {
@@ -440,7 +557,7 @@ def svg_estructura_cristalina(fase):
 <circle cx="122" cy="120" r="5.5" fill="#fb923c"/><circle cx="170" cy="120" r="5.5" fill="#fb923c"/>
 <circle cx="146" cy="96" r="8" fill="#fef08a" stroke="#dc2626" stroke-width="1.5"/>
 <text x="146" y="152" text-anchor="middle" fill="#fed7aa" font-size="13" font-family="sans-serif" font-weight="bold">BCC</text>
-<circle cx="100" cy="100" r="13" fill="#0f172a" stroke="#e2e8f0" stroke-width="1.5"/>
+<circle cx="100" cy="100" r="13" fill="#081224" stroke="#e2e8f0" stroke-width="1.5"/>
 <text x="100" y="105" text-anchor="middle" fill="#f8fafc" font-size="16" font-family="sans-serif" font-weight="bold">+</text>
 </svg>
 """
@@ -460,7 +577,7 @@ def svg_estructura_cristalina(fase):
 <stop offset="0%" stop-color="#67e8f9"/><stop offset="100%" stop-color="#0284c7"/>
 </radialGradient>
 </defs>
-<circle cx="100" cy="100" r="82" fill="#0f172a" stroke="#ec4899" stroke-width="2.2" stroke-dasharray="6,4"/>
+<circle cx="100" cy="100" r="82" fill="#081224" stroke="#f472b6" stroke-width="2.2" stroke-dasharray="6,4"/>
 <g stroke="#475569" stroke-width="1.2" opacity="0.6">
 <line x1="60" y1="62" x2="96" y2="54"/><line x1="96" y1="54" x2="136" y2="70"/>
 <line x1="60" y1="62" x2="54" y2="105"/><line x1="54" y1="105" x2="88" y2="102"/>
@@ -497,7 +614,7 @@ def svg_estructura_cristalina(fase):
 <stop offset="100%" stop-color="#a855f7" stop-opacity="0.22"/>
 </linearGradient>
 </defs>
-<circle cx="100" cy="100" r="82" fill="#0f172a" stroke="#a855f7" stroke-width="2.5"/>
+<circle cx="100" cy="100" r="82" fill="#081224" stroke="#a855f7" stroke-width="2.5"/>
 <path d="M 32 100 Q 65 40 120 42 Q 105 95 95 110 Q 55 125 32 100 Z" fill="url(#gDual1)" stroke="#60a5fa" stroke-width="1.5"/>
 <path d="M 120 42 Q 170 65 168 120 Q 125 135 95 110 Q 105 95 120 42 Z" fill="url(#gDual2)" stroke="#fb923c" stroke-width="1.5"/>
 <path d="M 32 100 Q 55 125 95 110 Q 125 135 168 120 Q 130 175 65 165 Q 35 140 32 100 Z" fill="#a855f7" fill-opacity="0.24" stroke="#c084fc" stroke-width="1.5"/>
@@ -586,7 +703,7 @@ def normalizar_a_100():
 
 # --- BARRA LATERAL ---
 with st.sidebar:
-    st.header("⚙️ Diseño de Aleación")
+    st.markdown("### ⚙️ Diseño de Aleación")
     modo = st.radio(
         "Modo de entrada:",
         ["🎛️ Constructor (% at.)", "⌨️ Escribir Fórmula"],
@@ -690,16 +807,27 @@ with st.sidebar:
     )
 
 # --- PANEL PRINCIPAL ---
-st.title("🧪 Simulador Predictivo de Aleaciones MPEA v2.0")
-
 if not comp_final:
-    st.info("👈 Selecciona elementos en el panel izquierdo para calcular las propiedades de tu aleación.")
+    st.markdown(
+        '<div class="hero-banner"><div class="hero-title">🧪 Simulador Predictivo de Aleaciones MPEA v2.0</div>'
+        '<div style="color:#bfdbfe;font-size:0.92rem;">Selecciona elementos en el panel izquierdo para calcular estructura y propiedades.</div></div>',
+        unsafe_allow_html=True,
+    )
     st.stop()
 
-st.caption(
-    f"**Composición (% at.):** `{formula_mostrar}` · "
-    f"**Procesamiento:** {proc_elegido_label} · **Temperatura:** {temperatura} °C · "
-    f"**Modelo:** 5 bases fusionadas + Física Hume-Rothery"
+st.markdown(
+    f"""
+<div class="hero-banner">
+<div class="hero-title">🧪 Simulador Predictivo de Aleaciones MPEA v2.0</div>
+<div class="hero-meta">
+<span class="hero-pill"><strong>Composición (% at.):</strong> {formula_mostrar}</span>
+<span class="hero-pill"><strong>Procesamiento:</strong> {proc_elegido_label}</span>
+<span class="hero-pill"><strong>Temperatura:</strong> {temperatura} °C</span>
+<span class="hero-pill"><strong>Motor:</strong> 5 bases fusionadas + Hume-Rothery</span>
+</div>
+</div>
+""",
+    unsafe_allow_html=True,
 )
 
 res = predecir_todo(comp_final, temperatura, proc_code)
@@ -711,19 +839,19 @@ col_celda, col_ficha = st.columns([1.05, 2.55], gap="large")
 
 with col_celda:
     st.markdown(svg_estructura_cristalina(res["fase"]), unsafe_allow_html=True)
-    st.markdown("<div style='height: 10px'></div>", unsafe_allow_html=True)
-    st.caption("**Probabilidad por estructura (6 clases):**")
+    st.markdown("<div style='height: 12px'></div>", unsafe_allow_html=True)
+    st.markdown('<div class="sec-heading">📊 Confianza por Estructura (6 clases)</div>', unsafe_allow_html=True)
     probs_ordenadas = sorted(res["probs"].items(), key=lambda x: -x[1])
     for ph, p_val in probs_ordenadas:
         st.markdown(
-            f"<div style='display:flex; justify-content:space-between; font-size:0.82rem; margin-bottom:1px;'>"
-            f"<span>{ph}</span><strong>{p_val*100:.1f}%</strong></div>",
+            f"<div style='display:flex; justify-content:space-between; font-size:0.83rem; color:#dbeafe; margin-bottom:2px;'>"
+            f"<span>{ph}</span><strong style='color:#7dd3fc;'>{p_val*100:.1f}%</strong></div>",
             unsafe_allow_html=True,
         )
         st.progress(min(max(float(p_val), 0.0), 1.0))
 
 with col_ficha:
-    st.subheader("📋 Ficha Técnica Estimada")
+    st.markdown('<div class="sec-heading">📋 Ficha Técnica Estimada</div>', unsafe_allow_html=True)
     kpis_mecanicos = [
         ("Límite Elástico (YS)", f"{res['ys']:.1f}", "MPa", f"A {temperatura} °C ({proc_code})"),
         ("Resistencia Máxima (UTS)", f"{res['uts']:.1f}", "MPa", "Esfuerzo último de tracción"),
@@ -736,14 +864,14 @@ with col_ficha:
     ]
     st.markdown(render_kpi_grid(kpis_mecanicos), unsafe_allow_html=True)
 
-    st.subheader("🔬 Descriptores Físicos (Hume-Rothery)")
+    st.markdown('<div class="sec-heading">🔬 Descriptores Físicos (Hume-Rothery)</div>', unsafe_allow_html=True)
     kpis_hr = [
         ("Electrones de Valencia (VEC)", f"{hr['HR_VEC']:.2f}", "e⁻/át.", "≥8 FCC · <6.87 BCC"),
         ("Distorsión Atómica (δ)", f"{hr['HR_delta']:.2f}", "%", "<6.6% Solución sólida"),
         ("Temp. de Fusión (Tm)", f"{hr['HR_Tm'] - 273.15:.0f}", "°C", f"{hr['HR_Tm']:.0f} K · T/Tm = {res['t_hom']:.2f}"),
         ("Entropía de Mezcla (ΔSmix)", f"{hr['HR_dSmix']:.2f}", "J/(mol·K)", ">12.5 Alta entropía"),
     ]
-    st.markdown(render_kpi_grid(kpis_hr), unsafe_allow_html=True)
+    st.markdown(render_kpi_grid(kpis_hr, extra_class="hr-accent"), unsafe_allow_html=True)
 
 # --- GRÁFICAS INTERACTIVAS EN PESTAÑAS ---
 st.divider()
@@ -779,7 +907,7 @@ with tab_ashby:
             color="phase",
             color_discrete_map=COLORES_FASE,
             hover_data=hover_cols,
-            opacity=0.55,
+            opacity=0.62,
             labels={col_x: x_label, "ys": "Límite Elástico YS (MPa)", "phase": "Estructura"},
             title=f"Tu aleación frente a {len(df_plot)} registros experimentales fusionados",
         )
@@ -791,20 +919,21 @@ with tab_ashby:
                 name="⭐ Tu Aleación",
                 text=["Tu Aleación"],
                 textposition="top center",
-                marker=dict(symbol="star", size=20, color="#facc15", line=dict(width=2, color="#111827")),
+                textfont=dict(color="#fde047", size=12),
+                marker=dict(symbol="star", size=20, color="#facc15", line=dict(width=2, color="#081224")),
             )
         )
-        fig_ashby.update_layout(height=470, legend_title_text="Estructura / Referencia")
-        st.plotly_chart(fig_ashby, use_container_width=True)
+        fig_ashby.update_layout(legend_title_text="Estructura / Referencia")
+        st.plotly_chart(estilizar_plotly(fig_ashby, height=470), use_container_width=True)
     else:
         st.info("Sube `mpea_fusionado_ref.csv` a tu repositorio para habilitar el Mapa de Ashby actualizado.")
 
 with tab_hr:
     fig_hr = go.Figure()
-    fig_hr.add_vrect(x0=2.0, x1=6.87, fillcolor="rgba(249, 115, 22, 0.12)", line_width=0, annotation_text="Zona BCC (VEC < 6.87)", annotation_position="top left")
-    fig_hr.add_vrect(x0=6.87, x1=8.0, fillcolor="rgba(6, 182, 212, 0.14)", line_width=0, annotation_text="Dual FCC+BCC", annotation_position="top")
-    fig_hr.add_vrect(x0=8.0, x1=11.5, fillcolor="rgba(59, 130, 246, 0.12)", line_width=0, annotation_text="Zona FCC (VEC ≥ 8.0)", annotation_position="top right")
-    fig_hr.add_hline(y=6.6, line_dash="dash", line_color="#ec4899", annotation_text="Límite solución sólida (δ ≈ 6.6%): arriba predominan Intermetálicos / Amorfa", annotation_position="top left")
+    fig_hr.add_vrect(x0=2.0, x1=6.87, fillcolor="rgba(249, 115, 22, 0.13)", line_width=0, annotation_text="Zona BCC (VEC < 6.87)", annotation_position="top left")
+    fig_hr.add_vrect(x0=6.87, x1=8.0, fillcolor="rgba(56, 189, 248, 0.14)", line_width=0, annotation_text="Dual FCC+BCC", annotation_position="top")
+    fig_hr.add_vrect(x0=8.0, x1=11.5, fillcolor="rgba(37, 99, 235, 0.16)", line_width=0, annotation_text="Zona FCC (VEC ≥ 8.0)", annotation_position="top right")
+    fig_hr.add_hline(y=6.6, line_dash="dash", line_color="#f472b6", annotation_text="Límite solución sólida (δ ≈ 6.6%): arriba predominan Intermetálicos / Amorfa", annotation_position="top left")
 
     ref_x, ref_y, ref_txt = [], [], []
     for pname, pdict in PRESETS.items():
@@ -822,7 +951,8 @@ with tab_hr:
             name="Aleaciones de referencia",
             text=ref_txt,
             textposition="bottom center",
-            marker=dict(size=10, color="#94a3b8", line=dict(width=1, color="#0f172a")),
+            textfont=dict(color="#bfdbfe", size=11),
+            marker=dict(size=10, color="#60a5fa", line=dict(width=1.2, color="#081224")),
         )
     )
     fig_hr.add_trace(
@@ -833,7 +963,8 @@ with tab_hr:
             name="⭐ Tu Aleación",
             text=[f"Tu Aleación ({res['fase']})"],
             textposition="top center",
-            marker=dict(symbol="star", size=22, color="#facc15", line=dict(width=2, color="#111827")),
+            textfont=dict(color="#fde047", size=12),
+            marker=dict(symbol="star", size=22, color="#facc15", line=dict(width=2, color="#081224")),
         )
     )
     fig_hr.update_layout(
@@ -842,9 +973,8 @@ with tab_hr:
         yaxis_title="Diferencia de Radio Atómico δ (%)",
         xaxis=dict(range=[2.5, 11.2]),
         yaxis=dict(range=[0, max(14.0, hr["HR_delta"] + 2.0)]),
-        height=460,
     )
-    st.plotly_chart(fig_hr, use_container_width=True)
+    st.plotly_chart(estilizar_plotly(fig_hr, height=460), use_container_width=True)
 
 with tab_radar:
     cantor_comp = {e: 0.2 for e in ["Co", "Cr", "Fe", "Mn", "Ni"] if e in elementos_modelo}
@@ -871,7 +1001,7 @@ with tab_radar:
             fill="toself",
             name="Referencia: Cantor (CoCrFeMnNi)",
             line_color="#94a3b8",
-            fillcolor="rgba(148, 163, 184, 0.2)",
+            fillcolor="rgba(148, 163, 184, 0.22)",
         )
     )
     fig_radar.add_trace(
@@ -881,27 +1011,32 @@ with tab_radar:
             fill="toself",
             name="Tu Aleación",
             line_color="#38bdf8",
-            fillcolor="rgba(56, 189, 248, 0.3)",
+            fillcolor="rgba(56, 189, 248, 0.34)",
         )
     )
     fig_radar.update_layout(
-        polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
+        polar=dict(
+            bgcolor="rgba(8, 18, 36, 0.72)",
+            radialaxis=dict(visible=True, range=[0, 100], gridcolor="rgba(56, 189, 248, 0.2)"),
+            angularaxis=dict(gridcolor="rgba(56, 189, 248, 0.2)"),
+        ),
         title=f"Perfil multidimensional vs. Aleación de Cantor ({proc_elegido_label}, {temperatura} °C)",
-        height=450,
     )
-    st.plotly_chart(fig_radar, use_container_width=True)
+    st.plotly_chart(estilizar_plotly(fig_radar, height=450), use_container_width=True)
 
 with tab_proc:
     gp1, gp2 = st.columns(2)
     with gp1:
         ys_procs = [float(rf_ys.predict(construir_fila(comp_final, cols_ys, temp=temperatura, proc_code=p))[0]) for p in procesamientos]
-        colores_bar = ["#facc15" if p == proc_code else "#3b82f6" for p in procesamientos]
+        colores_bar = ["#38bdf8" if p == proc_code else "#1d4ed8" for p in procesamientos]
         fig_proc = go.Figure(
             data=[
                 go.Bar(
                     x=procesamientos,
                     y=ys_procs,
                     marker_color=colores_bar,
+                    marker_line_color="#7dd3fc",
+                    marker_line_width=1,
                     text=[f"{v:.0f}" for v in ys_procs],
                     textposition="outside",
                 )
@@ -911,9 +1046,8 @@ with tab_proc:
             title=f"Efecto del Procesamiento en YS a {temperatura} °C",
             xaxis_title="Método de procesamiento",
             yaxis_title="Límite Elástico YS (MPa)",
-            height=400,
         )
-        st.plotly_chart(fig_proc, use_container_width=True)
+        st.plotly_chart(estilizar_plotly(fig_proc, height=400), use_container_width=True)
 
     with gp2:
         temps_curva = [25, 200, 400, 600, 800, 1000, 1200]
@@ -925,9 +1059,9 @@ with tab_proc:
                 y=ys_curva,
                 mode="lines+markers",
                 name="Curva YS(T)",
-                line=dict(color="#f97316", width=3),
+                line=dict(color="#38bdf8", width=3),
                 fill="tozeroy",
-                fillcolor="rgba(249, 115, 22, 0.15)",
+                fillcolor="rgba(56, 189, 248, 0.18)",
             )
         )
         fig_temp.add_trace(
@@ -936,16 +1070,15 @@ with tab_proc:
                 y=[res["ys"]],
                 mode="markers",
                 name="Temperatura actual",
-                marker=dict(size=14, color="#facc15", line=dict(width=2, color="#111827")),
+                marker=dict(size=14, color="#facc15", line=dict(width=2, color="#081224")),
             )
         )
         fig_temp.update_layout(
             title=f"Ablandamiento Térmico ({proc_elegido_label})",
             xaxis_title="Temperatura (°C)",
             yaxis_title="Límite Elástico YS (MPa)",
-            height=400,
         )
-        st.plotly_chart(fig_temp, use_container_width=True)
+        st.plotly_chart(estilizar_plotly(fig_temp, height=400), use_container_width=True)
 
 with tab_comp:
     df_comp = pd.DataFrame({
@@ -958,15 +1091,16 @@ with tab_comp:
 
     cc1, cc2 = st.columns([1.1, 1.3])
     with cc1:
+        paleta_azul = ["#38bdf8", "#2563eb", "#0ea5e9", "#60a5fa", "#1d4ed8", "#0284c7", "#93c5fd", "#1e40af"]
         fig_pie = px.pie(
             df_comp,
             names="Elemento",
             values="Porcentaje Atómico (% at.)",
-            hole=0.45,
+            hole=0.48,
+            color_discrete_sequence=paleta_azul,
             title="Distribución Atómica de la Aleación",
         )
-        fig_pie.update_layout(height=360)
-        st.plotly_chart(fig_pie, use_container_width=True)
+        st.plotly_chart(estilizar_plotly(fig_pie, height=370), use_container_width=True)
     with cc2:
-        st.markdown("#### Composición y Propiedades Elementales")
+        st.markdown('<div class="sec-heading">Tabla de Composición y Propiedades Elementales</div>', unsafe_allow_html=True)
         st.dataframe(df_comp, hide_index=True, use_container_width=True)
