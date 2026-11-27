@@ -118,6 +118,7 @@ header[data-testid="stHeader"] {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: help;
     transition: border-color 0.2s ease, transform 0.15s ease;
 }
 .kpi-card:hover {
@@ -161,6 +162,50 @@ header[data-testid="stHeader"] {
     line-height: 1.2;
 }
 
+/* Tablas descriptivas de referencia */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 20px 0;
+    font-size: 0.86rem;
+    background: rgba(11, 26, 51, 0.68);
+    border: 1px solid #1e3f6e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.info-table th {
+    background: rgba(22, 59, 114, 0.72);
+    color: #bae6fd;
+    text-align: left;
+    padding: 10px 12px;
+    font-weight: 700;
+    border-bottom: 1px solid #29528a;
+}
+.info-table td {
+    padding: 9px 12px;
+    color: #e2e8f0;
+    border-bottom: 1px solid rgba(56, 189, 248, 0.14);
+    vertical-align: top;
+    line-height: 1.4;
+}
+.info-table tr:last-child td {
+    border-bottom: none;
+}
+.info-table tr:hover td {
+    background: rgba(56, 189, 248, 0.06);
+}
+.info-badge {
+    display: inline-block;
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    color: #7dd3fc;
+    border-radius: 6px;
+    padding: 1px 7px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
 /* Barras de probabilidad, botones y pestañas en azul cobalto */
 div[data-testid="stProgress"] > div > div > div > div {
     background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
@@ -195,17 +240,41 @@ hr {
 def render_kpi_grid(items, extra_class=""):
     cards = []
     cls = f"kpi-card {extra_class}".strip()
-    for label, valor, unidad, hint in items:
+    for item in items:
+        label, valor, unidad, hint = item[:4]
+        tooltip = item[4] if len(item) > 4 else ""
+        title_attr = f' title="{tooltip}"' if tooltip else ""
         hint_html = f'<div class="kpi-hint">{hint}</div>' if hint else ""
         unit_html = f'<span class="kpi-unit">{unidad}</span>' if unidad else ""
         cards.append(
-            f'<div class="{cls}">'
+            f'<div class="{cls}"{title_attr}>'
             f'<div class="kpi-label">{label}</div>'
             f'<div class="kpi-value-row"><span class="kpi-num">{valor}</span>{unit_html}</div>'
             f'{hint_html}'
             f'</div>'
         )
     return f'<div class="kpi-grid">{"".join(cards)}</div>'
+
+
+def render_info_table(headers, rows):
+    th_html = "".join(f"<th>{h}</th>" for h in headers)
+    tr_list = []
+    for row in rows:
+        tds = []
+        for idx, cell in enumerate(row):
+            if idx == 1 and len(headers) == 4:
+                tds.append(f'<td><span class="info-badge">{cell}</span></td>')
+            elif idx == 0:
+                tds.append(f"<td><strong>{cell}</strong></td>")
+            else:
+                tds.append(f"<td>{cell}</td>")
+        tr_list.append(f"<tr>{''.join(tds)}</tr>")
+    return (
+        f'<table class="info-table">'
+        f'<thead><tr>{th_html}</tr></thead>'
+        f'<tbody>{"".join(tr_list)}</tbody>'
+        f'</table>'
+    )
 
 
 def estilizar_plotly(fig, height=450):
@@ -852,38 +921,116 @@ with col_celda:
 
 with col_ficha:
     st.markdown('<div class="sec-heading">📋 Ficha Técnica Estimada</div>', unsafe_allow_html=True)
+    st.caption("Pasa el cursor sobre cualquier tarjeta para ver su definición o consulta la pestaña **📖 Guía de Propiedades**.")
     kpis_mecanicos = [
-        ("Límite Elástico (YS)", f"{res['ys']:.1f}", "MPa", f"A {temperatura} °C ({proc_elegido_label})"),
-        ("Resistencia Máxima (UTS)", f"{res['uts']:.1f}", "MPa", "Esfuerzo último de tracción"),
-        ("Elongación / Ductilidad", f"{res['elong']:.1f}", "%", "Deformación hasta fractura"),
-        ("Dureza Vickers (HV)", f"{res['hv']:.0f}", "HV", "Estimada a temp. ambiente"),
-        ("Densidad (ρ)", f"{res['dens']:.2f}", "g/cm³", "Basada en composición"),
-        ("Módulo de Young (E)", f"{res['young']:.1f}", "GPa", "Rigidez elástica"),
-        ("Resistencia Específica (YS/ρ)", f"{res['ys_esp']:.1f}", "kN·m/kg", "Relación resistencia–peso"),
-        ("Relación UTS / YS", f"{ratio_uts_ys:.2f}", "adim.", "Margen de endurecimiento"),
+        (
+            "Límite Elástico (YS)",
+            f"{res['ys']:.1f}",
+            "MPa",
+            f"A {temperatura} °C ({proc_elegido_label})",
+            "Esfuerzo máximo que soporta la aleación antes de deformarse de forma permanente (fluencia).",
+        ),
+        (
+            "Resistencia Máxima (UTS)",
+            f"{res['uts']:.1f}",
+            "MPa",
+            "Esfuerzo último de tracción",
+            "Esfuerzo máximo de ingeniería alcanzado durante un ensayo de tracción antes de la estricción o fractura.",
+        ),
+        (
+            "Elongación / Ductilidad",
+            f"{res['elong']:.1f}",
+            "%",
+            "Deformación hasta fractura",
+            "Porcentaje de alargamiento plástico que admite la aleación antes de romperse; indica qué tan dúctil o frágil es.",
+        ),
+        (
+            "Dureza Vickers (HV)",
+            f"{res['hv']:.0f}",
+            "HV",
+            "Estimada a temp. ambiente",
+            "Resistencia superficial a la penetración e indentación plástica; suele correlacionar con resistencia al desgaste.",
+        ),
+        (
+            "Densidad (ρ)",
+            f"{res['dens']:.2f}",
+            "g/cm³",
+            "Basada en composición",
+            "Masa por unidad de volumen de la aleación; crítica para aplicaciones aeroespaciales, automotrices y portátiles.",
+        ),
+        (
+            "Módulo de Young (E)",
+            f"{res['young']:.1f}",
+            "GPa",
+            "Rigidez elástica",
+            "Pendiente de la zona elástica (esfuerzo/deformación); mide qué tan rígida es la aleación ante cargas reversibles.",
+        ),
+        (
+            "Resistencia Específica (YS/ρ)",
+            f"{res['ys_esp']:.1f}",
+            "kN·m/kg",
+            "Relación resistencia–peso",
+            "Límite elástico dividido entre la densidad; cuantifica cuánta carga resiste el material por cada kilogramo.",
+        ),
+        (
+            "Relación UTS / YS",
+            f"{ratio_uts_ys:.2f}",
+            "adim.",
+            "Margen de endurecimiento",
+            "Indica la capacidad de endurecimiento por deformación; valores mayores a 1.2 ofrecen mayor margen antes de fallar.",
+        ),
     ]
     st.markdown(render_kpi_grid(kpis_mecanicos), unsafe_allow_html=True)
 
     st.markdown('<div class="sec-heading">🔬 Descriptores Físicos (Hume-Rothery)</div>', unsafe_allow_html=True)
     kpis_hr = [
-        ("Electrones de Valencia (VEC)", f"{hr['HR_VEC']:.2f}", "e⁻/át.", "≥8 FCC · <6.87 BCC"),
-        ("Distorsión Atómica (δ)", f"{hr['HR_delta']:.2f}", "%", "<6.6% Solución sólida"),
-        ("Temp. de Fusión (Tm)", f"{hr['HR_Tm'] - 273.15:.0f}", "°C", f"{hr['HR_Tm']:.0f} K · T/Tm = {res['t_hom']:.2f}"),
-        ("Entropía de Mezcla (ΔSmix)", f"{hr['HR_dSmix']:.2f}", "J/(mol·K)", ">12.5 Alta entropía"),
+        (
+            "Electrones de Valencia (VEC)",
+            f"{hr['HR_VEC']:.2f}",
+            "e⁻/át.",
+            "≥8 FCC · <6.87 BCC",
+            "Promedio ponderado de electrones de valencia. Predice la estructura cristalina: ≥8 favorece FCC, <6.87 favorece BCC.",
+        ),
+        (
+            "Distorsión Atómica (δ)",
+            f"{hr['HR_delta']:.2f}",
+            "%",
+            "<6.6% Solución sólida",
+            "Dispersión porcentual de radios atómicos. Valores bajos (<6.6%) favorecen soluciones sólidas; valores altos inducen fases intermetálicas o amorfas.",
+        ),
+        (
+            "Temp. de Fusión (Tm)",
+            f"{hr['HR_Tm'] - 273.15:.0f}",
+            "°C",
+            f"{hr['HR_Tm']:.0f} K · T/Tm = {res['t_hom']:.2f}",
+            "Temperatura de fusión estimada por regla de mezclas y temperatura homóloga (T/Tm); encima de 0.5–0.6 predomina el ablandamiento y la termofluencia.",
+        ),
+        (
+            "Entropía de Mezcla (ΔSmix)",
+            f"{hr['HR_dSmix']:.2f}",
+            "J/(mol·K)",
+            ">12.5 Alta entropía",
+            "Entropía configuracional ideal. Valores altos (>12.5 J/mol·K o ≥1.5R) estabilizan soluciones sólidas multicomponentes frente a compuestos ordenados.",
+        ),
     ]
     st.markdown(render_kpi_grid(kpis_hr, extra_class="hr-accent"), unsafe_allow_html=True)
 
-# --- GRÁFICAS INTERACTIVAS EN PESTAÑAS ---
+# --- GRÁFICAS INTERACTIVAS Y GUÍA EN PESTAÑAS ---
 st.divider()
-tab_ashby, tab_hr, tab_radar, tab_proc, tab_comp = st.tabs([
+tab_ashby, tab_hr, tab_radar, tab_proc, tab_comp, tab_guia = st.tabs([
     "🗺️ Mapa de Ashby",
     "🔬 Mapa Hume-Rothery (VEC vs δ)",
     "🕸️ Comparativa Radar",
     "⚙️ Procesamiento y Temperatura",
     "📊 Composición (% at.)",
+    "📖 Guía de Propiedades",
 ])
 
 with tab_ashby:
+    st.caption(
+        "**Mapa de Ashby:** compara tu aleación (estrella amarilla) contra datos experimentales reales agrupados por fase "
+        "para evaluar el compromiso clásico entre resistencia mecánica (YS) y ductilidad o densidad."
+    )
     if df_ref is not None:
         tipo_mapa = st.radio(
             "Ejes del mapa de selección de materiales:",
@@ -929,6 +1076,10 @@ with tab_ashby:
         st.info("Sube `mpea_fusionado_ref.csv` a tu repositorio para habilitar el Mapa de Ashby actualizado.")
 
 with tab_hr:
+    st.caption(
+        "**Mapa Hume-Rothery (Guo & Zhang):** ubica la aleación según su VEC (eje horizontal, que gobierna la red FCC/BCC) "
+        "y su distorsión atómica δ (eje vertical, que separa soluciones sólidas simples de intermetálicos o vidrios metálicos)."
+    )
     fig_hr = go.Figure()
     fig_hr.add_vrect(x0=2.0, x1=6.87, fillcolor="rgba(249, 115, 22, 0.13)", line_width=0, annotation_text="Zona BCC (VEC < 6.87)", annotation_position="top left")
     fig_hr.add_vrect(x0=6.87, x1=8.0, fillcolor="rgba(56, 189, 248, 0.14)", line_width=0, annotation_text="Dual FCC+BCC", annotation_position="top")
@@ -977,6 +1128,10 @@ with tab_hr:
     st.plotly_chart(estilizar_plotly(fig_hr, height=460), use_container_width=True)
 
 with tab_radar:
+    st.caption(
+        "**Comparativa Radar:** contrasta cinco métricas normalizadas (escala 0–100) frente a la aleación clásica de Cantor "
+        "(CoCrFeMnNi) bajo el mismo método de manufactura y temperatura. Cuanto mayor sea el área cubierta, más equilibrado es el perfil."
+    )
     cantor_comp = {e: 0.2 for e in ["Co", "Cr", "Fe", "Mn", "Ni"] if e in elementos_modelo}
     res_cantor = predecir_todo(cantor_comp, temperatura, proc_code)
 
@@ -1025,6 +1180,10 @@ with tab_radar:
     st.plotly_chart(estilizar_plotly(fig_radar, height=450), use_container_width=True)
 
 with tab_proc:
+    st.caption(
+        "**Procesamiento y Temperatura:** la gráfica izquierda muestra cómo cambia el límite elástico (YS) según la ruta de "
+        "manufactura elegida (barra celeste = proceso activo); la derecha muestra la caída de resistencia por ablandamiento térmico."
+    )
     gp1, gp2 = st.columns(2)
     with gp1:
         ys_procs = [float(rf_ys.predict(construir_fila(comp_final, cols_ys, temp=temperatura, proc_code=p))[0]) for p in procesamientos]
@@ -1082,6 +1241,10 @@ with tab_proc:
         st.plotly_chart(estilizar_plotly(fig_temp, height=400), use_container_width=True)
 
 with tab_comp:
+    st.caption(
+        "**Composición y Propiedades Elementales:** resume la fracción atómica (% at.) de cada elemento junto con sus constantes "
+        "intrínsecas (VEC, radio atómico y punto de fusión) utilizadas para calcular los parámetros de Hume-Rothery."
+    )
     df_comp = pd.DataFrame({
         "Elemento": list(comp_final.keys()),
         "Porcentaje Atómico (% at.)": [round(v * 100, 2) for v in comp_final.values()],
@@ -1105,3 +1268,157 @@ with tab_comp:
     with cc2:
         st.markdown('<div class="sec-heading">Tabla de Composición y Propiedades Elementales</div>', unsafe_allow_html=True)
         st.dataframe(df_comp, hide_index=True, use_container_width=True)
+
+with tab_guia:
+    st.markdown('<div class="sec-heading">📋 Propiedades Mecánicas Estimadas</div>', unsafe_allow_html=True)
+    tabla_mec = [
+        (
+            "Límite Elástico (YS)",
+            "MPa",
+            "Esfuerzo en el cual el material deja de comportarse elásticamente y comienza a deformarse de manera permanente.",
+            "Criterio principal de diseño estructural para evitar deformaciones irreversibles en servicio.",
+        ),
+        (
+            "Resistencia Máxima (UTS)",
+            "MPa",
+            "Esfuerzo máximo de tracción que soporta una probeta antes de iniciar la estricción o fracturarse.",
+            "Define la carga última antes del colapso mecánico de la pieza.",
+        ),
+        (
+            "Elongación / Ductilidad",
+            "%",
+            "Porcentaje de alargamiento plástico acumulado hasta el momento de la fractura en tracción.",
+            "Valores altos indican capacidad para absorber energía y deformarse sin fractura frágil.",
+        ),
+        (
+            "Dureza Vickers (HV)",
+            "HV",
+            "Resistencia superficial del material a ser penetrado por un indentador piramidal de diamante.",
+            "Se correlaciona directamente con la resistencia al desgaste abrasivo y el límite elástico.",
+        ),
+        (
+            "Densidad (ρ)",
+            "g/cm³",
+            "Masa por unidad de volumen calculada a partir de la composición atómica de la aleación.",
+            "Determinante para aplicaciones donde el peso es crítico (aeroespacial, transporte, robótica).",
+        ),
+        (
+            "Módulo de Young (E)",
+            "GPa",
+            "Relación entre esfuerzo y deformación dentro de la región elástica lineal.",
+            "Mide la rigidez: a mayor E, menor deflexión elástica bajo la misma carga.",
+        ),
+        (
+            "Resistencia Específica (YS/ρ)",
+            "kN·m/kg",
+            "Cociente entre el límite elástico y la densidad de la aleación.",
+            "Permite comparar materiales ligeros frente a pesados en diseño de estructuras eficientes.",
+        ),
+        (
+            "Relación UTS / YS",
+            "adim.",
+            "Cociente entre la resistencia máxima y el límite elástico.",
+            "Mide el margen de endurecimiento por deformación; valores > 1.2 brindan mayor seguridad antes de la falla.",
+        ),
+    ]
+    st.markdown(
+        render_info_table(["Propiedad", "Unidad", "Significado físico", "Relevancia en ingeniería"], tabla_mec),
+        unsafe_allow_html=True,
+    )
+
+    st.markdown('<div class="sec-heading">🔬 Descriptores Físicos de Hume-Rothery</div>', unsafe_allow_html=True)
+    tabla_hr = [
+        (
+            "Electrones de Valencia (VEC)",
+            "e⁻/át.",
+            "Promedio ponderado de electrones de valencia (incluyendo electrones d) de los elementos aleantes.",
+            "VEC ≥ 8.0 favorece fase FCC; VEC < 6.87 favorece BCC; entre 6.87 y 8.0 suelen coexistir FCC + BCC.",
+        ),
+        (
+            "Distorsión Atómica (δ)",
+            "%",
+            "Desviación cuadrática media de los radios atómicos respecto al radio promedio de la aleación.",
+            "δ < 6.6% favorece soluciones sólidas simples; valores mayores promueven intermetálicos o fases amorfas.",
+        ),
+        (
+            "Temp. de Fusión (Tm) y T/Tm",
+            "°C / adim.",
+            "Punto de fusión estimado por regla de mezclas y temperatura homóloga (T en K dividida entre Tm en K).",
+            "Estima el techo térmico de operación; arriba de T/Tm ≈ 0.5 se acelera la difusión y el ablandamiento.",
+        ),
+        (
+            "Entropía de Mezcla (ΔSmix)",
+            "J/(mol·K)",
+            "Entropía configuracional ideal de la mezcla atómica aleatoria (-R Σ cᵢ ln cᵢ).",
+            "Valores ≥ 12.5 J/(mol·K) (≈ 1.5R) caracterizan aleaciones de alta entropía que estabilizan soluciones sólidas.",
+        ),
+    ]
+    st.markdown(
+        render_info_table(["Descriptor", "Unidad", "Definición", "Criterio típico en MPEA"], tabla_hr),
+        unsafe_allow_html=True,
+    )
+
+    st.markdown('<div class="sec-heading">🏭 Métodos de Procesamiento (Manufactura)</div>', unsafe_allow_html=True)
+    tabla_proc = [
+        (
+            "Fundición",
+            "Solidificación desde estado líquido (fusión por arco o inducción).",
+            "Genera microestructuras dendríticas con granos relativamente gruesos; suele presentar segregación química moderada.",
+        ),
+        (
+            "Recocido",
+            "Tratamiento térmico controlado posterior a fundición o deformación.",
+            "Homogeneiza la composición, alivia esfuerzos residuales y suele incrementar la ductilidad a costa de algo de YS.",
+        ),
+        (
+            "Forjado / Laminado",
+            "Deformación plástica en frío o en caliente (procesado termomecánico).",
+            "Refina el tamaño de grano e introduce alta densidad de dislocaciones, elevando significativamente YS y UTS.",
+        ),
+        (
+            "Pulvimetalurgia",
+            "Aleado mecánico de polvos metálicos y consolidación por sinterizado (ej. SPS).",
+            "Produce granos muy finos o nanocristalinos y excelente homogeneidad química, logrando altas resistencias.",
+        ),
+        (
+            "Otro proceso",
+            "Rutas no convencionales (manufactura aditiva, deposición láser, recubrimientos, etc.).",
+            "Microestructuras altamente dependientes de la velocidad de enfriamiento y la historia térmica local.",
+        ),
+    ]
+    st.markdown(
+        render_info_table(["Proceso", "Descripción", "Efecto típico en propiedades"], tabla_proc),
+        unsafe_allow_html=True,
+    )
+
+    st.markdown('<div class="sec-heading">📊 Descripción de las Gráficas y Tablas</div>', unsafe_allow_html=True)
+    tabla_graf = [
+        (
+            "Celda Cristalina y Confianza",
+            "Muestra la fase principal predicha (FCC, BCC, HCP, FCC + BCC, SS + Intermetálicos o Amorfa) junto con la probabilidad asignada por el modelo a las 6 clases.",
+        ),
+        (
+            "Mapa de Ashby",
+            "Ubica tu aleación sobre una base experimental real para visualizar compromisos entre resistencia (YS) frente a elongación (%) o densidad (g/cm³).",
+        ),
+        (
+            "Mapa Hume-Rothery (VEC vs δ)",
+            "Representa el criterio de estabilidad de fases de Guo & Zhang para verificar si la composición cae en zona FCC, BCC, dual o de alta distorsión.",
+        ),
+        (
+            "Comparativa Radar",
+            "Compara 5 ejes normalizados (YS, UTS, HV, ductilidad y ligereza) de tu diseño contra la aleación de referencia de Cantor (CoCrFeMnNi).",
+        ),
+        (
+            "Procesamiento y Temperatura",
+            "Evalúa la sensibilidad del límite elástico (YS) al cambiar de proceso de manufactura y al aumentar la temperatura de prueba de 25 °C a 1200 °C.",
+        ),
+        (
+            "Tabla de Composición (% at.)",
+            "Detalla la participación atómica de cada elemento y sus parámetros fundamentales (VEC, radio atómico en pm y temperatura de fusión en °C).",
+        ),
+    ]
+    st.markdown(
+        render_info_table(["Elemento visual / Tabla", "Qué muestra y cómo interpretarlo"], tabla_graf),
+        unsafe_allow_html=True,
+    )
