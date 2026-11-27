@@ -281,11 +281,11 @@ cols_dens = datos["cols_dens"]
 cols_young = datos["cols_young"]
 
 NOMBRES_PROC = {
-    "CAST": "Fundición (CAST)",
-    "ANNEAL": "Recocido (ANNEAL)",
-    "WROUGHT": "Forjado / Laminado (WROUGHT)",
-    "POWDER": "Pulvimetalurgia (POWDER)",
-    "OTHER": "Otro procesamiento (OTHER)",
+    "CAST": "Fundición",
+    "ANNEAL": "Recocido",
+    "WROUGHT": "Forjado / Laminado",
+    "POWDER": "Pulvimetalurgia",
+    "OTHER": "Otro proceso",
 }
 INV_PROC = {v: k for k, v in NOMBRES_PROC.items()}
 
@@ -853,7 +853,7 @@ with col_celda:
 with col_ficha:
     st.markdown('<div class="sec-heading">📋 Ficha Técnica Estimada</div>', unsafe_allow_html=True)
     kpis_mecanicos = [
-        ("Límite Elástico (YS)", f"{res['ys']:.1f}", "MPa", f"A {temperatura} °C ({proc_code})"),
+        ("Límite Elástico (YS)", f"{res['ys']:.1f}", "MPa", f"A {temperatura} °C ({proc_elegido_label})"),
         ("Resistencia Máxima (UTS)", f"{res['uts']:.1f}", "MPa", "Esfuerzo último de tracción"),
         ("Elongación / Ductilidad", f"{res['elong']:.1f}", "%", "Deformación hasta fractura"),
         ("Dureza Vickers (HV)", f"{res['hv']:.0f}", "HV", "Estimada a temp. ambiente"),
@@ -1028,11 +1028,12 @@ with tab_proc:
     gp1, gp2 = st.columns(2)
     with gp1:
         ys_procs = [float(rf_ys.predict(construir_fila(comp_final, cols_ys, temp=temperatura, proc_code=p))[0]) for p in procesamientos]
+        etiquetas_proc = [NOMBRES_PROC.get(p, p) for p in procesamientos]
         colores_bar = ["#38bdf8" if p == proc_code else "#1d4ed8" for p in procesamientos]
         fig_proc = go.Figure(
             data=[
                 go.Bar(
-                    x=procesamientos,
+                    x=etiquetas_proc,
                     y=ys_procs,
                     marker_color=colores_bar,
                     marker_line_color="#7dd3fc",
